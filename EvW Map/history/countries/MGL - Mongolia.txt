@@ -3,7 +3,7 @@ primary_culture = mongol
 religion = gelugpa
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.02
 non_state_culture_literacy = 0.04 #Chinese
 civilized = no
@@ -40,7 +40,14 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
 
+foreign_weapons = yes_foreign_weapons
+
+# Technologies
+flintlock_rifles = 1
+
+# Inventions
 
 # Starting Consciousness
 consciousness = 2
@@ -54,3 +61,4 @@ nonstate_consciousness = 1
 	#Military Reforms
 	foreign_training = yes_foreign_training
 }
+

@@ -1,3 +1,31 @@
+BSH = {
+	value = 50
+}
+
+GAZ = {
+	value = 80
+}
+
+SUA = {
+	value = 100
+}
+
+XHO = {
+	value = 30
+}
+
+POR = {
+	value = 30
+}
+
+leader = {
+   name = "Dingane"
+   type = land
+   date = 1836.1.1
+   background = incompetent
+   personality = aggressive
+}
+
 army = {
 	name = "Impi of the Zulu"
 	location = 2113

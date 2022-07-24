@@ -519,6 +519,20 @@ emigration_chance =
 			has_factories = yes
 			}
 	}
+	modifier = {
+	     factor = -0.85
+		 OR = {
+			has_pop_culture = beifaren
+			has_pop_culture = nanfaren
+			has_pop_culture = hakka
+			has_pop_culture = miao
+			has_pop_culture = min
+			has_pop_culture = zhuang
+			has_pop_culture = yi
+			has_pop_culture = yue
+		 
+		 }
+		}
 
 	group = {
 		modifier = {
@@ -589,6 +603,10 @@ assimilation_chance =
 	modifier = {
     	factor = -20
 		has_culture_core = yes
+	}
+	modifier = {
+		factor = -20
+		is_culture_group = african_diaspora_cultures
 	}
 	modifier = {
 		factor = 10

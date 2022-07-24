@@ -1,113 +1,113 @@
 #Baguirmi Region (164000)
-#uncolonized in 1836/under the control of Borno via Sultan of Baguirmi
-#Massenya (80000/20000 POPS)
+#under the rule of Kanem-Bornu in 1836
+#Massenya (320000/80000 POPS)
 1818 = {
 	aristocrats = {
 		culture = baguirmi
 		religion = sunni
-		size = 128.75
+		size = 500
 	}
 
 	bureaucrats = {
 		culture = baguirmi
 		religion = sunni
-		size = 10.3
+		size = 40
 	}
 
 	officers = {
 		culture = baguirmi
 		religion = sunni
-		size = 15.450000000000001
+		size = 60
 	}
 
 	clergymen = {
 		culture = baguirmi
 		religion = sunni
-		size = 103.0
+		size = 400
 	}
 
 	artisans = {
 		culture = baguirmi
 		religion = sunni
-		size = 463.5
+		size = 1800
 	}
 
 	soldiers = {
 		culture = baguirmi
 		religion = sunni
-		size = 103.0
+		size = 400
 	}
 
 	farmers = {
 		culture = baguirmi
 		religion = sunni
-		size = 6386.0
+		size = 24800
 	}
 
 	aristocrats = {
 		culture = sara
 		religion = animist
-		size = 103.0
+		size = 400
 	}
 
 	clergymen = {
 		culture = sara
 		religion = animist
-		size = 51.5
+		size = 200
 	}
 
 	artisans = {
 		culture = sara
 		religion = animist
-		size = 309.0
+		size = 1200
 	}
 
 	soldiers = {
 		culture = sara
 		religion = animist
-		size = 51.5
+		size = 200
 	}
 
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 5665.0
+		size = 22000
 	}
 
 	slaves = {
 		culture = sara
 		religion = animist
-		size = 2060.0
+		size = 8000
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 300
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 200
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 257.5
+		size = 1100
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 200
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 4712.25
+		size = 18300
 	}
 }
 #Moundou (48000/12000 POPS)
@@ -115,73 +115,73 @@
 	aristocrats = {
 		culture = baguirmi
 		religion = sunni
-		size = 77.25
+		size = 75
 	}
 
 	clergymen = {
 		culture = baguirmi
 		religion = sunni
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = baguirmi
 		religion = sunni
-		size = 257.5
+		size = 250
 	}
 
 	soldiers = {
 		culture = baguirmi
 		religion = sunni
-		size = 51.5
+		size = 50
 	}
 
 	farmers = {
 		culture = baguirmi
 		religion = sunni
-		size = 592.25
+		size = 575
 	}
 
 	aristocrats = {
 		culture = sara
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	clergymen = {
 		culture = sara
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	artisans = {
 		culture = sara
 		religion = animist
-		size = 360.5
+		size = 350
 	}
 
 	soldiers = {
 		culture = sara
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 6566.25
+		size = 6375
 	}
 
 	slaves = {
 		culture = sara
 		religion = animist
-		size = 2060.0
+		size = 2000
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 2060.0
+		size = 2000
 	}
 }
 #Bongor (36000/9000 POPS)
@@ -189,421 +189,421 @@
 	aristocrats = {
 		culture = sara
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	clergymen = {
 		culture = sara
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = sara
 		religion = animist
-		size = 103.0
+		size = 100
 	}
 
 	soldiers = {
 		culture = sara
 		religion = animist
-		size = 25.75
+		size = 25
 	}
 
 	farmers = {
 		culture = sara
 		religion = animist
-		size = 1854.0
+		size = 1800
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 360.5
+		size = 350
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 6566.25
+		size = 6375
 	}
 }
-#Wadai Region (244000)
-#uncolonized in 1836/under the control of Sultan of Wadai
-#Abeche (68000/17000 POPS)
+#Wadai Region (488000)
+#under the rule of Wadai in 1836
+#Abeche (136000/34000 POPS)
 1821 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 180.25
+		size = 350
 	}
 
 	bureaucrats = {
 		culture = fur
 		religion = sunni
-		size = 15.450000000000001
+		size = 50
 	}
 
 	officers = {
 		culture = fur
 		religion = sunni
-		size = 36.050000000000004
+		size = 100
 	}
 
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 103.0
+		size = 200
 	}
 
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 566.5
+		size = 1100
 	}
 
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 128.75
+		size = 1250
 	}
 
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 7225.45
+		size = 13000
 	}
 
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 77.25
+		size = 150
 	}
 
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 51.5
+		size = 100
 	}
 
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 309.0
+		size = 600
 	}
 
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 51.5
+		size = 100
 	}
 
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 4635.0
+		size = 9000
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 4120.0
+		size = 8000
 	}
 }
-#Am Timan (84000/21000 POPS)
+#Am Timan (168000/42000 POPS)
 1822 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 283.25
+		size = 550
 	}
 
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 154.5
+		size = 300
 	}
 
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 618.0
+		size = 1200
 	}
 
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 154.5
+		size = 300
 	}
 
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 11149.75
+		size = 21650
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 5150.0
+		size = 11000
 	}
 
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 77.25
+		size = 150
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 51.5
+		size = 100
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 180.25
+		size = 350
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 51.5
+		size = 100
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 3759.5
+		size = 7300
 	}
 }
-#Mongo (92000/23000 POPS)
+#Mongo (184000/46000 POPS)
 1823 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 360.5
+		size = 700
 	}
 
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 180.25
+		size = 350
 	}
 
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 746.75
+		size = 1450
 	}
 
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 206.0
+		size = 1100
 	}
 
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 13956.5
+		size = 26500
 	}
 
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 51.5
+		size = 100
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 77.25
+		size = 150
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 154.5
+		size = 300
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25.75
+		size = 50
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 2781.0
+		size = 5400
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 25.75
+		size = 50
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 51.5
+		size = 100
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 103.0
+		size = 200
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 25.75
+		size = 50
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 1854.0
+		size = 3600
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3090.0
+		size = 6000
 	}
 }
 #Kanem Region (288000)
-#uncolonized in 1836/under the rule of Borno
-#Mao (188000/47000 POPS)
+#under the rule of Kanem-Bornu in 1836
+#Mao (752000/188000 POPS)
 1824 = {
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 669.5
+		size = 2600
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 334.75
+		size = 1300
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 1364.75
+		size = 5300
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 360.5
+		size = 1400
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 24050.5
+		size = 93400
 	}
 
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 25.75
+		size = 100
 	}
 
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 51.5
+		size = 200
 	}
 
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 103.0
+		size = 400
 	}
 
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 25.75
+		size = 100
 	}
 
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 1854.0
+		size = 7200
 	}
 
 	aristocrats = {
 		culture = kanuri
 		religion = sunni
-		size = 231.75
+		size = 900
 	}
 
 	bureaucrats = {
 		culture = kanuri
 		religion = sunni
-		size = 25.75
+		size = 100
 	}
 
 	officers = {
 		culture = kanuri
 		religion = sunni
-		size = 51.5
+		size = 200
 	}
 
 	clergymen = {
 		culture = kanuri
 		religion = sunni
-		size = 128.75
+		size = 500
 	}
 
 	artisans = {
 		culture = kanuri
 		religion = sunni
-		size = 618.0
+		size = 2400
 	}
 
 	soldiers = {
 		culture = kanuri
 		religion = sunni
-		size = 128.75
+		size = 500
 	}
 
 	farmers = {
 		culture = kanuri
 		religion = sunni
-		size = 6025.5
+		size = 23400
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 12360.0
+		size = 48000
 	}
 }
 #Zouar (72000/18000 POPS)
@@ -611,94 +611,94 @@
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 309.0
+		size = 300
 	}
 
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 154.5
+		size = 150
 	}
 
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 824.0
+		size = 800
 	}
 
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 180.25
+		size = 175
 	}
 
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 15012.25
+		size = 14575
 	}
 
 	aristocrats = {
 		culture = tuareg
 		religion = sunni
-		size = 25.75
+		size = 25
 	}
 
 	clergymen = {
 		culture = tuareg
 		religion = sunni
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = tuareg
 		religion = sunni
-		size = 103.0
+		size = 100
 	}
 
 	soldiers = {
 		culture = tuareg
 		religion = sunni
-		size = 25.75
+		size = 25
 	}
 
 	farmers = {
 		culture = tuareg
 		religion = sunni
-		size = 1854.0
+		size = 1800
 	}
 }
-#uncolonized in 1836/under the control of Wadai
-#Faya (28000/7000 POPS)
+#under the rule of Wadai in 1836
+#Faya (56000/14000 POPS)
 1826 = {
 	aristocrats = {
 		culture = teda
 		religion = sunni
-		size = 128.75
+		size = 250
 	}
 
 	clergymen = {
 		culture = teda
 		religion = sunni
-		size = 77.25
+		size = 150
 	}
 
 	artisans = {
 		culture = teda
 		religion = sunni
-		size = 360.5
+		size = 700
 	}
 
 	soldiers = {
 		culture = teda
 		religion = sunni
-		size = 77.25
+		size = 150
 	}
 
 	farmers = {
 		culture = teda
 		religion = sunni
-		size = 6566.25
+		size = 12750
 	}
 
 }

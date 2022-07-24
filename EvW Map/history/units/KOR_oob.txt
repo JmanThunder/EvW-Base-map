@@ -1,3 +1,7 @@
+RUS = {
+	value = 100
+}
+
 army = {
 	name = "Korean Imperial Army"
 	location = 1624

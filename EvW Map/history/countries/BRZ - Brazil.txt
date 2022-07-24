@@ -1,6 +1,5 @@
 capital = 2447
 primary_culture = brazilian
-culture = afro_brazilian
 religion = catholic
 government = hms_government
 plurality = 25.0
@@ -30,6 +29,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = BRZ_conservative
+set_country_flag = tory_election_win
 last_election = 1835.1.1
 upper_house = {
 	fascist = 0
@@ -40,6 +40,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -122,37 +124,4 @@ plurality = 60
 	medicine = 1
 
 #Inventions
-	work_control_and_hierarchy = yes
-	work_classification = yes
-	work_specialization = yes
-	polypoly_structure = yes
-	oligopoly_structure = yes
-	monopoly_structure = yes
-	jacquard_power_loom = yes
-	hussey_n_mccormicks_reaping_machine = yes
-	pitts_threshing_machine = yes
-	sharp_n_roberts_power_loom = yes
-	mechanized_slaughtering_block = yes
-	mechanical_saw = yes
-	precision_work = yes
-	integral_distillery_process = yes
-	jiggs = yes
-	food_packing_system = yes
-	machine_tools = yes
-	whitney_n_colts_standardized_small_arms = yes
-	explosives_production = yes
-	ammunition_production = yes
-	northrop_power_loom = yes
-	mechanical_precision_saw = yes
-	
-	
-	
-	
-	
-	
-	proto_existentialism = yes
-	army_societal_status = yes
-	hierarchical_order = yes
-	
-	
 }

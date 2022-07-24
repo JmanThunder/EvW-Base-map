@@ -1,6 +1,26 @@
-#Relations
+TUR = {
+	value = 100
+}
+AUS = {
+	value = 100
+}
+FRA = {
+	value = 200
+}
+SPA = {
+	value = 100
+}
 USA = {
-	value = 75		#relation
+	value = 100
+}
+ENG = {
+	value = 100
+}
+PRU = {
+	value = 100
+}
+POR = {
+	value = 100
 }
 
 army = {

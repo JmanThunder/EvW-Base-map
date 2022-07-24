@@ -1,10 +1,17 @@
-leader = {
-	name = "Vicente de Mesquita"
-	date = 1840.1.1
-	type = land
-	personality = dauntless
-	background = madman
-	prestige = 0.3
+GBU = {
+	value = 100
+}
+
+LOA = {
+	value = 75
+}
+
+KON = {
+	value = 125
+}
+
+SUA = {
+	value = 100
 }
 
 army = {

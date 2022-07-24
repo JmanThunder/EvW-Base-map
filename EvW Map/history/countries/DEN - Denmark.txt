@@ -30,6 +30,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = DAN_conservative
+set_country_flag = tory_election_win
 upper_house = {
 	fascist = 0
 	liberal = 17
@@ -39,6 +40,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -85,27 +88,31 @@ decision = danmarks_riges_grundlov
 	plurality = 60
 	literacy = 0.90
 	non_state_culture_literacy = 0.7 #Germans
+	
+	set_country_flag = annex_schleswig_holstein
+	set_country_flag = schleswig_holstein_restored
+	ruling_party = DAN_liberal_2
+	clr_country_flag = tory_election_win
+	set_country_flag = liberal_election_win
 
-# Political reforms
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = landed_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = underground_parties
+	# Political reforms
+	slavery = no_slavery
+	upper_house_composition = appointed
+	vote_franschise = landed_voting
+	public_meetings = yes_meeting
+	press_rights = free_press
+	trade_unions = no_trade_unions
+	voting_system = first_past_the_post
+	political_parties = underground_parties
 
-ruling_party = DAN_liberal_2
-
-# Social Reforms
-wage_reform = no_minimum_wage
-work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care = low_health_care
-unemployment_subsidies = low_subsidies
-pensions = no_pensions 
-school_reforms = low_schools	
+	# Social Reforms
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care = low_health_care
+	unemployment_subsidies = low_subsidies
+	pensions = no_pensions 
+	school_reforms = low_schools	
 	
 	
 # Technologies
@@ -176,5 +183,4 @@ school_reforms = low_schools
 	inorganic_chemistry = 1
 
 #Inventions
-
 }

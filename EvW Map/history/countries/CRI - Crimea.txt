@@ -3,7 +3,7 @@ primary_culture = tatar
 religion = sunni
 government = absolute_monarchy
 plurality = 0.02
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.1
 
 ruling_party = CRI_conservative

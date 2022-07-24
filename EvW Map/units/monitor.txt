@@ -9,7 +9,7 @@ monitor = {
 	active = no
 	move_sound = steam_move
 	select_sound = steam_selected
-	colonial_points = 10
+	colonial_points = 12
 
 
 	#Core Abilities
@@ -22,18 +22,18 @@ monitor = {
 	#Building Costs
 	build_time = 360
 	build_cost = {
-		steamer_convoy = 20
-		artillery = 6
-		canned_food = 10
+		steamer_convoy = 40
+		artillery = 12
+		canned_food = 20
 	}
 	min_port_level = 3
 	limit_per_port = -1
-	supply_consumption_score = 3
+	supply_consumption_score = 0
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.32
-		artillery = 0.096
+		steamer_convoy = 0.64
+		artillery = 0.384
 		canned_food = 0.8
 	}
 	

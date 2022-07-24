@@ -4,11 +4,11 @@ religion = sunni
 government = absolute_monarchy
 plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.04
+literacy = 0.20
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 20 #was 40
+prestige = 20
 
 # Political reforms
 slavery = no_slavery
@@ -40,6 +40,8 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
@@ -69,7 +71,7 @@ oob = "TUR_oob.txt"
 	oob = "/1861/TUR_oob.txt"
 	prestige = 85
 	plurality = 50
-	literacy = 0.10
+	literacy = 0.25
 	non_state_culture_literacy = 0.15
 }
 1861.1.1 = {
@@ -118,5 +120,4 @@ ruling_party = TUR_conservative
 	medicine = 1
 
 #Inventions
-
 }

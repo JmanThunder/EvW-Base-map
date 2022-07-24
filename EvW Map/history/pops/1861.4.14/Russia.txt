@@ -9717,150 +9717,222 @@
 }
 #Sakhalin-Kurile Region (16200)
 #uncolonized in 1836
-#Pogobi (4100/1025 POPS)
+#Pogobi (5840/1460 POPS)
 1086 = {
 	aristocrats = {
 		culture = siberian
 		religion = animist
-		size = 15.450000000000001
+		size = 5
 	}
 
 	clergymen = {
 		culture = siberian
 		religion = animist
-		size = 25.75
+		size = 15
 	}
 
 	artisans = {
 		culture = siberian
 		religion = animist
-		size = 51.5
+		size = 60
 	}
 
 	soldiers = {
 		culture = siberian
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = siberian
 		religion = animist
-		size = 927.0
+		size = 1000
+	}
+
+	aristocrats = {
+		culture = russian
+		religion = orthodox
+		size = 25
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 2.06
+		size = 25
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 20
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 23.69
+		size = 300
 	}
 }
-#Ootomari (4100/1025 POPS)
+#Ootomari (6500/1625 POPS)
 1087 = {
 	aristocrats = {
 		culture = ainu
 		religion = animist
-		size = 7.21
+		size = 5
 	}
 
 	clergymen = {
 		culture = ainu
 		religion = animist
-		size = 8.24
+		size = 5
 	}
 
 	artisans = {
 		culture = ainu
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = ainu
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = ainu
 		religion = animist
-		size = 952.75
+		size = 1000
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = mahayana
+		size = 20
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = mahayana
+		size = 15
+	}
+
+	artisans = {
+		culture = japanese
+		religion = mahayana
+		size = 20
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 25.75
+		size = 500
 	}
 }
-#Shumshu (4000/1000 POPS)
+#Shumshu (4480/1120 POPS)
 1088 = {
 	aristocrats = {
 		culture = ainu
 		religion = animist
-		size = 7.21
+		size = 7
 	}
 
 	clergymen = {
 		culture = ainu
 		religion = animist
-		size = 8.24
+		size = 8
 	}
 
 	artisans = {
 		culture = ainu
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = ainu
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = ainu
 		religion = animist
-		size = 952.75
+		size = 925
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 10
+	}
+
+	artisans = {
+		culture = russian
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 100
 	}
 }
-#Etorofu (4000/1000 POPS)
+#Etorofu (5080/1270 POPS)
 1089 = {
 	aristocrats = {
 		culture = ainu
 		religion = animist
-		size = 7.21
+		size = 7
 	}
 
 	clergymen = {
 		culture = ainu
 		religion = animist
-		size = 8.24
+		size = 8
 	}
 
 	artisans = {
 		culture = ainu
 		religion = animist
-		size = 51.5
+		size = 50
 	}
 
 	soldiers = {
 		culture = ainu
 		religion = animist
-		size = 10.3
+		size = 10
 	}
 
 	farmers = {
 		culture = ainu
 		religion = animist
-		size = 952.75
+		size = 925
+	}
+
+	aristocrats = {
+		culture = japanese
+		religion = mahayana
+		size = 2
+	}
+
+	clergymen = {
+		culture = japanese
+		religion = mahayana
+		size = 8
+	}
+
+	artisans = {
+		culture = japanese
+		religion = mahayana
+		size = 10
+	}
+
+	farmers = {
+		culture = japanese
+		religion = mahayana
+		size = 250
 	}
 
 }

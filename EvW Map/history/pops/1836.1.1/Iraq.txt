@@ -23,13 +23,13 @@
 	clergymen = {
 		culture = mashriqi
 		religion = sunni
-		size = 250
+		size = 150
 	}
 
 	artisans = {
 		culture = mashriqi
 		religion = sunni
-		size = 1250
+		size = 650
 	}
 
 	soldiers = {
@@ -41,7 +41,7 @@
 	farmers = {
 		culture = mashriqi
 		religion = sunni
-		size = 22000
+		size = 12000
 	}
 
 	aristocrats = {
@@ -92,11 +92,6 @@
 		size = 150
 	}
 
-	officers = {
-		culture = kurdish
-		religion = sunni
-		size = 50
-	}
 
 	clergymen = {
 		culture = kurdish
@@ -123,21 +118,21 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
-		size = 75
+		size = 175
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
-		size = 400
+		size = 1100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
-		size = 7525
+		size = 17525
 	}
 }
 #Arbil (104000/26000 POPS)
@@ -199,7 +194,7 @@
 	farmers = {
 		culture = turkish
 		religion = sunni
-		size = 5475
+		size = 2475
 	}
 
 	aristocrats = {
@@ -233,21 +228,21 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
-		size = 1875
+		size = 4875
 	}
 }
 #Kirkuk (160000/40000 POPS)
@@ -343,19 +338,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 1875
 	}
@@ -376,12 +371,6 @@
 		size = 350
 	}
 
-	officers = {
-		culture = mashriqi
-		religion = sunni
-		size = 50
-	}
-
 	clergymen = {
 		culture = mashriqi
 		religion = sunni
@@ -391,9 +380,9 @@
 	artisans = {
 		culture = mashriqi
 		religion = sunni
-		size = 10000
+		size = 11000
 	}
-
+	
 	artisans = {
 		culture = mashriqi
 		religion = sunni
@@ -424,11 +413,6 @@
 		size = 250
 	}
 
-	officers = {
-		culture = turkish
-		religion = sunni
-		size = 100
-	}
 
 	clergymen = {
 		culture = turkish
@@ -479,19 +463,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 2000
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 3950
 	}
@@ -711,19 +695,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 925
 	}
@@ -942,12 +926,6 @@
 		culture = mashriqi
 		religion = sunni
 		size = 75
-	}
-
-	officers = {
-		culture = mashriqi
-		religion = sunni
-		size = 25
 	}
 
 	clergymen = {

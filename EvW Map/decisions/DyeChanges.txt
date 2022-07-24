@@ -1,0 +1,741 @@
+political_decisions = {
+	end_of_natural_dyes_1257 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1257 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1257 = {
+				trade_goods = tropical_wood	
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+
+	end_of_natural_dyes_1310 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1310 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1310 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1309 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1309 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1309 = {
+				trade_goods = coffee
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1254 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1254 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1254 = {
+				trade_goods = tropical_wood
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1251 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1251 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1251 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1241 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1241 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1241 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1272 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1272 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1272 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}	
+	end_of_natural_dyes_1280 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1280 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1280 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1277 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1277 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1277 = {
+				trade_goods = fruit
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1276 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1276 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1276 = {
+				trade_goods = fruit
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1275 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1275 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1275 = {
+				trade_goods = coal
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1270 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1270 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1270 = {
+				trade_goods = iron
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}	
+	end_of_natural_dyes_2152 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			2152 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			2152 = {
+				trade_goods = coal
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1273 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1273 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1273 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1240 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1240 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1240 = {
+				trade_goods = silk
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1433 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1433 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1433 = {
+				random_list = {
+					25 = { trade_goods = coffee }
+					25 = { trade_goods = cotton }
+					25 = { trade_goods = grain }
+					25 = { trade_goods = tobacco }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1436 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1436 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1436 = {
+				random_list = {
+					25 = { trade_goods = coffee }
+					25 = { trade_goods = cotton }
+					25 = { trade_goods = grain }
+					25 = { trade_goods = tobacco }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_2151 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			2151 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			2151 = {
+				random_list = {
+					25 = { trade_goods = coffee }
+					25 = { trade_goods = cotton }
+					25 = { trade_goods = grain }
+					25 = { trade_goods = tobacco }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_2176 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			2176 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			2176 = {
+				random_list = {
+					25 = { trade_goods = coffee }
+					25 = { trade_goods = cotton }
+					25 = { trade_goods = grain }
+					25 = { trade_goods = tobacco }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_411 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			411 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			411 = {
+				random_list = {
+					33 = { trade_goods = cotton }
+					33 = { trade_goods = grain }
+					33 = { trade_goods = tobacco }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	end_of_natural_dyes_1256 = {
+	picture = tea_production
+		potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			has_country_flag = dye_enabled
+			1256 = {
+				trade_goods = dye
+				controlled_by = THIS
+				owned_by = THIS
+				province_control_days = 200
+				unemployment_by_type = { type = farmers value = 0.4 }
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			1256 = {
+				random_list = {
+					25 = { trade_goods = coffee }
+					25 = { trade_goods = cotton }
+					25 = { trade_goods = grain }
+					25 = { trade_goods = tobacco }
+				}
+			}
+		}
+		
+		ai_will_do = { factor = 0 }
+	}
+	turn_on_dye_decisions = {
+	picture = tea_production
+	potential = {
+			OR = {
+				any_greater_power = { invention = synthetic_dye }
+				any_neighbor_country = { invention = synthetic_dye }
+				sphere_owner = { invention = synthetic_dye }
+				overlord = { invention = synthetic_dye }
+				invention = synthetic_dye
+			}
+			NOT = { has_country_flag = dye_enabled }
+			any_owned_province = {
+				trade_goods = dye
+				controlled_by = THIS		
+			}
+		}
+		allow = {
+		
+		}
+		effect = {
+			set_country_flag = dye_enabled
+		
+		}
+		ai_will_do = { factor = 0 }
+	}
+	turn_off_dye_decisions = {
+	picture = tea_production
+	potential = {
+		has_country_flag = dye_enabled
+	}
+		
+	allow = {	
+	}
+	effect = {
+		clr_country_flag = dye_enabled		
+	}
+	}
+}

@@ -1,8 +1,9 @@
-color = { 255 191 191 }
+#color = { 194  53  60 }
+color = { 194  123  47 }
 graphical_culture = JapaneseGC
 
 party = {
-	name = "NIP_reactionary"
+	name = "JAP_reactionary"
 	start_date = 1800.1.1
 	end_date = 1868.1.1
 
@@ -16,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "NIP_conservative"
+	name = "JAP_conservative"
 	start_date = 1800.1.1
 	end_date = 1868.1.1
 
@@ -30,8 +31,8 @@ party = {
 }
 
 party = {
-	name = "NIP_conservative_2"
-	start_date = 1867.1.1
+	name = "JAP_conservative_2"
+	start_date = 1868.1.1
 	end_date = 2000.1.1
 
 	ideology = conservative
@@ -44,8 +45,8 @@ party = {
 }
 
 party = {
-	name = "NIP_reactionary_2"
-	start_date = 1867.1.1
+	name = "JAP_reactionary_2"
+	start_date = 1868.1.1
 	end_date = 2000.1.1
 
 	ideology = reactionary
@@ -58,8 +59,8 @@ party = {
 }
 
 party = {
-	name = "NIP_conservative_3"
-	start_date = 1867.1.1
+	name = "JAP_conservative_3"
+	start_date = 1868.1.1
 	end_date = 2000.1.1
 
 	ideology = conservative
@@ -72,7 +73,7 @@ party = {
 }
 
 party = {
-	name = "NIP_liberal"
+	name = "JAP_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +87,7 @@ party = {
 }
 
 party = {
-	name = "NIP_socialist"
+	name = "JAP_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -100,7 +101,7 @@ party = {
 }
 
 party = {
-	name = "NIP_anarcho_liberal"
+	name = "JAP_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -114,7 +115,7 @@ party = {
 }
 
 party = {
-	name = "NIP_communist"
+	name = "JAP_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -128,7 +129,7 @@ party = {
 }
 
 party = {
-	name = "NIP_fascist"
+	name = "JAP_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

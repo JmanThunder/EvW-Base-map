@@ -55,7 +55,7 @@ wright_n_langleys_aeroplanes = {
 tractors = {
 	limit = { combustion_engine = 1 }
 	chance = {
-		base = 3
+		base = 5
 		modifier = {
 			factor = 2
 			average_consciousness = 2
@@ -73,7 +73,7 @@ tractors = {
 direct_current = {
 	limit = { electrical_power_generation = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = edison_light_bulb
@@ -226,7 +226,7 @@ mechanical_saw = {
 mechanical_precision_saw = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = mechanical_saw
@@ -318,7 +318,7 @@ mechanized_slaughtering_block = {
 precision_work = {
 	limit = { mechanical_production = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = mechanical_precision_saw
@@ -341,7 +341,7 @@ precision_work = {
 machine_tools = {
 	limit = { interchangeable_parts = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = precision_work
@@ -609,7 +609,7 @@ refrigerator_technology = {
 ammunition_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = whitney_n_colts_standardized_small_arms
@@ -626,7 +626,7 @@ ammunition_production = {
 small_arms_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			strategic_mobility = 1
@@ -643,7 +643,7 @@ small_arms_production = {
 explosives_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			medicine = 1
@@ -660,7 +660,7 @@ explosives_production = {
 artillery_production = {
 	limit = { mechanized_mining = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = explosives_production
@@ -678,7 +678,7 @@ artillery_production = {
 pit_coal = {
 	limit = { clean_coal = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			practical_steam_engine = 1
@@ -690,14 +690,14 @@ pit_coal = {
 	}
 	effect = {
 		rgo_goods_output = {
-			coal = 0.5
+			coal = 0.6
 		}
 	}
 }
 coke = {
 	limit = { clean_coal = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = pit_coal
@@ -709,7 +709,7 @@ coke = {
 	}
 	effect = {
 		rgo_goods_output = {
-			coal = 0.5
+			coal = 0.6
 		}
 	}
 }
@@ -717,7 +717,7 @@ coke = {
 advanced_ore_roasting_processes = {
 	limit = { cheap_iron = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {	
 			factor = 2
 			interchangeable_parts = 1
@@ -729,14 +729,14 @@ advanced_ore_roasting_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.4
+			iron = 0.6
 		}
 	}
 }
 advanced_ore_grinding_processes = {
 	limit = { cheap_iron = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = advanced_ore_roasting_processes
@@ -748,14 +748,14 @@ advanced_ore_grinding_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.25
+			iron = 0.4
 		}
 	}
 }
 advanced_ore_smelting_processes = {
 	limit = { cheap_iron = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			invention = advanced_ore_grinding_processes
@@ -767,7 +767,7 @@ advanced_ore_smelting_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.25
+			iron = 0.4
 		}
 	}
 }
@@ -991,7 +991,7 @@ clinical_thermometers_and_binaural_stethoscopes = {
 		}
 		modifier = {
 			factor = 2
-			organized_factories = 2
+			organized_factories = 1
 		}
 	}
 	effect = {
@@ -1058,7 +1058,7 @@ artificial_fertilizers = {
 nitroglycerin = {
 	limit = { inorganic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			military_statistics = 1
@@ -1136,7 +1136,7 @@ catalytic_fermentative_process = {
 synthetic_dye = {
 	limit = { organic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
 			factor = 2
 			clean_coal = 1
@@ -1187,7 +1187,7 @@ carbon_soil_enrichment = {
 cracking = {
 	limit = { organic_chemistry = 1 }
 	chance = {
-		base = 2
+		base = 100
 		modifier = {
 			factor = 2
 			invention = oil_pumping_machinery

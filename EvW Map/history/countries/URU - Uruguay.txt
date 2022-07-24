@@ -1,22 +1,23 @@
 capital = 2344
 primary_culture = platinean
 religion = catholic
-government = democracy
+government = presidential_dictatorship
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.1
+non_state_culture_literacy = 0.05
 civilized = yes
 prestige = 1
 
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = harassment
+political_parties = underground_parties
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -30,13 +31,15 @@ school_reforms = no_schools
 ruling_party = URU_conservative
 upper_house = {
 	fascist = 0
-	liberal = 66
-	conservative = 34
-	reactionary = 0
+	liberal = 31
+	conservative = 54
+	reactionary = 15
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -65,12 +68,11 @@ oob = "URU_oob.txt"
 	oob = "/1861/URU_oob.txt"
 	plurality = 60
 	literacy = 0.17
-	non_state_culture_literacy = 0.17
+	non_state_culture_literacy = 0.1
 }
 1861.1.1 = {
 
 government = democracy
-
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
@@ -81,10 +83,8 @@ trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = gerrymandering
 
-ruling_party = URU_conservative
-}
+ruling_party = URU_conservative_2
 
-1861.1.1 = {
 # Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
@@ -132,5 +132,4 @@ ruling_party = URU_conservative
 	medicine = 1
 
 #Inventions
-
 }

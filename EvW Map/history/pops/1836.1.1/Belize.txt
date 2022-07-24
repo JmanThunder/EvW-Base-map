@@ -9,8 +9,8 @@
 	}
 
 	clergymen = {
-		culture = afro_caribbean
-		religion = protestant
+		culture = central_american
+		religion = catholic
 		size = 15
 	}
 
@@ -21,15 +21,27 @@
 	}
 
 	soldiers = {
-		culture = afro_caribbean
-		religion = protestant
+		culture = central_american
+		religion = catholic
 		size = 10
 	}
 
 	farmers = {
 		culture = afro_caribbean
 		religion = protestant
-		size = 1650
+		size = 400
+	}
+
+	farmers = {
+		culture = central_american
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = mayan
+		religion = catholic
+		size = 250
 	}
 
 }

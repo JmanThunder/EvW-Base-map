@@ -11,7 +11,7 @@ ironclad = {
 	active = no
 	floating_flag = yes
 	can_build_overseas = no
-	colonial_points = 12
+	colonial_points = 14.4
 
 
 	#Core Abilities
@@ -25,19 +25,19 @@ ironclad = {
 	#Building Costs
 	build_time = 360
 	build_cost = {	
-		steamer_convoy = 20
-		artillery = 6
-		canned_food = 10
+		steamer_convoy = 40
+		artillery = 12
+		canned_food = 20
 	}
 	min_port_level = 3
 	limit_per_port = -1
-	supply_consumption_score = 3
+	supply_consumption_score = 0
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 0.32
-		artillery = 0.192
-		canned_food = 0.4
+		steamer_convoy = 0.64
+		artillery = 0.384
+		canned_food = 0.8
 	}
 	
 	#Naval Abilties

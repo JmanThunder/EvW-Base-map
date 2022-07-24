@@ -64,6 +64,7 @@ nonstate_consciousness = 0
 	oob = "/1861/DOM_oob.txt"
 	plurality = 50
 	literacy = 0.17
+	set_country_flag = existing_country
 }
 1861.1.1 = {
 # Technologies

@@ -3,7 +3,7 @@ primary_culture = greek
 religion = orthodox
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.22
 civilized = yes
 prestige = 5
@@ -24,8 +24,7 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-
+pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = GRE_conservative
@@ -38,6 +37,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -62,16 +63,14 @@ consciousness = 2
 nonstate_consciousness = 0
 
 oob = "GRE_oob.txt"
-
-1843.9.3 = {
-	decision = hellenic_parliament
-}
-
 1861.1.1 = {
 	oob = "/1861/GRE_oob.txt"
-	government = hms_government	
+	
+
+	government = prussian_constitutionalism
 	plurality = 50
 	literacy = 0.27
+	set_country_flag = tory_election_win
 
 # Political reforms
 slavery = no_slavery
@@ -138,7 +137,6 @@ school_reforms = no_schools
 	experimental_railroad = 1
 	basic_chemistry = 1
 	medicine = 1
-	
+
 #Inventions
-	
 }

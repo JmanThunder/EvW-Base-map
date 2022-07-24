@@ -16,8 +16,35 @@ news_priority =
 	name = "default"
 
 	# Default priority of typical game event
-	case = { priority_add = 10 }
-
+	case = { priority_add = 20 }
+	
+	case = {
+		trigger = {
+			tags_eq = { 0 0 PLAYER } 
+		}
+		priority_add = 50
+	}
+	
+	case = {
+		trigger = {
+			NOT = { tags_eq = { 0 0 PLAYER } }
+			OR = {
+				tags_eq = { 0 0 ENG }
+				tags_eq = { 0 0 FRA }
+				tags_eq = { 0 0 RUS }
+				tags_eq = { 0 0 USA }
+				tags_eq = { 0 0 PRU }
+				tags_eq = { 0 0 NGF }
+				tags_eq = { 0 0 SGF }
+				tags_eq = { 0 0 GER }
+				tags_eq = { 0 0 AUS }
+				tags_eq = { 0 0 KUK }
+				tags_eq = { 0 0 ITA }
+			}
+		}
+		priority_add = 20
+	}
+	
 	# More interested in events about inventing ideologies
 	case =
 	{

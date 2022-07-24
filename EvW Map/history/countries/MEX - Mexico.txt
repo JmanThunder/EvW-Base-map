@@ -1,20 +1,19 @@
 capital = 2172
 primary_culture = mexican
-culture = mayan
 religion = catholic
-government = democracy
+government = presidential_dictatorship
 plurality = 25.0
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.15
 non_state_culture_literacy = 0.09
 civilized = yes
-prestige = 5
+prestige = 2
 
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = landed_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
@@ -42,6 +41,8 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
@@ -66,22 +67,23 @@ nonstate_consciousness = 0
 oob = "MEX_oob.txt"
 1861.1.1 = {
 	oob = "/1861/MEX_oob.txt"
-}
-1861.1.1 = {
-# Political reforms
-slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
-public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = no_trade_unions
-voting_system = first_past_the_post
-political_parties = non_secret_ballots
 
-plurality = 60
-ruling_party = MEX_liberal
-literacy = 0.225
-non_state_culture_literacy = 0.10
+	# Political reforms
+	slavery = no_slavery
+	upper_house_composition = state_equal_weight
+	vote_franschise = wealth_voting
+	public_meetings = yes_meeting
+	press_rights = free_press
+	trade_unions = no_trade_unions
+	voting_system = first_past_the_post
+	political_parties = non_secret_ballots
+
+	plurality = 60
+	government = democracy
+	ruling_party = MEX_liberal
+	literacy = 0.225
+	non_state_culture_literacy = 0.10
+	set_country_flag = liberal_election_win
 
 # Technologies
 	post_napoleonic_thought = 1
@@ -124,7 +126,5 @@ non_state_culture_literacy = 0.10
 	basic_chemistry = 1
 	medicine = 1
 
-
 #Inventions
-
 }

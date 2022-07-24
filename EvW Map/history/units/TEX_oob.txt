@@ -1,3 +1,7 @@
+USA = {
+	value = 125
+}
+
 leader = {
 	name = "Sam Houston"
 	type = land
@@ -12,13 +16,13 @@ army = {
 	location = 133
 	regiment = {
 		name= "Travis' Command"
-		type = cavalry
+		type = cuirassier
 		home = 133
 	}
 
 	regiment = {
 		name= "Fannin's Command"
-		type = guard
+		type = infantry
 		home = 132
 	}
 	

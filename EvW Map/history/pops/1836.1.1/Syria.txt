@@ -251,19 +251,19 @@
 	}
 
 	clergymen = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 550
 	}
 
 	farmers = {
-		culture = mashriqi
+		culture = assyrian
 		religion = catholic
 		size = 10350
 	}
@@ -299,7 +299,13 @@
 	artisans = {
 		culture = mashriqi
 		religion = sunni
-		size = 10000
+		size = 11000
+	}
+	
+	artisans = {
+		culture = mashriqi
+		religion = sunni
+		size = 1100
 	}
 
 	soldiers = {

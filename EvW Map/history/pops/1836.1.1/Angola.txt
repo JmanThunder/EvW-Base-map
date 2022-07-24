@@ -188,13 +188,13 @@
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 200
+		size = 1200
 	}
 
 	farmers = {
 		culture = bakongo
 		religion = animist
-		size = 13450
+		size = 12450
 	}
 
 	slaves = {

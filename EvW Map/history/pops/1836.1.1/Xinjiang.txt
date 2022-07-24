@@ -35,13 +35,13 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 525
+		size = 2525
 	}
 
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 46775
+		size = 66775
 	}
 
 	aristocrats = {
@@ -521,13 +521,13 @@
 	soldiers = {
 		culture = uighur
 		religion = sunni
-		size = 675
+		size = 1675
 	}
 
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 60225
+		size = 80225
 	}
 
 	aristocrats = {

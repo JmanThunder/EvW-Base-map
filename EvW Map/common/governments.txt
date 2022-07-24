@@ -19,6 +19,7 @@ presidential_dictatorship =
 {
 	#which ideology of parties.
 	reactionary = yes
+	conservative = yes
 	
 	election = no
 	appoint_ruling_party = yes

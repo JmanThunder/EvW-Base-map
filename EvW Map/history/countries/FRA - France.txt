@@ -1,6 +1,9 @@
 capital = 425
 primary_culture = french
 culture = french_canadian
+culture = picard
+culture = occitan
+culture = breton
 religion = catholic
 government = hms_government
 plurality = 25
@@ -61,7 +64,6 @@ experimental_railroad = 1
 basic_chemistry = 1
 stock_exchange = 1
 ad_hoc_money_bill_printing = 1
-#private_bank_money_bill_printing = 1
 market_structure = 1
 romanticism = 1
 practical_steam_engine = 1
@@ -75,7 +77,8 @@ commerce_raiders = yes
 consciousness = 3
 nonstate_consciousness = 1
 
-ruling_party = FRA_liberal
+ruling_party = FRA_conservative
+set_country_flag = tory_election_win
 last_election = 1834.6.21
 upper_house = {
 	fascist = 0
@@ -87,6 +90,9 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+decision = literacy_FRA
+
 govt_flag = {
 	government = hms_government
 	flag = presidential_dictatorship
@@ -96,10 +102,6 @@ schools = culture_tech_school
 
 oob = "FRA_oob.txt"
 
-1850.1.1 = {
- decision = support_french_foreign_legion
- }
-
 1861.1.1 = {
 	oob = "/1861/FRA_oob.txt"
 	prestige = 140
@@ -108,8 +110,13 @@ oob = "FRA_oob.txt"
 	non_state_culture_literacy = 0.15
 	
 	foreign_investment = {
-	PAP = 8000
+		PAP = 8000
 	}
+	
+	decision = support_french_foreign_legion
+	set_country_flag = cochinchina_campaign
+	set_country_flag = claimed_authority_over_holy_land
+	set_global_flag = liberal_revolutions_should_now_fire
 	
 # Political reforms
 slavery = no_slavery
@@ -131,6 +138,7 @@ pensions = no_pensions
 school_reforms = no_schools	
 
 ruling_party = FRA_reactionary
+clr_country_flag = tory_election_win
 government = presidential_dictatorship
 upper_house = {
 	fascist = 0
@@ -214,5 +222,4 @@ upper_house = {
 	inorganic_chemistry = 1
 
 #Inventions
-
 }

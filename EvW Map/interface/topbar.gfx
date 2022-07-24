@@ -47,6 +47,11 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_topbar_navy_2"
+		texturefile = "gfx\\interface\\topbar_navy_2.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_topbar_army_opaque"
 		texturefile = "gfx\\interface\\topbar_army.tga"
 	}

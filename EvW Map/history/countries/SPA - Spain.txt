@@ -5,8 +5,9 @@ culture = basque
 religion = catholic
 government = hms_government
 plurality = 25.0
-nationalvalue = nv_equality
+nationalvalue = nv_might
 literacy = 0.13
+non_state_culture_literacy = 0.1
 civilized = yes
 
 
@@ -33,6 +34,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = SPA_conservative
+set_country_flag = tory_election_win
 last_election = 1834.1.1
 upper_house = {
 	fascist = 0
@@ -43,6 +45,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
+decision = literacy_SPA
 
 # Technologies
 post_napoleonic_thought = 1
@@ -91,7 +96,6 @@ oob = "SPA_oob.txt"
 1844.5.13 = {
 	decision = establish_la_guardia_civil
 }
-
 1861.1.1 = {
 	oob = "/1861/SPA_oob.txt"
 	
@@ -178,5 +182,4 @@ school_reforms = low_schools
 	medicine = 1
 
 #Inventions
-
 }

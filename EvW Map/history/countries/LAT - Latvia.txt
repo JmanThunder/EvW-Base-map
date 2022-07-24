@@ -1,9 +1,10 @@
 capital = 354
 primary_culture = latvian
-religion = catholic
+culture = north_german
+religion = protestant
 government = absolute_monarchy
 plurality = 0.2
-nationalvalue = nv_order
+nationalvalue = nv_equality
 literacy = 0.6
 civilized = yes
 

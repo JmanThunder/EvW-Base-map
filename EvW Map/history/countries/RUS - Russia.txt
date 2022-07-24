@@ -5,9 +5,10 @@ culture = ukrainian
 culture = ugrian
 religion = orthodox
 government = absolute_monarchy
-plurality = 25
-nationalvalue = nv_order
+plurality = 25.0
+nationalvalue = nv_might
 literacy = 0.10
+non_state_culture_literacy = 0.07
 civilized = yes
 
 set_country_flag = serfdom_not_abolished
@@ -45,6 +46,9 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+decision = literacy_RUS
+
 # Technologies
 post_napoleonic_thought = 1
 flintlock_rifles = 1
@@ -81,19 +85,21 @@ nonstate_consciousness = 1
 schools = culture_tech_school
 
 oob = "RUS_oob.txt"
-
-1860.11.14 = {
-decision = peking_convention
-}
-
 1861.1.1 = {
 	oob = "/1861/RUS_oob.txt"
 }
 1861.1.1 = {
-	ruling_party = RUS_liberal
+
+	set_country_flag = crimean_war
+	set_global_flag = treaty_of_paris_1856
+	set_country_flag = eastern_christians_up_in_here_yall
+	set_country_flag = peking_convention
+	set_country_flag = shimoda_treaty
+	decision = russian_vladivostok
+	ruling_party = RUS_reactionary
 	plurality = 60
 	literacy = 0.15
-	non_state_culture_literacy = 0.15
+	non_state_culture_literacy = 0.1
 
 # Technologies
 	post_napoleonic_thought = 1
@@ -152,23 +158,21 @@ decision = peking_convention
 
 #Inventions
 
-}
+	slavery = no_slavery
+	upper_house_composition = appointed
+	vote_franschise = none_voting
+	public_meetings = no_meeting
+	press_rights = state_press
+	trade_unions = no_trade_unions
+	voting_system = jefferson_method
+	political_parties = underground_parties
 
-1861.1.1 = {
-slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = none_voting
-public_meetings = no_meeting
-press_rights = state_press
-trade_unions = no_trade_unions
-voting_system = jefferson_method
-political_parties = underground_parties
-
-wage_reform = no_minimum_wage
-work_hours = no_work_hour_limit
-safety_regulations = no_safety
-health_care =trinket_health_care
-unemployment_subsidies = no_subsidies
-pensions = no_pensions 
-school_reforms = no_schools
+	wage_reform = no_minimum_wage
+	work_hours = no_work_hour_limit
+	safety_regulations = no_safety
+	health_care =trinket_health_care
+	unemployment_subsidies = no_subsidies
+	pensions = no_pensions 
+	school_reforms = no_schools
+	
 }

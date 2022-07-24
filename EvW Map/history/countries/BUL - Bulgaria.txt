@@ -3,7 +3,7 @@ primary_culture = bulgarian
 religion = orthodox
 government = hms_government
 plurality = 0.08
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.4
 civilized = yes
 

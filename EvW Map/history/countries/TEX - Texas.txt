@@ -1,6 +1,5 @@
 capital = 133
 primary_culture = texan
-culture = mexican
 religion = protestant
 government = democracy
 plurality = 25.0
@@ -30,16 +29,19 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = TEX_liberal
+set_country_flag = liberal_election_win
 last_election = 1836.1.1
 upper_house = {
 	fascist = 0
-	liberal = 55
-	conservative = 37
+	liberal = 35
+	conservative = 57
 	reactionary = 8
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -105,13 +107,4 @@ oob = "TEX_oob.txt"
 	the_command_principle = 1
 
 #Inventions
-	john_ramsay_mcculloch = yes
-	nassau_william_sr = yes
-	james_mill = yes
-	ammunition_production = yes
-	small_arms_production = yes
-	explosives_production = yes
-	artillery_production = yes
-	building_station_shipyards = yes
-	jacquard_power_loom = yes
 }

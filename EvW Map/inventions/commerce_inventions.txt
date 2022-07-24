@@ -1,6 +1,9 @@
 #stock_exchange
 multitude_of_financial_instruments = {
-	limit = { stock_exchange = 1 }
+	limit = {
+		stock_exchange = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -18,7 +21,10 @@ multitude_of_financial_instruments = {
 	}
 }
 insurance_companies = {
-	limit = { stock_exchange = 1 }
+	limit = {
+		stock_exchange = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -36,7 +42,10 @@ insurance_companies = {
 	}
 }
 regulated_buying_and_selling_of_stocks = {
-	limit = { stock_exchange = 1 }
+	limit = {
+		stock_exchange = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -106,7 +115,6 @@ distribution_channels = {
 	}
 	effect = {
 		factory_cost = -0.01
-		farm_RGO_eff = 0.5
 	}
 }
 #investment_banks
@@ -188,7 +196,10 @@ private_bank_monitoring = {
 	}
 }
 market_behaviour_monitoring = {
-	limit = { bank_inspection_board = 1 }
+	limit = {
+		bank_inspection_board = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -461,7 +472,10 @@ james_mill = {
 }
 #late_classical_theory
 john_elliot_cairnes = {
-	limit = { late_classical_theory = 1 }
+	limit = {
+		late_classical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -479,7 +493,10 @@ john_elliot_cairnes = {
 	}
 }
 robert_torrens = {
-	limit = { late_classical_theory = 1 }
+	limit = {
+		late_classical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -497,7 +514,10 @@ robert_torrens = {
 	}
 }
 john_stuart_mill = {
-	limit = { late_classical_theory = 1 }
+	limit = {
+		late_classical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -516,7 +536,10 @@ john_stuart_mill = {
 }
 #collectivist_theory
 pierre_joseph_proudhon = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -534,7 +557,10 @@ pierre_joseph_proudhon = {
 	}
 }
 karl_marx = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -556,7 +582,10 @@ karl_marx = {
 	}
 }
 friedrich_engels = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -574,7 +603,10 @@ friedrich_engels = {
 	}
 }
 eduard_bernstein = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -600,7 +632,10 @@ eduard_bernstein = {
 	}
 }
 sidney_webb = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -624,7 +659,10 @@ sidney_webb = {
 	}
 }
 karl_kautsky = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -646,7 +684,10 @@ karl_kautsky = {
 	}
 }
 jean_jaurès = {
-	limit = { collectivist_theory = 1 }
+	limit = {
+		collectivist_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -665,7 +706,10 @@ jean_jaurès = {
 }
 #the_historical_theory
 friedrich_list = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -683,7 +727,10 @@ friedrich_list = {
 	}
 }
 wilhelm_roscher = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -701,7 +748,10 @@ wilhelm_roscher = {
 	}
 }
 bruno_hildebrand = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -719,7 +769,10 @@ bruno_hildebrand = {
 	}
 }
 karl_knies = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -737,7 +790,10 @@ karl_knies = {
 	}
 }
 gustav_von_schmoller = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -755,7 +811,10 @@ gustav_von_schmoller = {
 	}
 }
 adolph_wagner = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -773,7 +832,10 @@ adolph_wagner = {
 	}
 }
 william_cunningham = {
-	limit = { the_historical_theory = 1 }
+	limit = {
+		the_historical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -792,7 +854,10 @@ william_cunningham = {
 }
 #neoclassical_theory
 johann_heinrich_von_thünen = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -810,7 +875,10 @@ johann_heinrich_von_thünen = {
 	}
 }
 léon_walras = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -828,7 +896,10 @@ léon_walras = {
 	}
 }
 stanley_jevons = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -846,7 +917,10 @@ stanley_jevons = {
 	}
 }
 carl_menger = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -864,7 +938,10 @@ carl_menger = {
 	}
 }
 thorstein_veblen = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -882,7 +959,10 @@ thorstein_veblen = {
 	}
 }
 alfred_marshall = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -900,7 +980,10 @@ alfred_marshall = {
 	}
 }
 augustin_cournot = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -918,7 +1001,10 @@ augustin_cournot = {
 	}
 }
 jules_dupuit = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -936,7 +1022,10 @@ jules_dupuit = {
 	}
 }
 vilfredo_pareto = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -954,7 +1043,10 @@ vilfredo_pareto = {
 	}
 }
 knut_wicksell = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -972,7 +1064,10 @@ knut_wicksell = {
 	}
 }
 irving_fischer = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -990,7 +1085,10 @@ irving_fischer = {
 	}
 }
 joseph_schumpeter = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -1008,7 +1106,10 @@ joseph_schumpeter = {
 	}
 }
 eugen_von_böhm_bawerk = {
-	limit = { neoclassical_theory = 1 }
+	limit = {
+		neoclassical_theory = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -1027,7 +1128,10 @@ eugen_von_böhm_bawerk = {
 }
 #keynesian_economics
 john_maynard_keynes = {
-	limit = { keynesian_economics = 1 }
+	limit = {
+		keynesian_economics = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -1047,7 +1151,10 @@ john_maynard_keynes = {
 	}
 }
 richard_kahn = {
-	limit = { keynesian_economics = 1 }
+	limit = {
+		keynesian_economics = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 3
@@ -1065,7 +1172,10 @@ richard_kahn = {
 	}
 }
 ludwig_von_mises = {
-	limit = { keynesian_economics = 1 }
+	limit = {
+		keynesian_economics = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 0
@@ -1087,7 +1197,10 @@ ludwig_von_mises = {
 	}
 }
 friedrich_hayek = {
-	limit = { keynesian_economics = 1 }
+	limit = {
+		keynesian_economics = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 2
@@ -1107,7 +1220,8 @@ friedrich_hayek = {
 #market_structure
 polypoly_structure = {
 	news = no
-	limit = { 
+	limit = {
+		has_country_flag = existing_country
 		market_structure = 1 
 		NOT = {
 				OR = {
@@ -1133,7 +1247,8 @@ polypoly_structure = {
 }
 oligopoly_structure = {
 	news = no
-	limit = { 
+	limit = {
+		has_country_flag = existing_country
 		market_structure = 1 
 		NOT = {
 			OR = {
@@ -1159,7 +1274,8 @@ oligopoly_structure = {
 }
 monopoly_structure = {
 	news = no
-	limit = { 
+	limit = {
+		has_country_flag = existing_country
 		market_structure = 1 
 		NOT = {
 			OR = {
@@ -1456,7 +1572,10 @@ autarky = {
 	}
 }
 import_substitution_industrialization = {
-	limit = { government_interventionism = 1 }
+	limit = {
+		government_interventionism = 1
+		has_country_flag = existing_country
+	}
 	news = no
 	chance = {
 		base = 0

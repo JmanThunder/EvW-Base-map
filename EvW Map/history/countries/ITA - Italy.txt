@@ -6,6 +6,7 @@ government = hms_government
 plurality = 0.12
 nationalvalue = nv_order
 literacy = 0.28
+non_state_culture_literacy = 0.15
 civilized = yes
 
 
@@ -29,6 +30,7 @@ pensions = trinket_pensions
 school_reforms = no_schools
 
 ruling_party = ITA_conservative
+set_country_flag = tory_election_win
 upper_house = {
 	fascist = 0
 	liberal = 50
@@ -42,13 +44,15 @@ upper_house = {
 1861.1.1 = {
 	oob = "/1861/ITA_oob.txt"
 }
-1861.1.1 = {
 
+1861.1.1 = {
 	prestige = 75
 	plurality = 60
 	literacy = 0.32
-	non_state_culture_literacy = 0.32
+	non_state_culture_literacy = 0.20
+	set_country_flag = existing_country
 	
+# Technologies
 	post_napoleonic_thought = 1
 	strategic_mobility = 1
 	flintlock_rifles = 1
@@ -110,7 +114,5 @@ upper_house = {
 	medicine = 1
 	inorganic_chemistry = 1
 
-
 #Inventions
-
 }

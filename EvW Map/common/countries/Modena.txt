@@ -1,5 +1,5 @@
-color = { 241  252  151 }
-graphical_culture = Generic
+color = { 30 86 215 }
+graphical_culture = ItalianGC
 
 party = {
 	name = "MOD_reactionary"

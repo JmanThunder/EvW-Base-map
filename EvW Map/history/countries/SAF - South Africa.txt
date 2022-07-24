@@ -1,10 +1,10 @@
 capital = 2087
-primary_culture = british
-culture = boer
+primary_culture = boer
+culture = british
 religion = protestant
 government = hms_government
 plurality = 0.6
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.2
 civilized = yes
 
@@ -38,6 +38,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = post_colonial_country
 
 1861.1.1 = {
 	oob = "/1861/SAF_oob.txt"

@@ -659,7 +659,7 @@
 	slaves = {
 		culture = shona
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 }
 #Zombo (104000/26000 POPS)
@@ -917,7 +917,7 @@
 	slaves = {
 		culture = shona
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 
 }
@@ -1107,7 +1107,7 @@
 	slaves = {
 		culture = makua
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 
 	clergymen = {

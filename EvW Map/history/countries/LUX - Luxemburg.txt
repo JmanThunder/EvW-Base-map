@@ -77,6 +77,7 @@ oob = "LUX_oob.txt"
 	oob = "/1861/LUX_oob.txt"
 	plurality = 60
 	literacy = 0.80
+	set_country_flag = existing_country
 }
 1861.1.1 = {
 # Technologies

@@ -61,6 +61,7 @@ nonstate_consciousness = 0
 1861.1.1 = {
 	oob = "/1861/HON_oob.txt"
 	plurality = 50
+	set_country_flag = existing_country
 }
 1861.1.1 = {
 # Technologies

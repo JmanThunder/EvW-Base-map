@@ -4,7 +4,7 @@ culture = dutch
 religion = catholic
 government = absolute_monarchy
 plurality = 0.05
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.28
 civilized = yes
 

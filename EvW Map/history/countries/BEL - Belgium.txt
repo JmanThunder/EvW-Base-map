@@ -1,7 +1,7 @@
 capital = 387
 primary_culture = wallonian
 culture = flemish
-culture = french
+culture = picard
 religion = catholic
 government = hms_government
 plurality = 25.0
@@ -9,7 +9,7 @@ nationalvalue = nv_liberty
 literacy = 0.5
 non_state_culture_literacy = 0.5 #Germans/Dutch
 civilized = yes
-prestige = 10
+prestige = 3
 
 # Political reforms
 slavery = no_slavery
@@ -31,6 +31,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = BEL_conservative
+set_country_flag = tory_election_win
 last_election = 1834.1.1
 upper_house = {
 	fascist = 0
@@ -41,6 +42,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -85,6 +88,8 @@ oob = "BEL_oob.txt"
 }
 1861.1.1 = {
 ruling_party = BEL_liberal
+clr_country_flag = tory_election_win
+set_country_flag = liberal_election_win
 
 # Technologies
 	post_napoleonic_thought = 1
@@ -155,5 +160,4 @@ ruling_party = BEL_liberal
 	inorganic_chemistry = 1
 
 #Inventions
-
 }

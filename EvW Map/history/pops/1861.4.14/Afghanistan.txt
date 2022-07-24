@@ -205,61 +205,91 @@
 #Herat (324000/81000 POPS)
 1212 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
-		size = 334.75
+		size = 234.75
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
-		size = 180.25
+		size = 100.25
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
-		size = 875.5
+		size = 575.5
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
-		size = 1030.0
+		size = 730.0
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
-		size = 15089.5
+		size = 10089.5
+	}
+	
+	aristocrats = {
+		culture = tajik
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = tajik
+		religion = sunni
+		size = 80
+	}
+
+	artisans = {
+		culture = tajik
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = tajik
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = tajik
+		religion = sunni
+		size = 5000
 	}
 
 	aristocrats = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 1287.5
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 657.14
 	}
 
 	artisans = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 3296.0
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 4120.0
 	}
 
 	farmers = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 56559.36
 	}
@@ -389,61 +419,61 @@
 #Farrah (464000/116000 POPS)
 1214 = {
 	aristocrats = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
 		size = 566.5
 	}
 
 	clergymen = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
 		size = 296.64
 	}
 
 	artisans = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
 		size = 1442.0
 	}
 
 	soldiers = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
 		size = 1030.0
 	}
 
 	farmers = {
-		culture = pashtun
+		culture = persian
 		religion = sunni
 		size = 25504.86
 	}
 
 	aristocrats = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 1776.75
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 901.25
 	}
 
 	artisans = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 4532.0
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 1030.0
 	}
 
 	farmers = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 82400.0
 	}
@@ -481,31 +511,31 @@
 	}
 
 	aristocrats = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 412.0
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 219.39000000000001
 	}
 
 	artisans = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 1081.5
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 1030.0
 	}
 
 	farmers = {
-		culture = tajik
+		culture = pashtun
 		religion = sunni
 		size = 18887.11
 	}

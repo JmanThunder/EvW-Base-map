@@ -4,8 +4,8 @@ culture = south_german
 religion = protestant
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
-literacy = 0.70
+nationalvalue = nv_might
+literacy = 0.80
 non_state_culture_literacy = 0.25
 civilized = yes
 
@@ -42,6 +42,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
+decision = literacy_PRU
 
 # Technologies
 post_napoleonic_thought = 1
@@ -190,5 +193,4 @@ school_reforms = acceptable_schools
 	inorganic_chemistry = 1
 
 #Inventions
-
 }

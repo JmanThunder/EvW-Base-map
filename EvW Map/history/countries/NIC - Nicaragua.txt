@@ -1,9 +1,9 @@
-capital = 2199 #Leon
+capital = 2199
 primary_culture = central_american
 religion = catholic
 government = democracy
 plurality = 0.1
-nationalvalue = nv_equality
+nationalvalue = nv_might
 literacy = 0.17
 civilized = yes
 
@@ -27,11 +27,12 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
-ruling_party = NIC_liberal
+ruling_party = NIC_conservative
+set_country_flag = tory_election_win
 upper_house = {
 	fascist = 0
-	liberal = 56
-	conservative = 28
+	liberal = 36
+	conservative = 48
 	reactionary = 16
 	anarcho_liberal = 0
 	socialist = 0
@@ -41,6 +42,7 @@ upper_house = {
 	oob = "/1861/NIC_oob.txt"
 	plurality = 50
 	capital = 2197 #Managua 1852
+	set_country_flag = existing_country
 }
 1861.1.1 = {
 # Technologies
@@ -83,5 +85,4 @@ upper_house = {
 	medicine = 1
 
 #Inventions
-
 }

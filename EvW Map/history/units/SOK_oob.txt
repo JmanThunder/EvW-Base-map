@@ -1,3 +1,71 @@
+MAS = {
+	value = 100
+}
+
+JAL = {
+	value = 100
+}
+
+TOO = {
+	value = 100
+}
+
+DAM = {
+	value = 10
+}
+
+DND = {
+	value = 5
+}
+
+KBO = {
+	value = 10
+}
+
+WAD = {
+	value = 20
+}
+
+DAR = {
+	value = 10
+}
+
+MOS = {
+	value = -5
+}
+
+SEG = {
+	value = -20
+}
+
+ASH = {
+	value = -20
+}
+
+DAH = {
+	value = -10
+}
+
+OYO = {
+	value = -30
+}
+
+BEN = {
+	value = -30
+}
+
+WRI = {
+	value = -15
+}
+
+ARO = {
+	value = -20
+}
+
+CLA = {
+	value = -15
+}
+
 army = {
 	name = "Army of the Sultan of Sokoto"
 	location = 1948

@@ -674,10 +674,10 @@ cheap_steel = {
 		precious_metal = 0.1
 	}
 	rgo_goods_output = {
-		coal = 0.15
+		coal = 0.17
 	}
 	rgo_goods_output = {
-		iron = 0.15
+		iron = 0.35
 	}
 	rgo_size = {
 		precious_metal = 0.2
@@ -736,10 +736,10 @@ advanced_metallurgy = {
 		sulphur = 0.25
 	}
 	rgo_goods_output = {
-		coal = 0.25
+		coal = 0.30
 	}
 	rgo_goods_output = {
-		iron = 0.25
+		iron = 0.50
 	}
 	rgo_size = {
 		sulphur = 0.2
@@ -1002,7 +1002,7 @@ basic_chemistry = {
 	ai_chance = {
 		factor = 1.1
 		modifier = {
-			factor = 1.5
+			factor = 99999
 			civilized = yes
 		}
 		modifier = {
@@ -1021,7 +1021,7 @@ medicine = {
 	ai_chance = {
 		factor = 1.5
 		modifier = {
-			factor = 1.5
+			factor = 99999
 			civilized = yes
 		}
 		modifier = {
@@ -1050,6 +1050,10 @@ inorganic_chemistry = {
 		modifier = {
 			factor = 2
 			is_greater_power = yes
+		}
+		modifier = {
+			factor = 99999
+			year = 1890
 		}
 		modifier = {
 			factor = 1.2
@@ -1085,6 +1089,10 @@ organic_chemistry = {
 		modifier = {
 			factor = 2
 			is_greater_power = yes
+		}
+		modifier = {
+			factor = 99999
+			year = 1895
 		}
 		modifier = {
 			factor = 1.2

@@ -1,0 +1,24 @@
+political_decisions = {	
+	authorize_gas_warfare = {
+			picture = chemical_warfare
+			potential = {
+				NOT = { has_country_flag = gas_attacking }
+				year = 1890
+			}
+			allow = {
+				military_directionism = 1
+				invention = cracking
+			}
+			effect = {
+				set_country_flag = gas_attacking
+				badboy = 15
+			}
+			ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				badboy = 0.5
+			}		
+		}
+		}	
+}

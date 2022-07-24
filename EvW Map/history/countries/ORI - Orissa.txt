@@ -4,27 +4,9 @@ culture = marathi
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.05
-non_state_culture_literacy = 0.05
-
-ruling_party = ORI_conservative
-upper_house = {
-	fascist = 0
-	liberal = 15
-	conservative = 75
-	reactionary = 10
-	anarcho_liberal = 0
-	socialist = 0
-	communist = 0
-}
-
-
-# Starting Consciousness
-consciousness = 0
-nonstate_consciousness = 0
-
-oob = "ORI_oob.txt"
+non_state_culture_literacy = 0.03
 
 slavery = no_slavery
 upper_house_composition = appointed
@@ -38,16 +20,34 @@ political_parties = underground_parties
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
 safety_regulations = no_safety
-
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
 
+ruling_party = ORI_conservative
+upper_house = {
+	fascist = 0
+	liberal = 15
+	conservative = 75
+	reactionary = 10
+	anarcho_liberal = 0
+	socialist = 0
+	communist = 0
+}
+
+set_country_flag = existing_country
+
+
+# Starting Consciousness
+consciousness = 0
+nonstate_consciousness = 0
+
+oob = "ORI_oob.txt"
 1861.1.1 = {
 	oob = "/1861/ORI_oob.txt"
 	literacy = 0.10
-	non_state_culture_literacy = 0.10
+	non_state_culture_literacy = 0.05
 
 	#Military Reforms
 	foreign_training = yes_foreign_training
@@ -57,3 +57,4 @@ school_reforms = no_schools
 	#Technologies
 	flintlock_rifles = 1
 }
+

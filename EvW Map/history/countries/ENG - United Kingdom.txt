@@ -78,6 +78,7 @@ consciousness = 3
 nonstate_consciousness = 1
 
 ruling_party = ENG_liberal
+set_country_flag = liberal_election_win
 last_election = 1835.2.6
 upper_house = {
 	fascist = 0
@@ -89,6 +90,9 @@ upper_house = {
 	communist = 0
 }
 
+set_country_flag = existing_country
+decision = literacy_ENG
+
 schools = naval_tech_school
 
 foreign_investment = {
@@ -96,30 +100,31 @@ foreign_investment = {
 	DEN = 2000
 }
 
+decision = UK_setup
 oob = "ENG_oob.txt"
-
-1842.8.9 = {
-decision = webster_ashburton_treaty
-}
-
-1846.6.25 = {
-decision = repeal_the_corn_laws
-}
-
-1857.1.1 = {
-decision = crown_empress_of_india
-}
-
-1860.10.18 = {
-decision = torching_of_the_summer_palace
-}
 
 1861.1.1 = {
 	oob = "/1861/ENG_oob.txt"
+	ruling_party = ENG_liberal_2
 	prestige = 165
 	plurality = 65
 	literacy = 0.70
 	non_state_culture_literacy = 0.15
+	decision = crown_empress_of_india
+	decision = repeal_the_corn_laws
+	decision = canada_1861_start
+	decision = organize_british_columbia
+	set_country_flag = treaty_of_nanking
+	set_global_flag = kowloon_incident
+	set_country_flag = annexation_of_natal
+	set_global_flag = orange_river_sovereignty
+	set_global_flag = transvaal_sovereignty
+	set_country_flag = lagos_slave_trade
+	set_country_flag = lord_durhams_report
+	set_country_flag = great_irish_famine
+	set_country_flag = no_help_for_the_irish
+	set_country_flag = young_irish
+	set_country_flag = mediated_belgian_independence
 
 	foreign_investment = {
 		BEL = 10000
@@ -129,7 +134,7 @@ decision = torching_of_the_summer_palace
 		PER = 5000
 		BRU = 2500
 	}
-
+	
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
@@ -139,7 +144,6 @@ press_rights = free_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = non_secret_ballots	
-ruling_party = ENG_liberal_2
 	
 # Social Reforms
 wage_reform = trinket_wage
@@ -225,5 +229,4 @@ school_reforms = low_schools
 	inorganic_chemistry = 1
 
 #Inventions
-
 }

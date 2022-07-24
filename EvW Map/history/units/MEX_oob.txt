@@ -1,10 +1,8 @@
-leader = {
-	name = "Antonio Santa Ana"
-	type = land
-	date="1836.1.1"
-	personality = wrathful
-	background = warmonger
-	prestige = 0.2
+USA = {
+	value = 100
+}
+SPA = {
+	value = 75
 }
 
 leader = {
@@ -13,62 +11,6 @@ leader = {
 	date="1836.1.1"
 	personality = impulsive
 	background = aristocrat
-	prestige = 0.1
-}
-
-leader = {
-	name = "Nicolas Bravo"
-	type = land
-	date="1836.1.1"
-	personality = heroic
-	background = politician
-}
-
-leader = {
-	name = "Mariano Arista"
-	type = land
-	date="1836.1.1"
-	personality = skilled
-	background = war_college
-}
-
-leader = {
-	name = "Juan Álvarez"
-	type = land
-	date="1836.1.1"
-	personality = skilled
-	background = elderly
-}
-
-leader = {
-	name = "José de Herrera"
-	type = land
-	date="1836.1.1"
-	personality = soldierly
-	background = exranker
-}
-
-army = {
-	name = "Ejército del Norte"
-	location = 2146
-	regiment = {
-		name= "1.Division Cos"
-		type = irregular
-		home = 2174
-	}
-
-	regiment = {
-		name= "2.Division Cos"
-		type = irregular
-		home = 2174
-	}
-
-	regiment = {
-		name= "3.Division Cos"
-		type = irregular
-		home = 2174
-	}
-
 }
 
 army = {

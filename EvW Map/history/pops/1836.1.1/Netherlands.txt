@@ -330,25 +330,31 @@
 	artisans = {
 		culture = dutch
 		religion = protestant
-		size = 5000
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = protestant
-		size = 1100
+		size = 4100
 	}
 
 	farmers = {
 		culture = dutch
 		religion = protestant
-		size = 33550
+		size = 26450
+	}
+	
+	artisans = {
+		culture = flemish
+		religion = catholic
+		size = 900
 	}
 
 	farmers = {
 		culture = flemish
 		religion = catholic
-		size = 1100
+		size = 8100
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 1200
 	}
 }
 #Arnhem (412000/103000 POPS)

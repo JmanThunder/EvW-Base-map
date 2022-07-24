@@ -5,100 +5,106 @@
 	aristocrats = {
 		culture = portuguese
 		religion = catholic
-		size = 10.3
+		size = 10
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = catholic
-		size = 15.450000000000001
+		size = 15
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = catholic
-		size = 5.15
+		size = 5
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = catholic
-		size = 25.75
+		size = 25
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = catholic
-		size = 20.6
+		size = 20
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = catholic
-		size = 51.5
+		size = 50
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = catholic
-		size = 386.25
+		size = 375
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = catholic
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = catholic
-		size = 5665.0
+		size = 5500
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = catholic
-		size = 2060.0
+		size = 2000
 	}
 }
-#Uncolonized in 1836/ruled by kingdom of Gabu
-#Gabu (76000/19000 POPS)
+#under the rule of Gabu in 1836
+#Gabu (152000/38000 POPS)
 1878 = {
 	aristocrats = {
 		culture = mande
 		religion = animist
-		size = 206.0
+		size = 400
+	}
+	
+	bureaucrats = {
+		culture = mande
+		religion = animist
+		size = 150
 	}
 
 	clergymen = {
 		culture = mande
 		religion = animist
-		size = 206.0
+		size = 400
 	}
 
 	artisans = {
 		culture = mande
 		religion = animist
-		size = 1030.0
+		size = 2000
 	}
 
 	soldiers = {
 		culture = mande
 		religion = animist
-		size = 206.0
+		size = 1200
 	}
 
 	farmers = {
 		culture = mande
 		religion = animist
-		size = 14832.0
+		size = 28000
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3090.0
+		size = 6000
 	}
 
 }

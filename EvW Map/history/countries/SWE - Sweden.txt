@@ -2,7 +2,6 @@ capital = 322
 primary_culture = swedish
 culture = finnish
 culture = norwegian
-culture = sami
 religion = protestant
 government = hms_government
 plurality = 25.0
@@ -31,6 +30,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = SWE_conservative
+set_country_flag = tory_election_win
 last_election = 1833.1.1
 upper_house = {
 	fascist = 0
@@ -41,6 +41,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 #Technologies
 post_napoleonic_thought = 1
@@ -176,5 +178,5 @@ school_reforms = low_schools
 	medicine = 1
 	inorganic_chemistry = 1
 
-
+#Inventions
 }

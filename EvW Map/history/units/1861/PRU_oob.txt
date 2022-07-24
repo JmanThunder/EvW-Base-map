@@ -1,17 +1,24 @@
 #SOIs
 
+SWH = {
+	value = 55
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
 ANH = {
 
 	value = 125
 	level = 5
-	influence_value = 100
+	influence_value = 25
 	military_access = yes
 }
 
 BRA = {
 	value = 125
 	level = 5
-	influence_value = 100
+	influence_value = 25
 	military_access = yes
 }
 
@@ -19,7 +26,7 @@ BRE = {
 
 	value = 125
 	level = 5
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -31,7 +38,7 @@ COB = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -41,7 +48,7 @@ FRM = {
 
 	value = 125
 	level = 5
-	influence_value = 100
+	influence_value = 25
 	military_access = yes
 }
 
@@ -51,7 +58,7 @@ HAM = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -63,7 +70,7 @@ HAN = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 50
 
 	military_access = yes
 
@@ -75,7 +82,7 @@ HEK = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -87,17 +94,24 @@ HES = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
 }
 
+KRA = {
+
+	value = 125
+	level = 4
+	influence_value = 25
+
+}
 LIP = {
 
 	value = 125
 	level = 5
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -109,7 +123,7 @@ LUB = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -117,7 +131,7 @@ LUB = {
 
 LUX = {
 
-	value = 0
+	value = 125
 
 	level = 3
 
@@ -131,7 +145,7 @@ MEC = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -143,7 +157,7 @@ MEI = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 
@@ -155,7 +169,7 @@ NAS = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 }
@@ -166,30 +180,20 @@ OLD = {
 
 	level = 5
 
-	influence_value = 100
+	influence_value = 25
 
 	military_access = yes
 }
 
 SAX = {
 
-	value = 125
+	value = 50
 
 	level = 5
 
-	influence_value = 100
-
-	military_access = yes
-}
-
-HOL = {
-
-	value = 150
-
-	level = 4
-
 	influence_value = 50
 
+	military_access = yes
 }
 
 WEI = {
@@ -236,7 +240,7 @@ WUR = {
 }
 
 AUS = {
-	value = -50
+	value = 50
 }
 FRA = {
 	value = 10
@@ -245,161 +249,7 @@ RUS = {
 	value = 80
 }
 DEN = {
-	value = 100
-	
-	level = 4
-	
-	influence_value = 25
-}
-
-ITA = {
-	value = 175
-}
-
-#Leaders
-
-leader = {
-	name = "Heinrich von Wrangel"
-	date = 1823.1.1
-	type = land
-	personality = efficient
-	background = elderly
-	prestige = 0.3
-}
-
-leader = {
-	name = "Prinz Albrecht"
-	date = 1844.1.1
-	type = land
-	personality = disciplined
-	background = cavalry_school
-	prestige = 0.2
-}
-
-leader = {
-	name = "von Hindersin"
-	date = 1848.1.1
-	type = land
-	personality = competent
-	background = artillerist
-	prestige = 0.2
-}
-
-leader = {
-	name = "Prinz Adalbert"
-	date = 1853.1.1
-	type = sea
-	personality = competent
-	background = gifted_administrator
-	prestige = 0.2
-}
-
-leader = {
-	name = "Eduard von Bonin"
-	date = 1848.1.1
-	type = land
-	personality = gallant
-	background = drillmaster
-	prestige = 0.2
-}
-
-leader = {
-	name = "von Bittenfeld"
-	date = 1852.1.1
-	type = land
-	personality = manful
-	background = drillmaster
-	prestige = 0.2
-}
-
-leader = {
-	name = "M. von Prittwitz"
-	date = 1853.1.1
-	type = land
-	personality = competent
-	background = engineer
-	prestige = 0.2
-}
-
-leader = {
-	name = "Prinz Friedrich Karl"
-	date = 1861.1.1 #1854
-	type = land
-	personality = reserved
-	background = diplomat
-	prestige = 0.2
-}
-
-leader = {
-	name = "von Steinmetz"
-	date = 1854.1.1
-	type = land
-	personality = unruly
-	background = old_school
-	prestige = 0.2
-}
-
-leader = {
-	name = "Adolf von Bonin"
-	date = 1854.1.1
-	type = land
-	personality = inept
-	background = powerful_friends
-	prestige = 0.1
-}
-
-leader = {
-	name = "von Falckenstein"
-	date = 1855.1.1
-	type = land
-	personality = confident
-	background = war_college
-	prestige = 0.1
-}
-
-leader = {
-	name = "Albrecht von Roon"
-	date = 1856.1.1
-	type = land
-	personality = active_p
-	background = innovative_tactician
-	prestige = 0.1
-}
-
-leader = {
-	name = "Helmuth von Moltke"
-	date = 1861.1.1 #1857
-	type = land
-	personality = brilliant
-	background = eccentric_genius
-	prestige = 0.2
-}
-
-leader = {
-	name = "Edwin von Manteuffel"
-	date = 1857.1.1
-	type = land
-	personality = reserved
-	background = school_of_firepower
-	prestige = 0.1
-}
-
-leader = {
-	name = "von Voigts-Rhetz"
-	date = 1858.1.1
-	type = land
-	personality = skilled
-	background = school_of_offense
-	prestige = 0.1
-}
-
-leader = {
-	name = "Kronprinz Friedrich Wilhelm"
-	date = 1861.1.1
-	type = land
-	personality = openminded
-	background = diplomat
-	prestige = 0.2
+	value = -50
 }
 
 army = {

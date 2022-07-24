@@ -7,7 +7,7 @@ culture = gujarati
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.03
 
 ruling_party = MUG_conservative

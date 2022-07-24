@@ -4,7 +4,7 @@ culture = texan
 religion = protestant
 government = democracy
 plurality = 25.1
-nationalvalue = nv_order
+nationalvalue = nv_might
 literacy = 0.50
 civilized = yes
 is_releasable_vassal = no
@@ -141,6 +141,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = CSA_conservative
+set_country_flag = tory_election_win
 upper_house = {
 	fascist = 0
 	liberal = 10
@@ -154,6 +155,7 @@ upper_house = {
 1861.1.1 = {
 	oob = "/1861/CSA_oob.txt"
 	set_country_flag = 1861CSAstart
+	set_country_flag = existing_country
 }
 1861.1.1 = {
 
@@ -229,7 +231,6 @@ non_state_culture_literacy = 0.10
 	basic_chemistry = 1
 	medicine = 1
 	inorganic_chemistry = 1
-	
-#Inventions
 
+#Inventions
 }

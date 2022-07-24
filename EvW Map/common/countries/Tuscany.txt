@@ -1,5 +1,5 @@
-color = { 84  96  136 }
-graphical_culture = Generic
+color = { 216 30 5 }
+graphical_culture = ItalianGC
 
 party = {
 	name = "TUS_reactionary"

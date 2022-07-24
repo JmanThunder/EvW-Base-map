@@ -1,0 +1,4889 @@
+country_event = {
+	id = 1100090
+	title = "Check all countries cash reserves"
+	desc = "Checking..."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "apply"
+		any_country = {
+			limit = {
+				money = 20000000
+			}
+			set_country_flag = 20million		
+		}
+		any_country = {
+			limit = {
+				money = 19750000
+				NOT = { has_country_flag = 20million }
+			}
+			set_country_flag = 19.75million		
+		}
+		any_country = {
+			limit = {
+				money = 19500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+			}
+			set_country_flag = 19.5million		
+		}
+		any_country = {
+			limit = {
+				money = 19250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+			}
+			set_country_flag = 19.25million		
+		}
+		any_country = {
+			limit = {
+				money = 19000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+			}
+			set_country_flag = 19million		
+		}
+		any_country = {
+			limit = {
+				money = 18750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+			}
+			set_country_flag = 18.75million		
+		}
+		any_country = {
+			limit = {
+				money = 18500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+			}
+			set_country_flag = 18.5million		
+		}
+		any_country = {
+			limit = {
+				money = 18250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+			}
+			set_country_flag = 18.25million		
+		}
+		any_country = {
+			limit = {
+				money = 18000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+			}
+			set_country_flag = 18million		
+		}
+		any_country = {
+			limit = {
+				money = 17750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+			}
+			set_country_flag = 17.75million		
+		}
+		any_country = {
+			limit = {
+				money = 17500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+			}
+			set_country_flag = 17.5million		
+		}
+		any_country = {
+			limit = {
+				money = 17250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+			}
+			set_country_flag = 17.25million		
+		}
+		any_country = {
+			limit = {
+				money = 17000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+			}
+			set_country_flag = 17million		
+		}
+		any_country = {
+			limit = {
+				money = 16750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+			}
+			set_country_flag = 16.75million		
+		}
+		any_country = {
+			limit = {
+				money = 16500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+			}
+			set_country_flag = 16.5million		
+		}
+		any_country = {
+			limit = {
+				money = 16250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+			}
+			set_country_flag = 16.25million		
+		}
+		any_country = {
+			limit = {
+				money = 16000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+			}
+			set_country_flag = 16million		
+		}
+		any_country = {
+			limit = {
+				money = 15750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+			}
+			set_country_flag = 15.75million		
+		}
+		any_country = {
+			limit = {
+				money = 15500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+			}
+			set_country_flag = 15.5million		
+		}
+		any_country = {
+			limit = {
+				money = 15250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+			}
+			set_country_flag = 15.25million		
+		}
+		any_country = {
+			limit = {
+				money = 15000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+			}
+			set_country_flag = 15million		
+		}
+		any_country = {
+			limit = {
+				money = 14750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+			}
+			set_country_flag = 14.75million		
+		}
+		any_country = {
+			limit = {
+				money = 14500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+			}
+			set_country_flag = 14.5million		
+		}
+		any_country = {
+			limit = {
+				money = 14250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+			}
+			set_country_flag = 14.25million		
+		}
+		any_country = {
+			limit = {
+				money = 14000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+			}
+			set_country_flag = 14million		
+		}
+		any_country = {
+			limit = {
+				money = 13750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+			}
+			set_country_flag = 13.75million		
+		}
+		any_country = {
+			limit = {
+				money = 13500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+			}
+			set_country_flag = 13.5million		
+		}
+		any_country = {
+			limit = {
+				money = 13250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+			}
+			set_country_flag = 13.25million		
+		}
+		any_country = {
+			limit = {
+				money = 13000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+			}
+			set_country_flag = 13million		
+		}
+		any_country = {
+			limit = {
+				money = 12750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+			}
+			set_country_flag = 12.75million		
+		}
+		any_country = {
+			limit = {
+				money = 12500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+			}
+			set_country_flag = 12.5million		
+		}
+		any_country = {
+			limit = {
+				money = 12250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+			}
+			set_country_flag = 12.25million		
+		}
+		any_country = {
+			limit = {
+				money = 12000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+			}
+			set_country_flag = 12million		
+		}
+		any_country = {
+			limit = {
+				money = 11750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+			}
+			set_country_flag = 11.75million		
+		}
+		any_country = {
+			limit = {
+				money = 11500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+			}
+			set_country_flag = 11.5million		
+		}
+		any_country = {
+			limit = {
+				money = 11250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+			}
+			set_country_flag = 11.25million		
+		}
+		any_country = {
+			limit = {
+				money = 11000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+			}
+			set_country_flag = 11million		
+		}
+		any_country = {
+			limit = {
+				money = 10750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+			}
+			set_country_flag = 10.75million		
+		}
+		any_country = {
+			limit = {
+				money = 10500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+			}
+			set_country_flag = 10.5million		
+		}
+		any_country = {
+			limit = {
+				money = 10250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+			}
+			set_country_flag = 10.25million		
+		}
+		any_country = {
+			limit = {
+				money = 10000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+			}
+			set_country_flag = 10million		
+		}
+		any_country = {
+			limit = {
+				money = 9750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+			}
+			set_country_flag = 9.75million		
+		}
+		any_country = {
+			limit = {
+				money = 9500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+			}
+			set_country_flag = 9.5million		
+		}
+		any_country = {
+			limit = {
+				money = 9250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+			}
+			set_country_flag = 9.25million		
+		}
+		any_country = {
+			limit = {
+				money = 9000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+			}
+			set_country_flag = 9million		
+		}
+		any_country = {
+			limit = {
+				money = 8750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+			}
+			set_country_flag = 8.75million		
+		}
+		any_country = {
+			limit = {
+				money = 8500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+			}
+			set_country_flag = 8.5million		
+		}
+		any_country = {
+			limit = {
+				money = 8250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+			}
+			set_country_flag = 8.25million		
+		}
+		any_country = {
+			limit = {
+				money = 8000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+			}
+			set_country_flag = 8million		
+		}
+		any_country = {
+			limit = {
+				money = 7750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+			}
+			set_country_flag = 7.75million		
+		}
+		any_country = {
+			limit = {
+				money = 7500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+			}
+			set_country_flag = 7.5million		
+		}
+		any_country = {
+			limit = {
+				money = 7250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+			}
+			set_country_flag = 7.25million		
+		}
+		any_country = {
+			limit = {
+				money = 7000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+			}
+			set_country_flag = 7million
+		}
+		any_country = {
+			limit = {
+				money = 6750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+			}
+			set_country_flag = 6.75million
+		}
+		any_country = {
+			limit = {
+				money = 6500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+			}
+			set_country_flag = 6.5million
+		}
+		any_country = {
+			limit = {
+				money = 6250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+			}
+			set_country_flag = 6.25million
+		}
+		any_country = {
+			limit = {
+				money = 6000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+			}
+			set_country_flag = 6million
+		}
+		any_country = {
+			limit = {
+				money = 5750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+			}
+			set_country_flag = 5.75million
+		}
+		any_country = {
+			limit = {
+				money = 5500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+			}
+			set_country_flag = 5.5million
+		}
+		any_country = {
+			limit = {
+				money = 5250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+			}
+			set_country_flag = 5.25million
+		}
+		any_country = {
+			limit = {
+				money = 5000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				
+			}
+			set_country_flag = 5million
+		}
+		any_country = {
+			limit = {
+				money = 4750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				
+			}
+			set_country_flag = 4.75million
+		}
+		any_country = {
+			limit = {
+				money = 4500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				
+			}
+			set_country_flag = 4.5million
+		}
+		any_country = {
+			limit = {
+				money = 4250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				
+			}
+			set_country_flag = 4.25million
+		}
+		any_country = {
+			limit = {
+				money = 4000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+			}
+			set_country_flag = 4million
+		}
+		any_country = {
+			limit = {
+				money = 3750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+			}
+			set_country_flag = 3.75million
+		}
+		any_country = {
+			limit = {
+				money = 3500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+			}
+			set_country_flag = 3.5million
+		}
+		any_country = {
+			limit = {
+				money = 3250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+			}
+			set_country_flag = 3.25million
+		}
+		any_country = {
+			limit = {
+				money = 3000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+			}
+			set_country_flag = 3million
+		}
+		any_country = {
+			limit = {
+				money = 2750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+			}
+			set_country_flag = 2.75million
+		}
+		any_country = {
+			limit = {
+				money = 2500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+			}
+			set_country_flag = 2.5million
+		}
+		any_country = {
+			limit = {
+				money = 2250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+			}
+			set_country_flag = 2.25million
+		}
+		any_country = {
+			limit = {
+				money = 2000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+			}
+			set_country_flag = 2million
+		}
+		any_country = {
+			limit = {
+				money = 1750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+			}
+			set_country_flag = 1.75million
+		}
+		any_country = {
+			limit = {
+				money = 1500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+			}
+			set_country_flag = 1.5million
+		}
+		any_country = {
+			limit = {
+				money = 1250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+				NOT = { has_country_flag = 1.5million }
+			}
+			set_country_flag = 1.25million
+		}
+		any_country = {
+			limit = {
+				money = 1000000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+				NOT = { has_country_flag = 1.5million }
+				NOT = { has_country_flag = 1.25million }
+			}
+			set_country_flag = 1million
+		}
+		any_country = {
+			limit = {
+				money = 750000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+				NOT = { has_country_flag = 1.5million }
+				NOT = { has_country_flag = 1.25million }
+				NOT = { has_country_flag = 1million }
+			}
+			set_country_flag = 0.75million
+		}
+		any_country = {
+			limit = {
+				money = 500000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+				NOT = { has_country_flag = 1.5million }
+				NOT = { has_country_flag = 1.25million }
+				NOT = { has_country_flag = 1million }
+				NOT = { has_country_flag = 0.75million }
+			}
+			set_country_flag = 0.5million
+		}
+		any_country = {
+			limit = {
+				money = 250000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+				NOT = { has_country_flag = 1.5million }
+				NOT = { has_country_flag = 1.25million }
+				NOT = { has_country_flag = 1million }
+				NOT = { has_country_flag = 0.75million }
+				NOT = { has_country_flag = 0.5million }
+			}
+			set_country_flag = 0.25million
+		}
+		any_country = {
+			limit = {
+				money = 100000
+				NOT = { has_country_flag = 20million }
+				NOT = { has_country_flag = 19.75million }
+				NOT = { has_country_flag = 19.5million }
+				NOT = { has_country_flag = 19.25million }
+				NOT = { has_country_flag = 19million }
+				NOT = { has_country_flag = 18.75million }
+				NOT = { has_country_flag = 18.5million }
+				NOT = { has_country_flag = 18.25million }
+				NOT = { has_country_flag = 18million }
+				NOT = { has_country_flag = 17.75million }
+				NOT = { has_country_flag = 17.5million }
+				NOT = { has_country_flag = 17.25million }
+				NOT = { has_country_flag = 17million }
+				NOT = { has_country_flag = 16.75million }
+				NOT = { has_country_flag = 16.5million }
+				NOT = { has_country_flag = 16.25million }
+				NOT = { has_country_flag = 16million }
+				NOT = { has_country_flag = 15.75million }
+				NOT = { has_country_flag = 15.5million }
+				NOT = { has_country_flag = 15.25million }
+				NOT = { has_country_flag = 15million }
+				NOT = { has_country_flag = 14.75million }
+				NOT = { has_country_flag = 14.5million }
+				NOT = { has_country_flag = 14.25million }
+				NOT = { has_country_flag = 14million }
+				NOT = { has_country_flag = 13.75million }
+				NOT = { has_country_flag = 13.5million }
+				NOT = { has_country_flag = 13.25million }
+				NOT = { has_country_flag = 13million }
+				NOT = { has_country_flag = 12.75million }
+				NOT = { has_country_flag = 12.5million }
+				NOT = { has_country_flag = 12.25million }
+				NOT = { has_country_flag = 12million }
+				NOT = { has_country_flag = 11.75million }
+				NOT = { has_country_flag = 11.5million }
+				NOT = { has_country_flag = 11.25million }
+				NOT = { has_country_flag = 11million }
+				NOT = { has_country_flag = 10.75million }
+				NOT = { has_country_flag = 10.5million }
+				NOT = { has_country_flag = 10.25million }
+				NOT = { has_country_flag = 10million }
+				NOT = { has_country_flag = 9.75million }
+				NOT = { has_country_flag = 9.5million }
+				NOT = { has_country_flag = 9.25million }
+				NOT = { has_country_flag = 9million }
+				NOT = { has_country_flag = 8.75million }
+				NOT = { has_country_flag = 8.5million }
+				NOT = { has_country_flag = 8.25million }
+				NOT = { has_country_flag = 8million }
+				NOT = { has_country_flag = 7.75million }
+				NOT = { has_country_flag = 7.5million }
+				NOT = { has_country_flag = 7.25million }
+				NOT = { has_country_flag = 7million }
+				NOT = { has_country_flag = 6.75million }
+				NOT = { has_country_flag = 6.5million }
+				NOT = { has_country_flag = 6.25million }
+				NOT = { has_country_flag = 6million }
+				NOT = { has_country_flag = 5.75million }
+				NOT = { has_country_flag = 5.5million }
+				NOT = { has_country_flag = 5.25million }
+				NOT = { has_country_flag = 5million }
+				NOT = { has_country_flag = 4.75million }
+				NOT = { has_country_flag = 4.5million }
+				NOT = { has_country_flag = 4.25million }
+				NOT = { has_country_flag = 4million }
+				NOT = { has_country_flag = 3.75million }
+				NOT = { has_country_flag = 3.5million }
+				NOT = { has_country_flag = 3.25million }
+				NOT = { has_country_flag = 3million }
+				NOT = { has_country_flag = 2.75million }
+				NOT = { has_country_flag = 2.5million }
+				NOT = { has_country_flag = 2.25million }
+				NOT = { has_country_flag = 2million }
+				NOT = { has_country_flag = 1.75million }
+				NOT = { has_country_flag = 1.5million }
+				NOT = { has_country_flag = 1.25million }
+				NOT = { has_country_flag = 1million }
+				NOT = { has_country_flag = 0.75million }
+				NOT = { has_country_flag = 0.5million }
+				NOT = { has_country_flag = 0.25million }
+			}
+			set_country_flag = 0.1million
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 20million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 20
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 19.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 19.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 19.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 19.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 19.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 19.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 19million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 19
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 18.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 18.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 18.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 18.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 18.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 18.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 18million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 18
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 17.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 17.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 17.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 17.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 17.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 17.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 17million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 17
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 16.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 16.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 16.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 16.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 16.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 16.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 16million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 16
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 15.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 15.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 15.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 15.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 15.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 15.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 15million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 15
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 14.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 14.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 14.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 14.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 14.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 14.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 14million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 14
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 13.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 13.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 13.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 13.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 13.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 13.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 13million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 13
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 12.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 12.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 12.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 12.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 12.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 12.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 12million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 12
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 11.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 11.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 11.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 11.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 11.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 11.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 11million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 11
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 10.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 10.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 10.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 10.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 10.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 10.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 10million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 10
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 9.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 9.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 9.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 9.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 9.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 9.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 9million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 9
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 8.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 8.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 8.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 8.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 8.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 8.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 8million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 8
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 7.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 7.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 7.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 7.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 7.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 7.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 7million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 7
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 6.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 6.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 6.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 6.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 6.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 6.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 6million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 6
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 5.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 5.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 5.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 5.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 5.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 5.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 4.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 4.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 4.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 4.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 4.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 4.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 4million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 4
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 3.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 3.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 3.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 3.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 3.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 3.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 3million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 3
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 2.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 2.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 2.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 2.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 2.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 2.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 2million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 2
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 1.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 1.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 1.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 1.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 1.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 1.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 1million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 0.75million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 0.75
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 0.5million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 0.5
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 0.25million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 0.25
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = 0.1million
+			}
+			UTI = {
+				change_variable = {
+				which = money_millions
+				value = 0.1
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					check_variable = {
+						which = money_millions
+						value = 25
+					}
+				}
+			}
+			owner = {
+				UTI = { country_event = 1100091 }
+			
+			}
+		}
+		
+		random_owned = {
+			limit = {
+				owner = {
+					NOT = {
+					check_variable = {
+						which = money_millions
+						value = 25
+					}
+					}
+				}
+			}
+			owner = {
+				UTI = { country_event = 1100092 }
+			
+			}
+		}
+		#remove flags and reset variable
+		any_country = {
+			limit = {
+			OR = {
+				has_country_flag = 20million
+				has_country_flag = 19.75million
+				has_country_flag = 19.5million
+				has_country_flag = 19.25million
+				has_country_flag = 19million
+				has_country_flag = 18.75million
+				has_country_flag = 18.5million
+				has_country_flag = 18.25million
+				has_country_flag = 18million
+				has_country_flag = 17.75million
+				has_country_flag = 17.5million
+				has_country_flag = 17.25million
+				has_country_flag = 17million
+				has_country_flag = 16.75million
+				has_country_flag = 16.5million
+				has_country_flag = 16.25million
+				has_country_flag = 16million
+				has_country_flag = 15.75million
+				has_country_flag = 15.5million
+				has_country_flag = 15.25million
+				has_country_flag = 15million
+				has_country_flag = 14.75million
+				has_country_flag = 14.5million
+				has_country_flag = 14.25million
+				has_country_flag = 14million
+				has_country_flag = 13.75million
+				has_country_flag = 13.5million 
+				has_country_flag = 13.25million
+				has_country_flag = 13million
+				has_country_flag = 12.75million
+				has_country_flag = 12.5million
+				has_country_flag = 12.25million
+				has_country_flag = 12million
+				has_country_flag = 11.75million
+				has_country_flag = 11.5million
+				has_country_flag = 11.25million
+				has_country_flag = 11million
+				has_country_flag = 10.75million
+				has_country_flag = 10.5million
+				has_country_flag = 10.25million
+				has_country_flag = 10million
+				has_country_flag = 9.75million
+				has_country_flag = 9.5million
+				has_country_flag = 9.25million
+				has_country_flag = 9million
+				has_country_flag = 8.75million
+				has_country_flag = 8.5million
+				has_country_flag = 8.25million
+				has_country_flag = 8million
+				has_country_flag = 7.75million
+				has_country_flag = 7.5million
+				has_country_flag = 7.25million
+				has_country_flag = 7million
+				has_country_flag = 6.75million
+				has_country_flag = 6.5million
+				has_country_flag = 6.25million
+				has_country_flag = 6million
+				has_country_flag = 5.75million
+				has_country_flag = 5.5million
+				has_country_flag = 5.25million
+				has_country_flag = 5million
+				has_country_flag = 4.75million
+				has_country_flag = 4.5million
+				has_country_flag = 4.25million
+				has_country_flag = 4million
+				has_country_flag = 3.75million
+				has_country_flag = 3.5million
+				has_country_flag = 3.25million
+				has_country_flag = 3million
+				has_country_flag = 2.75million
+				has_country_flag = 2.5million
+				has_country_flag = 2.25million
+				has_country_flag = 2million
+				has_country_flag = 1.75million
+				has_country_flag = 1.5million
+				has_country_flag = 1.25million
+				has_country_flag = 1million
+				has_country_flag = 0.75million
+				has_country_flag = 0.5million
+				has_country_flag = 0.25million
+				has_country_flag = 0.1million
+			}
+			}
+			clr_country_flag = 20million
+			clr_country_flag = 19.75million
+			clr_country_flag = 19.5million
+			clr_country_flag = 19.25million
+			clr_country_flag = 19million
+			clr_country_flag = 18.75million
+			clr_country_flag = 18.5million
+			clr_country_flag = 18.25million
+			clr_country_flag = 18million
+			clr_country_flag = 17.75million
+			clr_country_flag = 17.5million
+			clr_country_flag = 17.25million
+			clr_country_flag = 17million
+			clr_country_flag = 16.75million
+			clr_country_flag = 16.5million
+			clr_country_flag = 16.25million
+			clr_country_flag = 16million
+			clr_country_flag = 15.75million
+			clr_country_flag = 15.5million
+			clr_country_flag = 15.25million
+			clr_country_flag = 15million
+			clr_country_flag = 14.75million
+			clr_country_flag = 14.5million
+			clr_country_flag = 14.25million
+			clr_country_flag = 14million
+			clr_country_flag = 13.75million
+			clr_country_flag = 13.5million 
+			clr_country_flag = 13.25million
+			clr_country_flag = 13million
+			clr_country_flag = 12.75million
+			clr_country_flag = 12.5million
+			clr_country_flag = 12.25million
+			clr_country_flag = 12million
+			clr_country_flag = 11.75million
+			clr_country_flag = 11.5million
+			clr_country_flag = 11.25million
+			clr_country_flag = 11million
+			clr_country_flag = 10.75million
+			clr_country_flag = 10.5million
+			clr_country_flag = 10.25million
+			clr_country_flag = 10million
+			clr_country_flag = 9.75million
+			clr_country_flag = 9.5million
+			clr_country_flag = 9.25million
+			clr_country_flag = 9million
+			clr_country_flag = 8.75million
+			clr_country_flag = 8.5million
+			clr_country_flag = 8.25million
+			clr_country_flag = 8million
+			clr_country_flag = 7.75million
+			clr_country_flag = 7.5million
+			clr_country_flag = 7.25million
+			clr_country_flag = 7million
+			clr_country_flag = 6.75million
+			clr_country_flag = 6.5million
+			clr_country_flag = 6.25million
+			clr_country_flag = 6million
+			clr_country_flag = 5.75million
+			clr_country_flag = 5.5million
+			clr_country_flag = 5.25million
+			clr_country_flag = 5million
+			clr_country_flag = 4.75million
+			clr_country_flag = 4.5million
+			clr_country_flag = 4.25million
+			clr_country_flag = 4million
+			clr_country_flag = 3.75million
+			clr_country_flag = 3.5million
+			clr_country_flag = 3.25million
+			clr_country_flag = 3million
+			clr_country_flag = 2.75million
+			clr_country_flag = 2.5million
+			clr_country_flag = 2.25million
+			clr_country_flag = 2million
+			clr_country_flag = 1.75million
+			clr_country_flag = 1.5million
+			clr_country_flag = 1.25million
+			clr_country_flag = 1million
+			clr_country_flag = 0.75million
+			clr_country_flag = 0.5million
+			clr_country_flag = 0.25million
+			clr_country_flag = 0.1million
+			
+		}
+		UTI = {
+			set_variable = {
+			which = money_millions
+			value = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1100091
+	title = "Applies goldmine debuff"
+	desc = "Applying..."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nice."
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			any_owned = {
+				limit = {
+					trade_goods = precious_metal				
+				}
+				add_province_modifier = {
+					name = reduced_production
+					duration = -1
+				}
+			}
+		
+		}
+	}
+}
+country_event = {
+	id = 1100092
+	title = "Removes goldmine debuff"
+	desc = "Removing..."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Nice."
+		any_country = {
+			limit = {
+				exists = yes
+			}
+			any_owned = {
+				limit = {
+					trade_goods = precious_metal				
+				}
+				remove_province_modifier = reduced_production
+			}
+		
+		}
+	}
+}

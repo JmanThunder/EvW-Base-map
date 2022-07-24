@@ -1,150 +1,156 @@
 #Middle Congo Region (148000)
-#uncolonized in 1836/ruled by Teke in 1836
-#Nkuna (40000/10000 POPS)
+#under the rule of Loango in 1836
+#Nkuna (400000/100000 POPS)
 1977 = {
 	aristocrats = {
 		culture = bakongo
 		religion = animist
-		size = 180.25
+		size = 1750
 	}
 
 	clergymen = {
 		culture = bakongo
 		religion = animist
-		size = 103.0
+		size = 1100
 	}
 
 	artisans = {
 		culture = bakongo
 		religion = animist
-		size = 412.0
+		size = 4000
 	}
 
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 103.0
+		size = 1100
 	}
 
 	farmers = {
 		culture = bakongo
 		religion = animist
-		size = 7441.75
+		size = 72250
 	}
 
 	slaves = {
 		culture = bakongo
 		religion = animist
-		size = 2060.0
+		size = 20000
 	}
 }
-#Madingou (16000/4000 POPS)
+#Madingou (160000/40000 POPS)
 1978 = {
 	aristocrats = {
 		culture = bakongo
 		religion = animist
-		size = 77.25
+		size = 750
 	}
 
 	clergymen = {
 		culture = bakongo
 		religion = animist
-		size = 51.5
+		size = 500
 	}
 
 	artisans = {
 		culture = bakongo
 		religion = animist
-		size = 180.25
+		size = 1750
 	}
 
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 51.5
+		size = 500
 	}
 
 	farmers = {
 		culture = bakongo
 		religion = animist
-		size = 2729.5
+		size = 26500
 	}
 
 	slaves = {
 		culture = bakongo
 		religion = animist
-		size = 1030.0
+		size = 11000
 	}
 }
-#Loango (32000/8000 POPS)
+#Loango (320000/80000 POPS)
 2624 = {
 	aristocrats = {
 		culture = bakongo
 		religion = animist
-		size = 154.5
+		size = 1500
+	}
+	
+	bureaucrats = {
+		culture = bakongo
+		religion = animist
+		size = 400
 	}
 
 	clergymen = {
 		culture = bakongo
 		religion = animist
-		size = 77.25
+		size = 750
 	}
 
 	artisans = {
 		culture = bakongo
 		religion = animist
-		size = 334.75
+		size = 3250
 	}
 
 	soldiers = {
 		culture = bakongo
 		religion = animist
-		size = 103.0
+		size = 1100
 	}
 
 	farmers = {
 		culture = bakongo
 		religion = animist
-		size = 5510.5
+		size = 53500
 	}
 
 	slaves = {
 		culture = bakongo
 		religion = animist
-		size = 2060.0
+		size = 20000
 	}
 }
-#uncolonized in 1836
+#uncolonized in 1836 
 #Djambala (28000/7000 POPS)
 1980 = {
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 128.75
+		size = 125
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 360.5
+		size = 350
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 6566.25
+		size = 6375
 	}
 }
 #Impfondo (32000/8000 POPS)
@@ -152,31 +158,31 @@
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 154.5
+		size = 150
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 412.0
+		size = 400
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 77.25
+		size = 75
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 7519.0
+		size = 7300
 	}
 
 }

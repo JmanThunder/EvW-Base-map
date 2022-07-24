@@ -1240,7 +1240,13 @@
 	artisans = {
 		culture = javan
 		religion = sunni
-		size = 16480.0
+		size = 11000.0
+	}
+	
+	artisans = {
+		culture = javan
+		religion = sunni
+		size = 6480.0
 	}
 
 	soldiers = {
@@ -1324,7 +1330,13 @@
 	artisans = {
 		culture = yue
 		religion = mahayana
-		size = 15450.0
+		size = 11000.0
+	}
+	
+	artisans = {
+		culture = yue
+		religion = mahayana
+		size = 5450.0
 	}
 
 	soldiers = {
@@ -1572,7 +1584,13 @@
 	artisans = {
 		culture = javan
 		religion = sunni
-		size = 12360.0
+		size = 11000.0
+	}
+	
+	artisans = {
+		culture = javan
+		religion = sunni
+		size = 2360.0
 	}
 
 	soldiers = {

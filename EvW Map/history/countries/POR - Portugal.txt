@@ -3,8 +3,9 @@ primary_culture = portuguese
 religion = catholic
 government = hms_government
 plurality = 25.0
-nationalvalue = nv_equality
+nationalvalue = nv_order
 literacy = 0.13
+non_state_culture_literacy = 0.05
 civilized = yes
 prestige = 10
 colonial_points = 40
@@ -29,6 +30,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = POR_liberal
+set_country_flag = liberal_election_win
 last_election = 1834.1.1
 upper_house = {
 	fascist = 0
@@ -39,6 +41,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
+decision = literacy_POR
 
 # Technologies
 post_napoleonic_thought = 1
@@ -76,6 +81,7 @@ nonstate_consciousness = 1
 oob = "POR_oob.txt"
 1861.1.1 = {
 	oob = "/1861/POR_oob.txt"
+	set_country_flag = flores_sale
 
 # Political reforms
 slavery = yes_slavery
@@ -91,7 +97,7 @@ ruling_party = POR_liberal_2
 plurality = 60
 prestige = 20
 literacy = 0.17
-non_state_culture_literacy = 0.10
+non_state_culture_literacy = 0.08
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -152,7 +158,6 @@ school_reforms = low_schools
 	experimental_railroad = 1
 	basic_chemistry = 1
 	medicine = 1
-	
-#Inventions
 
+#Inventions
 }

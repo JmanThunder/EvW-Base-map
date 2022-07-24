@@ -30,9 +30,9 @@ school_reforms = no_schools
 ruling_party = GUA_liberal
 upper_house = {
 	fascist = 0
-	liberal = 58
+	liberal = 38
 	conservative = 36
-	reactionary = 6
+	reactionary = 26
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -41,8 +41,12 @@ upper_house = {
 1861.1.1 = {
 	oob = "/1861/GUA_oob.txt"
 	plurality = 50
+	set_country_flag = existing_country
 }
 1861.1.1 = {
+
+set_global_flag = the_usca_has_failed
+
 # Technologies
 	post_napoleonic_thought = 1
 	flintlock_rifles = 1
@@ -82,5 +86,4 @@ upper_house = {
 	medicine = 1
 
 #Inventions
-
 }

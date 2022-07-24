@@ -1,19 +1,19 @@
 defines = {
 
 start_date = '1836.1.1',
-end_date = '2035.12.31',
+end_date = '2000.12.31',
 
 country = {
 	YEARS_OF_NATIONALISM 	= 20,   -- Years of Nationalism
 	MONTHS_UNTIL_BROKEN 		= 3,    -- OBSOLETE! (Months until rebel held capital results in broken country.)
 	REBEL_ACCEPTANCE_MONTHS = 60,
-	BASE_COUNTRY_TAX_EFFICIENCY = 0.3, -- Basic efficiency for taxes without 'crats and tech
-	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.3,
-	GOLD_TO_CASH_RATE = 0.5, -- Amount of money generated per gold unit
-	GOLD_TO_WORKER_PAY_RATE = 3.5, -- Multiplier for how much money gold pays to pops
+	BASE_COUNTRY_TAX_EFFICIENCY = 0.2, -- Basic efficiency for taxes without 'crats and tech
+	BASE_COUNTRY_ADMIN_EFFICIENCY = 0.2,
+	GOLD_TO_CASH_RATE = 22, -- Amount of money generated per gold unit
+	GOLD_TO_WORKER_PAY_RATE = 0.86, -- Multiplier for how much money gold pays to pops
 	GREAT_NATIONS_COUNT = 8,
 	GREATNESS_DAYS = 365, 	   -- how many days until country risks losing status as great nation
-	BADBOY_LIMIT = 30,
+	BADBOY_LIMIT = 25,
 	MAX_BUREAUCRACY_PERCENTAGE = 0.01, -- More than max percent bureaucrats of poplation will give no additional benefits
 	BUREAUCRACY_PERCENTAGE_INCREMENT = 0.001, -- For each social administrative reform level, this is added to MAX_BUREAUCRACY_PERCENTAGE
 	MIN_CRIMEFIGHT_PERCENT = 0.2,
@@ -29,9 +29,9 @@ country = {
 	COLONIAL_LIFERATING = 35,
 	BASE_GREATPOWER_DAILY_INFLUENCE = 0.25, -- Influence value which is distributed each day
 	AI_SUPPORT_REFORM = 0.05, -- At least this many % needs to support a reform for the AI to take it
-	BASE_MONTHLY_DIPLOPOINTS = 0.3, -- Base value gain for diplomatic actions each month
-	DIPLOMAT_TRAVEL_TIME = 14,
-	PROVINCE_OVERSEAS_PENALTY = 0.005, -- Each province req. this many goods flagged as overseas penalty 
+	BASE_MONTHLY_DIPLOPOINTS = 0.5, -- Base value gain for diplomatic actions each month
+	DIPLOMAT_TRAVEL_TIME = -1,
+	PROVINCE_OVERSEAS_PENALTY = 0.025, -- Each province req. this many goods flagged as overseas penalty 
 	NONCORE_TAX_PENALTY = -0.05, -- -5% for each non-core in state
 	BASE_TARIFF_EFFICIENCY = 0.2, -- baseline tariff efficiency
 	COLONY_FORMED_PRESTIGE = 1, -- prestige from founding a colony.
@@ -44,7 +44,7 @@ country = {
 	SUPPRESS_BUREAUCRAT_FACTOR = 0.5,
 	WRONG_REFORM_MILITANCY_IMPACT = 1,
 	SUPPRESSION_RADICALISATION_HIT = 10, -- % base added to a movements radicalness
-	INVESTMENT_SCORE_FACTOR = 0.005, -- how much foreign investment money counts towards your industry score
+	INVESTMENT_SCORE_FACTOR = 0.0015, -- how much foreign investment money counts towards your industry score
 	UNCIV_TECH_SPREAD_MAX = 0.60,
 	UNCIV_TECH_SPREAD_MIN = 0.15,
 	MIN_DELAY_BETWEEN_REFORMS = 6, -- months
@@ -52,7 +52,7 @@ country = {
 	MILITARY_REFORM_UH_FACTOR = -0.40,
 	WRONG_REFORM_RADICAL_IMPACT = 15,
 	TECH_YEAR_SPAN = 140,
-	TECH_FACTOR_VASSAL = 0.8, -- cost reduction factor if overlord has research the tech
+	TECH_FACTOR_VASSAL = 0.25, -- cost reduction factor if overlord has research the tech
 	MAX_SUPPRESSION = 100,
 	PRESTIGE_HIT_ON_BREAK_COUNTRY = -0.20, -- percentage reduction when country gets taken by rebels
 	MIN_MOBILIZE_LIMIT = 3,
@@ -65,8 +65,8 @@ country = {
 	NAVAL_BASE_NON_CORE_SUPPLY_SCORE = 0.3, -- modifier for supply score for naval bases that are not in core provinces.
 	COLONIAL_POINTS_FROM_SUPPLY_FACTOR = 1,
 	COLONIAL_POINTS_FOR_NON_CORE_BASE = 1,
-	MOBILIZATION_SPEED_BASE = 0.12, -- Base speed for raising troops
-	MOBILIZATION_SPEED_RAILS_MULT = 3.0, -- Speed modifier for raising troops. It's max value for max railways level in state.
+	MOBILIZATION_SPEED_BASE = 0.10, -- Base speed for raising troops
+	MOBILIZATION_SPEED_RAILS_MULT = 4.0, -- Speed modifier for raising troops. It's max value for max railways level in state.
 	COLONIZATION_INTEREST_LEAD = 3,
 	COLONIZATION_INFLUENCE_LEAD = 3,
 	COLONIZATION_MONTHS_TO_COLONIZE = 6,
@@ -88,7 +88,7 @@ country = {
 	COLONIZATION_COLONY_STATE_DISTANCE = 400,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
-	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
+	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0, -- Drops the ruling party loyalty if war is lost.
 	RESEARCH_POINTS_ON_CONQUER_MULT = 360, -- multiplier to RP got by conquering as unciv when got enacted military reforms
 	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
 },
@@ -112,19 +112,19 @@ economy = {
 	SECOND_RANK_BASE_SHARE_FACTOR = 0.5,
 	CIV_BASE_SHARE_FACTOR = 0.75,
 	UNCIV_BASE_SHARE_FACTOR = 1,
-	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.25, -- % of how much we pay to the pops and capitalists, from the leftovers.
+	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 1, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 1000,	-- how much money is stored maximum in a factory.
 	SMALL_DEBT_LIMIT = 10000,
-	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.8, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
+	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.75, -- determines how close to the employee limit we need to be before "upgrade all" will upgrade/expand a given factory (1 = 100%).
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.2,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.02,	-- how fast pops are Hired when there is a medium demand
-	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.4,		-- how fast pops are Fired when there is a low demand
-	EMPLOYMENT_HIRE_LOWEST = 0.001,				-- we Hire pops no slower then x% of total required per day
-	EMPLOYMENT_FIRE_LOWEST = 0.001,				-- we Fire pops no slower then x% of total required per day
-	TRADE_CAP_LOW_LIMIT_LAND = 0, 				-- the lowest % the slider can go for land units
-	TRADE_CAP_LOW_LIMIT_NAVAL = 0.3, 			-- the lowest % the slider can go for naval units
+	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.2,		-- how fast pops are Fired when there is a low demand
+	EMPLOYMENT_HIRE_LOWEST = 0.01,				-- we Hire pops no slower then x% of total required per day
+	EMPLOYMENT_FIRE_LOWEST = 0.01,				-- we Fire pops no slower then x% of total required per day
+	TRADE_CAP_LOW_LIMIT_LAND = 0.05, 				-- the lowest % the slider can go for land units
+	TRADE_CAP_LOW_LIMIT_NAVAL = 0.85, 			-- the lowest % the slider can go for naval units
 	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0, 		-- the lowest % the slider can go for constructions
-	FACTORY_PURCHASE_MIN_FACTOR = 0.75,			-- the lowest % of its daily needs a factory will purchase
+	FACTORY_PURCHASE_MIN_FACTOR = 1,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.025		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
 
@@ -140,11 +140,11 @@ military = {
 	NAVAL_SPEED_MODIFIER = 2,
 	EXP_GAIN_DIV = 0.05,
 	LEADER_RECRUIT_COST = 20,
-	SUPPLY_RANGE = 250,
+	SUPPLY_RANGE = 60,
 	POP_MIN_SIZE_FOR_REGIMENT_PROTECTORATE_MULTIPLIER = 8,
 	POP_MIN_SIZE_FOR_REGIMENT_COLONY_MULTIPLIER = 5,
 	POP_MIN_SIZE_FOR_REGIMENT_NONCORE_MULTIPLIER = 3, -- VALUE * POP_MIN_SIZE_FOR_REGIMENT is min for noncores
-	GAS_ATTACK_MODIFIER = 3,
+	GAS_ATTACK_MODIFIER = 1,
 	COMBATLOSS_WAR_EXHAUSTION = 3, -- base war exhastion in combat
 	LEADER_MAX_RANDOM_PRESTIGE = 0.05, -- max percent of prestige, when randomizing stats for leaders.
 	LEADER_AGE_DEATH_FACTOR = 4, -- higher value means leaders live longer
@@ -171,13 +171,13 @@ military = {
 	NAVAL_COMBAT_STACKING_TARGET_CHANGE = 0.03, -- increase chance to change/drop target when suffering stacking penalty
 	NAVAL_COMBAT_STACKING_TARGET_SELECT = 0.2, -- modifier for how much the stacking penalty affects the target selection.
 	NAVAL_COMBAT_MAX_TARGETS = 6, -- max number of ships that may target the same enemy ship
-	AI_BIGSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be ships of the line
+	AI_BIGSHIP_PROPORTION = 0.2, -- fraction of ships in the navy that should be ships of the line
 	AI_LIGHTSHIP_PROPORTION = 0.4, -- fraction of ships in the navy that should be cruisers, frigates etc
-	AI_TRANSPORT_PROPORTION = 0.2, -- fraction of ships in the navy that should be should be transports
-	AI_CAVALRY_PROPORTION = 0.15, -- fraction of brigades that should be cavalry
-	AI_SUPPORT_PROPORTION = 0.3, -- fraction of brigades that should be artillery and other support units
-	AI_SPECIAL_PROPORTION = 0.15, -- fraction of brigades that should be engineers and tanks
-	AI_ESCORT_RATIO = 2.0, -- ratio of escorts to transports in invasion fleets
+	AI_TRANSPORT_PROPORTION = 0.6, -- fraction of ships in the navy that should be should be transports
+	AI_CAVALRY_PROPORTION = 0.1, -- fraction of brigades that should be cavalry
+	AI_SUPPORT_PROPORTION = 0.6, -- fraction of brigades that should be artillery and other support units
+	AI_SPECIAL_PROPORTION = 0.0, -- fraction of brigades that should be engineers and tanks
+	AI_ESCORT_RATIO = 0.5, -- ratio of escorts to transports in invasion fleets
 	AI_ARMY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on army supply costs (based on peacetime costs)
 	AI_NAVY_TAXBASE_FRACTION = 0.3, -- max of tax base that AI will spend on navy supply costs (based on peacetime costs)
 	AI_BLOCKADE_RANGE = 200, -- max distance the AI will send out blockade fleets from their home base
@@ -189,10 +189,10 @@ military = {
 	RECON_SIEGE_EFFECT = 0.5, -- multiplier to effect of recon on speeding up sieges
 	SIEGE_ATTRITION = 2, -- fixed attrition on sieging units
 	BASE_MILITARY_TACTICS = 1.5, -- base mil tactics before tech
-	NAVAL_LOW_SUPPLY_DAMAGE_SUPPLY_STATUS = 0.25, -- how little supply is acceptable before getting damage to STR
-	NAVAL_LOW_SUPPLY_DAMAGE_DAYS_DELAY = 30, -- delay in days before the STR will get damage due to no supplies. Sometimes supply status may jump bcoz of the market.
-	NAVAL_LOW_SUPPLY_DAMAGE_MIN_STR = 5.0, -- when low supply, the navy will supply STR damage but no less then X% to avoid destruction (value from 0 to 100.0)
-	NAVAL_LOW_SUPPLY_DAMAGE_PER_DAY = 0.25, -- damage to navies STR per day if totally 0% supplies (value from 0 to 100.0)
+	NAVAL_LOW_SUPPLY_DAMAGE_SUPPLY_STATUS = 0.85, -- how little supply is acceptable before getting damage to STR
+	NAVAL_LOW_SUPPLY_DAMAGE_DAYS_DELAY = 1, -- delay in days before the STR will get damage due to no supplies. Sometimes supply status may jump bcoz of the market.
+	NAVAL_LOW_SUPPLY_DAMAGE_MIN_STR = 1.0, -- when low supply, the navy will supply STR damage but no less then X% to avoid destruction (value from 0 to 100.0)
+	NAVAL_LOW_SUPPLY_DAMAGE_PER_DAY = 0.5, -- damage to navies STR per day if totally 0% supplies (value from 0 to 100.0)
 },
 
 diplomacy = {
@@ -216,7 +216,7 @@ diplomacy = {
 	
 	INFAMY_ADD_TO_SPHERE = 2,
 	INFAMY_RELEASE_PUPPET = 0.5,
-	INFAMY_MAKE_PUPPET = 5,
+	INFAMY_MAKE_PUPPET = 3,
 	INFAMY_DISARMAMENT = 5,
 	INFAMY_DESTROY_FORTS = 2,
 	INFAMY_DESTROY_NAVAL_BASES = 2,
@@ -272,23 +272,23 @@ diplomacy = {
 	PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE = 0.02,
 	PRESTIGE_COLONY = 0.02,
 
-	BREAKTRUCE_INFAMY_ADD_TO_SPHERE = 1,
-	BREAKTRUCE_INFAMY_RELEASE_PUPPET = 1,
-	BREAKTRUCE_INFAMY_MAKE_PUPPET = 1,
-	BREAKTRUCE_INFAMY_DISARMAMENT = 1,
-	BREAKTRUCE_INFAMY_DESTROY_FORTS = 1,
-	BREAKTRUCE_INFAMY_DESTROY_NAVAL_BASES = 1,
-	BREAKTRUCE_INFAMY_REPARATIONS = 1,
-	BREAKTRUCE_INFAMY_TRANSFER_PROVINCES = 1,
+	BREAKTRUCE_INFAMY_ADD_TO_SPHERE = 6,
+	BREAKTRUCE_INFAMY_RELEASE_PUPPET = 6,
+	BREAKTRUCE_INFAMY_MAKE_PUPPET = 6,
+	BREAKTRUCE_INFAMY_DISARMAMENT = 6,
+	BREAKTRUCE_INFAMY_DESTROY_FORTS = 6,
+	BREAKTRUCE_INFAMY_DESTROY_NAVAL_BASES = 6,
+	BREAKTRUCE_INFAMY_REPARATIONS = 6,
+	BREAKTRUCE_INFAMY_TRANSFER_PROVINCES = 6,
 	BREAKTRUCE_INFAMY_REMOVE_CORES = 0,
-	BREAKTRUCE_INFAMY_PRESTIGE = 1,
-	BREAKTRUCE_INFAMY_CONCEDE = 1,
-	BREAKTRUCE_INFAMY_STATUS_QUO = 1,
-	BREAKTRUCE_INFAMY_ANNEX = 1,
-	BREAKTRUCE_INFAMY_DEMAND_STATE = 1,
-	BREAKTRUCE_INFAMY_INSTALL_COMMUNIST_GOV_TYPE = 1,
-	BREAKTRUCE_INFAMY_UNINSTALL_COMMUNIST_GOV_TYPE = 1,
-	BREAKTRUCE_INFAMY_COLONY = 1,
+	BREAKTRUCE_INFAMY_PRESTIGE = 6,
+	BREAKTRUCE_INFAMY_CONCEDE = 6,
+	BREAKTRUCE_INFAMY_STATUS_QUO = 6,
+	BREAKTRUCE_INFAMY_ANNEX = 6,
+	BREAKTRUCE_INFAMY_DEMAND_STATE = 6,
+	BREAKTRUCE_INFAMY_INSTALL_COMMUNIST_GOV_TYPE = 6,
+	BREAKTRUCE_INFAMY_UNINSTALL_COMMUNIST_GOV_TYPE = 6,
+	BREAKTRUCE_INFAMY_COLONY = 6,
 	
 	BREAKTRUCE_PRESTIGE_ADD_TO_SPHERE = -20,
 	BREAKTRUCE_PRESTIGE_RELEASE_PUPPET = -20,
@@ -308,23 +308,23 @@ diplomacy = {
 	BREAKTRUCE_PRESTIGE_UNINSTALL_COMMUNIST_GOV_TYPE = -20,
 	BREAKTRUCE_PRESTIGE_COLONY = -20,
 	
-	BREAKTRUCE_MILITANCY_ADD_TO_SPHERE = 2,
-	BREAKTRUCE_MILITANCY_RELEASE_PUPPET = 2,
-	BREAKTRUCE_MILITANCY_MAKE_PUPPET = 2,
-	BREAKTRUCE_MILITANCY_DISARMAMENT = 2,
-	BREAKTRUCE_MILITANCY_DESTROY_FORTS = 2,
-	BREAKTRUCE_MILITANCY_DESTROY_NAVAL_BASES = 2,
-	BREAKTRUCE_MILITANCY_REPARATIONS = 2,
-	BREAKTRUCE_MILITANCY_TRANSFER_PROVINCES = 2,
+	BREAKTRUCE_MILITANCY_ADD_TO_SPHERE = 0,
+	BREAKTRUCE_MILITANCY_RELEASE_PUPPET = 0,
+	BREAKTRUCE_MILITANCY_MAKE_PUPPET = 0,
+	BREAKTRUCE_MILITANCY_DISARMAMENT = 0,
+	BREAKTRUCE_MILITANCY_DESTROY_FORTS = 0,
+	BREAKTRUCE_MILITANCY_DESTROY_NAVAL_BASES = 0,
+	BREAKTRUCE_MILITANCY_REPARATIONS = 0,
+	BREAKTRUCE_MILITANCY_TRANSFER_PROVINCES = 0,
 	BREAKTRUCE_MILITANCY_REMOVE_CORES = 0,
-	BREAKTRUCE_MILITANCY_PRESTIGE = 2,
-	BREAKTRUCE_MILITANCY_CONCEDE = 2,
-	BREAKTRUCE_MILITANCY_STATUS_QUO = 2,
-	BREAKTRUCE_MILITANCY_ANNEX = 2,
-	BREAKTRUCE_MILITANCY_DEMAND_STATE = 2,
-	BREAKTRUCE_MILITANCY_INSTALL_COMMUNIST_GOV_TYPE = 2,
-	BREAKTRUCE_MILITANCY_UNINSTALL_COMMUNIST_GOV_TYPE = 2,
-	BREAKTRUCE_MILITANCY_COLONY = 2,
+	BREAKTRUCE_MILITANCY_PRESTIGE = 0,
+	BREAKTRUCE_MILITANCY_CONCEDE = 0,
+	BREAKTRUCE_MILITANCY_STATUS_QUO = 0,
+	BREAKTRUCE_MILITANCY_ANNEX = 0,
+	BREAKTRUCE_MILITANCY_DEMAND_STATE = 0,
+	BREAKTRUCE_MILITANCY_INSTALL_COMMUNIST_GOV_TYPE = 0,
+	BREAKTRUCE_MILITANCY_UNINSTALL_COMMUNIST_GOV_TYPE = 0,
+	BREAKTRUCE_MILITANCY_COLONY = 0,
 	
 	GOODRELATION_INFAMY_ADD_TO_SPHERE = 1,
 	GOODRELATION_INFAMY_RELEASE_PUPPET = 1,
@@ -403,7 +403,7 @@ diplomacy = {
 	DECLAREWAR_DIPLOMATIC_COST = 1,
 	
 	ADDWARGOAL_RELATION_ON_ACCEPT = 0,
-    ADDWARGOAL_DIPLOMATIC_COST = 1,
+    ADDWARGOAL_DIPLOMATIC_COST = 0,
 	ADD_UNJUSTIFIED_GOAL_BADBOY = 1,
 	
 	PEACE_RELATION_ON_ACCEPT = 5,
@@ -430,7 +430,7 @@ diplomacy = {
 	GIVEMILACCESS_RELATION_ON_DECLINE = 0,
 	GIVEMILACCESS_DIPLOMATIC_COST = 1,
 	CANCELGIVEMILACCESS_RELATION_ON_ACCEPT = -10,
-	CANCELGIVEMILACCESS_DIPLOMATIC_COST = 1,
+	CANCELGIVEMILACCESS_DIPLOMATIC_COST = 0,
 
 	WARSUBSIDY_RELATION_ON_ACCEPT = 20,
 	WARSUBSIDY_DIPLOMATIC_COST = 1,
@@ -462,7 +462,7 @@ diplomacy = {
 
 	REMOVEFROMSPHERE_RELATION_ON_ACCEPT = -10,
 	REMOVEFROMSPHERE_INFLUENCE_COST = 100,
-	REMOVEFROMSPHERE_PRESTIGE_COST = 10, -- only applied if removing country is sphere leader
+	REMOVEFROMSPHERE_PRESTIGE_COST = 0, -- only applied if removing country is sphere leader
 	REMOVEFROMSPHERE_INFAMY_COST = 0, -- only applied if removing country is sphere leader
 
 	INCREASEOPINION_RELATION_ON_ACCEPT = 20,
@@ -475,9 +475,9 @@ diplomacy = {
 	MAKE_CB_DIPLOMATIC_COST = 1,
 	MAKE_CB_RELATION_ON_ACCEPT = 0,
 	
-	DISARMAMENT_ARMY_HIT = 0.7,
-	REPARATIONS_TAX_HIT = 0.3,
-	PRESTIGE_REDUCTION_BASE = 20,
+	DISARMAMENT_ARMY_HIT = 0.5,
+	REPARATIONS_TAX_HIT = 0.25,
+	PRESTIGE_REDUCTION_BASE = 25,
 	PRESTIGE_REDUCTION = 0.1, -- Base value + % of recipient's prestige
 	REPARATIONS_YEARS = 5,
 	
@@ -505,25 +505,25 @@ diplomacy = {
 	
 	MIN_WARSCORE_TO_INTERVENE = -1,
 	MIN_MONTHS_TO_INTERVENE = 0,
-	MAX_WARSCORE_FROM_BATTLES = 50,
+	MAX_WARSCORE_FROM_BATTLES = 20,
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,
-	WARGOAL_JINGOISM_REQUIREMENT = 0.05,
+	WARGOAL_JINGOISM_REQUIREMENT = 0,
 
-	LIBERATE_STATE_RELATION_INCREASE = 75,
+	LIBERATE_STATE_RELATION_INCREASE = 50,
 	DISHONORED_CALLALLY_PRESTIGE_PENALTY = -3,
-	BASE_TRUCE_MONTHS = 60,
+	BASE_TRUCE_MONTHS = 0,
 	MAX_INFLUENCE = 100,
-	WARSUBSIDIES_PERCENT = 0.75, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
+	WARSUBSIDIES_PERCENT = 1.0, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.50, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.2, -- Bonus to countries in your sphere neighbouring when influencing
 	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.50, -- Bonus to neighbouring countries when influencing
-	PUPPET_BONUS_INFLUENCE_PERCENT = 10.0, -- bonus if they are our puppet
+	PUPPET_BONUS_INFLUENCE_PERCENT = 1.0, -- bonus if they are our puppet
 	
 	-- effects of manually releasing a nation
-	RELEASE_NATION_PRESTIGE = -1,
-	RELEASE_NATION_INFAMY = -7.5,
+	RELEASE_NATION_PRESTIGE = 0,
+	RELEASE_NATION_INFAMY = -2,
 	
 	INFAMY_CLEAR_UNION_SPHERE = 0, -- Infamy for asserting hegemony
 	
@@ -547,10 +547,10 @@ diplomacy = {
 	GOODRELATION_INFAMY_GUNBOAT = 0,
 	GOODRELATION_PRESTIGE_GUNBOAT = 0,
 	GOODRELATION_MILITANCY_GUNBOAT = 0,
-	CB_GENERATION_BASE_SPEED = 0.6,
+	CB_GENERATION_BASE_SPEED = 0.5,
 	CB_GENERATION_SPEED_BONUS_ON_COLONY_COMPETITION = 1.0, -- speed bonus when 2 countries compete for colony province
 	CB_GENERATION_SPEED_BONUS_ON_COLONY_COMPETITION_TROOPS_PRESENCE = 1.0, -- even bigger bonus when having
-	MAKE_CB_RELATION_LIMIT = 130,
+	MAKE_CB_RELATION_LIMIT = 100,
 	CB_DETECTION_CHANCE_BASE = 15, -- chance out of 1000 every day
 	INVESTMENT_INFLUENCE_DEFENSE = 0.5,	-- maximum defense factor in sphere of having invested in a country
 	RELATION_INFLUENCE_MODIFIER = 1000, -- divisor for relation
@@ -611,7 +611,7 @@ diplomacy = {
 	TWS_BATTLE_MIN_COUNT = 5, -- At least X battles before the aspect of wins will count
 	TWS_BATTLE_MAX_ASPECT = 8.0, -- Max allowed battle wins aspect for TWS
 	LARGE_POPULATION_INFLUENCE_PENALTY = -0.4,
-	LONE_BACKER_PRESTIGE_FACTOR = 0.15 -- prestige boost for being only defender backer in crisis
+	LONE_BACKER_PRESTIGE_FACTOR = 0.05 -- prestige boost for being only defender backer in crisis
 },  
 
 
@@ -630,11 +630,11 @@ pops = {
 	PROMOTION_SCALE = 0.002,
 	PROMOTION_ASSIMILATION_CHANCE = 1.0,
 	LUXURY_THRESHOLD = 500,
-	BASE_GOODS_DEMAND = 0.8,
+	BASE_GOODS_DEMAND = 0.80,
 	BASE_POPGROWTH = 0.0001,
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
 	LIFE_RATING_GROWTH_BONUS = 0.0001,
-	LIFE_NEED_STARVATION_LIMIT = 0.5,
+	LIFE_NEED_STARVATION_LIMIT = 0.80,
 
 	MIL_LACK_EVERYDAY_NEED = 0.1,
 	MIL_HAS_EVERYDAY_NEED = -0.1,
@@ -658,7 +658,7 @@ pops = {
 
 	PDEF_BASE_CON = 20.0,			-- so half'ed effect.
 	
-	NATIONAL_FOCUS_DIVIDER = 300000.0,
+	NATIONAL_FOCUS_DIVIDER = 400000.0,
 	
 	POP_SAVINGS = 0.018,
 	
@@ -667,12 +667,12 @@ pops = {
 	MIL_TO_JOIN_RISING = 8, -- Rebels over this will join a general rising
 	MIL_TO_AUTORISE = 9, -- Rebels over this rise no matter what
 	REDUCTION_AFTER_RISEING = 0.0, -- After a pop spawns a rebellion, its militancy will be reduced this much
-	REDUCTION_AFTER_DEFEAT = 3.0, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
+	REDUCTION_AFTER_DEFEAT = 6.5, -- After a rebellion is being defeated in combat, its pop militancy will be divided by this number.
 																-- (if value < 1.0, the MIL will be increased) (Beware! value must be > 0)
 	
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 1, -- Minimum efficieny of an artisan
-	SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = 1, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxuary goods
@@ -694,15 +694,15 @@ pops = {
 
 ai =
 {
-	COLONY_WEIGHT = 15.0, -- ai weight for colonising
-	ADMINISTRATOR_WEIGHT = 10.0, -- ai weight for new bureaucrat
+	COLONY_WEIGHT = 5.0, -- ai weight for colonising
+	ADMINISTRATOR_WEIGHT = 25.0, -- ai weight for new bureaucrat
 	INDUSTRYWORKER_WEIGHT = 10.0, -- ai weight for new industry workers
-	EDUCATOR_WEIGHT = 10.0, -- ai weigth for new clergy
-	SOLDIER_WEIGHT = 30.0, -- ai weight for soldiers
-	SOLDIER_FRACTION = 0.03, -- max amount of population AI wants to be soldiers
-	CAPITALIST_FRACTION = 0.001, -- max amount of population AI wants to be capis
+	EDUCATOR_WEIGHT = 25.0, -- ai weigth for new clergy
+	SOLDIER_WEIGHT = 35.0, -- ai weight for soldiers
+	SOLDIER_FRACTION = 0.045, -- max amount of population AI wants to be soldiers
+	CAPITALIST_FRACTION = 0, -- max amount of population AI wants to be capis
 	PRODUCTION_WEIGHT = 0.05, -- ai weight for new production
-	SPAM_PENALTY = 20, -- makes certain diplomatic action less common 
+	SPAM_PENALTY = 10, -- makes certain diplomatic action less common 
 	ONE_SIDE_MAX_WARSCORE = 150, -- don't add too many wargoals to one side in a war
 	POP_PROJECT_INVESTMENT_MAX_BUDGET_FACTOR = 0.25, -- how much % of our current budget can be spend on the pop project investments.
 	RELATION_LIMIT_NO_ALLIANCE_OFFER = 0, -- if relation lower then this value, AI will not ally
@@ -727,12 +727,12 @@ ai =
 	PEACE_ALLY_WAR_EXHAUSTION_MULT = 1.0, -- Multiplies PEACE_WAR_EXHAUSTION_FACTOR for allies in a war
 	PEACE_ALLY_WAR_DIRECTION_MULT = 0, -- Multiplies PEACE_WAR_DIRECTION_FACTOR for allies in a war
 	PEACE_ALLY_FORCE_BALANCE_MULT = 0, -- Multiplies PEACE_FORCE_BALANCE_FACTOR for allies in a war
-	AGGRESSION_BASE = 7.5, -- general AI aggression
-	AGGRESSION_UNCIV_BONUS = 7.5, -- additional AI civ aggression against uncivs
-	FLEET_SIZE = 30, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
+	AGGRESSION_BASE = 5, -- general AI aggression
+	AGGRESSION_UNCIV_BONUS = 10, -- additional AI civ aggression against uncivs
+	FLEET_SIZE = 50, -- AI will attempt to keep fleets of roughly this size (fewer fleets generally results in more competent naval AI)
 	MIN_FLEETS = 1, -- Minimum amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
 	MAX_FLEETS = 10, -- Maximal amount of main fleets the AI will divide its navy into (does not include specialized fleets such as blockades and naval invasions)
-	MONTHS_BEFORE_DISBAND = 6, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
+	MONTHS_BEFORE_DISBAND = 8, -- Months from start date before AI will disband armies/navies (to avoid disbands because of early economic turmoil)
 },
 
 graphics =
@@ -747,7 +747,7 @@ graphics =
 	CITIES_MESH_TYPES_COUNT = 3,
 	CITIES_MESH_SIZES_COUNT = 3,
 	CITIES_SPECIAL_BUILDINGS_POOL_SIZE = 64,
-	CITIES_SIZE_MAX_POPULATION_K = 10000 			-- When province population reach 1mln, the city will get it's maximum size.
+	CITIES_SIZE_MAX_POPULATION_K = 1000 			-- When province population reach 1mln, the city will get it's maximum size.
 }
 
 }

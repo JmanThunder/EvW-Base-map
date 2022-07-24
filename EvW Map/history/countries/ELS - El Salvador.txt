@@ -5,6 +5,7 @@ government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.17
+non_state_culture_literacy = 0.05
 civilized = yes
 
 # Political reforms
@@ -40,6 +41,7 @@ upper_house = {
 1861.1.1 = {
 	oob = "/1861/ELS_oob.txt"
 	plurality = 50
+	set_country_flag = existing_country
 }
 1861.1.1 = {
 # Technologies
@@ -81,5 +83,4 @@ upper_house = {
 	medicine = 1
 
 #Inventions
-
 }

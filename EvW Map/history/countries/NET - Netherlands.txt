@@ -4,7 +4,7 @@ culture = flemish
 religion = protestant
 government = absolute_monarchy
 plurality = 30
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.60
 civilized = yes
 prestige = 10
@@ -38,6 +38,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
+decision = literacy_NET
 
 # Technologies
 post_napoleonic_thought = 1
@@ -74,15 +77,12 @@ nonstate_consciousness = 1
 
 oob = "NET_oob.txt"
 
-1839.1.1 = {
-	decision = sign_treaty_of_london
-}
-
 1861.1.1 = {
 	oob = "/1861/NET_oob.txt"
+	set_country_flag = signed_treaty_of_london
 }
 1861.1.1 = {
-government = hms_government
+government = prussian_constitutionalism
 ruling_party = HOL_liberal
 plurality = 60
 literacy = 0.82
@@ -173,5 +173,4 @@ school_reforms = acceptable_schools
 	medicine = 1
 
 #Inventions
-
 }

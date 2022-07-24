@@ -4,9 +4,9 @@ culture = yue
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.03
-non_state_culture_literacy = 0.03
+non_state_culture_literacy = 0.01
 
 ruling_party = ATJ_conservative
 upper_house = {
@@ -23,8 +23,12 @@ upper_house = {
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "ATJ_oob.txt"
+set_country_flag = existing_country
 
+oob = "ATJ_oob.txt"
+1861.1.1 = {
+	oob = "/1861/ATJ_oob.txt"
+}
 
 slavery = no_slavery
 upper_house_composition = appointed
@@ -42,15 +46,3 @@ health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
-
-1861.1.1 = {
-	oob = "/1861/ATJ_oob.txt"
-	literacy = 0.06
-	non_state_culture_literacy = 0.06
-
-	#Military Reforms
-	foreign_weapons = yes_foreign_weapons
-	
-	#Technologies
-	flintlock_rifles = 1
-}

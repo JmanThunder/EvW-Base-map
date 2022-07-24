@@ -4,11 +4,10 @@ culture = dixie
 culture = texan
 religion = protestant
 government = democracy
-plurality = 25.0
+plurality = 30.0
 nationalvalue = nv_liberty
 literacy = 0.50
 civilized = yes
-
 
 #GreaterPowers = prestige
 prestige = 30
@@ -33,6 +32,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = USA_conservative
+set_country_flag = tory_election_win
 last_election = 1828.12.3
 upper_house = {
 	fascist = 0
@@ -43,6 +43,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -98,7 +100,7 @@ decision = trail_of_tears
 }
 
 1845.1.1 = {
-decision = manifest_destiny
+set_country_flag = hasmanifestdestiny
 }
 
 1850.6.3 = {
@@ -124,12 +126,17 @@ decision = corwin_amendment
 1861.1.1 = {
 	oob = "/1861/USA_oob.txt"
 	set_global_flag = american_civil_war_has_happened
+	set_country_flag = treaty_of_guadalupe_hidalgo
+	set_country_flag = oregon_treaty
+	clr_country_flag = the_slavery_debate
 
-ruling_party = USA_liberal
-plurality = 60
-prestige = 40
-literacy = 0.75
-non_state_culture_literacy = 0.15
+	ruling_party = USA_liberal
+	clr_country_flag = tory_election_win
+	set_country_flag = liberal_election_win
+	plurality = 60
+	prestige = 40
+	literacy = 0.75
+	non_state_culture_literacy = 0.15
 
 # Political reforms
 slavery = yes_slavery
@@ -220,7 +227,5 @@ school_reforms = low_schools
 	medicine = 1
 	inorganic_chemistry = 1
 
-
 #Inventions
-
 }

@@ -28,8 +28,8 @@ everyday_needs_income = {
 
 luxury_needs_income =
 {
-	type = reforms
-	weight = 1
+	type = military
+	weight = 1.5
 }
 
 
@@ -78,16 +78,22 @@ country_migration_target =
 		is_greater_power = yes
 	}
 	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
+		factor = 1.1
+		government = democracy
 	}
 	modifier = {
-		factor = 1.25
-		vote_franschise = universal_weighted_voting
+		factor = 0.75
+		government = prussian_constitutionalism
 	}
 	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
+		factor = 0.4
+		OR = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
 	}
 	modifier = {
 		factor = 4.0
@@ -95,28 +101,6 @@ country_migration_target =
 			continent = north_america
 			continent = south_america
 			continent = oceania
-		}
-	}
-	modifier = {
-		factor = 0.1
-		NOT = {
-			any_owned_province = {
-				life_rating = 30
-				OR = {
-					AND = {
-						has_pop_type = labourers
-						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
-					}
-					AND = {
-						has_pop_type = farmers
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-					AND = {
-						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-				}
-			}
 		}
 	}	
 }
@@ -2187,7 +2171,7 @@ issues =
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { literacy = 50 }
+			NOT = { literacy = 0.5 }
 		}
 		modifier = {
 			factor = 1.25
@@ -2232,7 +2216,7 @@ issues =
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { literacy = 50 }
+			NOT = { literacy = 0.5 }
 		}
 		modifier = {
 			factor = 1.25

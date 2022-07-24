@@ -907,7 +907,7 @@ guiTypes = {
 
 		iconType = {
 			name ="topbar_navy"
-			spriteType = "GFX_topbar_navy"
+			spriteType = "GFX_topbar_navy_2"
 			position = { x= 895 y = 46 }
 			Orientation = "UPPER_LEFT"
 			#allwaystransparent = yes
@@ -916,7 +916,7 @@ guiTypes = {
 			position = { x = 924 y = 55 }
 			name = "military_navy_value"
 			font = "Arial12"
-			borderSize = { x = 0 y = 0 }
+			borderSize = { x = 0 y = -1000 }
 			text = "value"	
 			maxWidth = 80
 			maxHeight = 20

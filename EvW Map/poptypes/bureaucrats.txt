@@ -107,20 +107,26 @@ country_migration_target =
 		is_greater_power = yes
 	}
 	modifier = {
+		factor = 1.1
+		government = democracy
+	}
+	modifier = {
+		factor = 0.75
+		government = prussian_constitutionalism
+	}
+	modifier = {
+		factor = 0.4
+		OR = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+			government = absolute_monarchy
+		}
+	}
+	modifier = {
 		factor = 2.0
 		has_pop_culture = THIS
-	}
-	modifier = {
-		factor = 1.05
-		vote_franschise = wealth_voting
-	}
-	modifier = {
-		factor = 1.25
-		vote_franschise = universal_weighted_voting
-	}
-	modifier = {
-		factor = 1.5
-		vote_franschise = universal_voting
 	}
 	modifier = {
 		factor = 4.0
@@ -128,28 +134,6 @@ country_migration_target =
 			continent = north_america
 			continent = south_america
 			continent = oceania
-		}
-	}
-	modifier = {
-		factor = 0.1
-		NOT = {
-			any_owned_province = {
-				life_rating = 30
-				OR = {
-					AND = {
-						has_pop_type = labourers
-						NOT = { unemployment_by_type = { value = 0.1 type = labourers } }
-					}
-					AND = {
-						has_pop_type = farmers
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-					AND = {
-						state_scope = { has_factories = yes }
-						NOT = { unemployment_by_type = { value = 0.1 type = farmers } }
-					}
-				}
-			}
 		}
 	}	
 }
@@ -279,6 +263,20 @@ promote_to =
 			}
 			NOT = { total_pops = 200000 }
 		}	
+		modifier = {
+			factor = 100
+			state_scope = {
+				has_factories = yes
+				NOT = { has_pop_type = capitalists }
+			}
+		}
+		modifier = {
+			factor = 5
+			state_scope = {
+				has_factories = yes
+				NOT = { capitalists = 0.001 }
+			}
+		}
 		modifier = {
 			factor = -1 
 			is_accepted_culture = no
@@ -555,6 +553,18 @@ promote_to =
 	clergymen =
 	{
 		factor = 0.01
+		
+		modifier = {
+			factor = -100
+			location = {
+			is_colonial = yes
+			}
+			country = {
+			has_country_flag = no_colonial_clergy
+			}
+				
+		}
+		
 		group = {
 			modifier = {
 				factor = 0.5
@@ -2664,7 +2674,7 @@ issues =
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { literacy = 50 }
+			NOT = { literacy = 0.5 }
 		}
 		modifier = {
 			factor = 1.25
@@ -2709,7 +2719,7 @@ issues =
 		}
 		modifier = {
 			factor = 0.25
-			NOT = { literacy = 50 }
+			NOT = { literacy = 0.5 }
 		}
 		modifier = {
 			factor = 1.25

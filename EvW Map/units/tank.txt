@@ -4,7 +4,7 @@ tank = {
 	type = land
 	sprite = Tank
 	active = no
-	unit_type = special
+	unit_type = cavalry
 	floating_flag = yes
 	
 	#Core Abilities
@@ -26,20 +26,20 @@ tank = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		barrels = 0.15
-		artillery = 0.1
-		canned_food = 0.1 #0.04
-		fuel = 0.2
+		barrels = 0.3
+		artillery = 0.15
+		canned_food = 0.15 #0.04
+		fuel = 0.01
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 0
-	attack = 16
-	defence = 6
-	discipline = 1
+	attack = 18
+	defence = 18
+	discipline = 1.5
 	support = 0.0
-	maneuver = 1
+	maneuver = 3
 	siege = 1
 	
 }

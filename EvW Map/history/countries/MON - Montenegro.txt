@@ -3,7 +3,7 @@ primary_culture = serb
 religion = orthodox
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_equality
 literacy = 0.1
 civilized = yes
 prestige = 1
@@ -38,6 +38,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -110,5 +112,4 @@ oob = "MON_oob.txt"
 	medicine = 1
 
 #Inventions
-
 }

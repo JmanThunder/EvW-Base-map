@@ -1,21 +1,17 @@
-capital = 354
-primary_culture = mashriqi
-culture = bedouin
-culture = misri
-culture = maghrebi
+capital = 1157
+primary_culture = bedouin
+culture = mashriqi
 religion = sunni
 government = absolute_monarchy
-plurality = 0.2
-nationalvalue = nv_order
-literacy = 0.6
-civilized = yes
-
+plurality = 0.1
+nationalvalue = nv_tradition
+literacy = 0.4
 
 # Political reforms
-slavery = no_slavery
+slavery = yes_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = yes_meeting
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -27,18 +23,16 @@ work_hours = no_work_hour_limit
 safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
-pensions = no_pensions 
+pensions = no_pensions
 school_reforms = no_schools
 
-ruling_party = ARA_conservative
+ruling_party = ABU_conservative
 upper_house = {
 	fascist = 0
-	liberal = 25
-	conservative = 60
-	reactionary = 10
-	anarcho_liberal = 5
+	liberal = 10
+	conservative = 75
+	reactionary = 15
+	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
 }
-
-

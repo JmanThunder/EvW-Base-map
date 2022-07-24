@@ -3,7 +3,7 @@ primary_culture = swiss
 religion = protestant
 government = democracy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_equality
 literacy = 0.7
 civilized = yes
 prestige = 5
@@ -28,6 +28,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = SWI_conservative
+set_country_flag = tory_election_win
 last_election = 1835.1.1
 upper_house = {
 	fascist = 0
@@ -38,6 +39,9 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
+decision = declare_neutrality
 
 #Technologies
 post_napoleonic_thought = 1
@@ -83,14 +87,15 @@ oob = "SWI_oob.txt"
 1848.3.1 = {
 	decision = declare_republic_of_neuchatel
 }
-
 1861.1.1 = {
 	oob = "/1861/SWI_oob.txt"
 	plurality = 60
 	literacy = 0.90
 }
 1861.1.1 = {
-	ruling_party = SWI_liberal
+ruling_party = SWI_liberal
+clr_country_flag = tory_election_win
+set_country_flag = liberal_election_win
 
 # Technologies
 	post_napoleonic_thought = 1
@@ -160,61 +165,4 @@ oob = "SWI_oob.txt"
 	inorganic_chemistry = 1
 
 #Inventions
-	authoritarianism = yes
-	hierarchical_order = yes
-	traditionalism = yes
-	political_religion = yes
-	paternalism = yes
-	john_ramsay_mcculloch = yes
-	nassau_william_sr = yes
-	james_mill = yes
-	ammunition_production = yes
-	small_arms_production = yes
-	explosives_production = yes
-	artillery_production = yes
-	building_station_shipyards = yes
-	work_specialization = yes
-	work_control_and_hierarchy = yes
-	clinical_thermometers_and_binaural_stethoscopes = yes
-	aerial_bacteria_and_antiseptic_principle = yes
-	combat_medicine = yes
-	mechanical_precision_saw = yes
-	pressure_chambers_for_thorax_surgery = yes
-	hussey_n_mccormicks_reaping_machine = yes
-	genetics:_heredity = yes
-	sharp_n_roberts_power_loom = yes
-	mechanical_saw = yes
-	northrop_power_loom = yes
-	prophylaxis_against_malaria = yes
-	mechanized_slaughtering_block = yes
-	jacquard_power_loom = yes
-	precision_work = yes
-	machine_tools = yes
-	whitney_n_colts_standardized_small_arms = yes
-	jiggs = yes
-	pitts_threshing_machine = yes
-	integral_distillery_process = yes
-	pit_coal = yes
-	vaccination = yes
-	work_classification = yes
-	coke = yes
-	proto_existentialism = yes
-	night_training = yes
-	chemotherapy = yes
-	target_hit_profile_analysis = yes
-	enemy_plotting_cards = yes
-	hegelian_idealism = yes
-	field_fortifications = yes
-	railroad_transport_groups = yes
-	signal_detachments = yes
-	combat_station_training = yes
-	food_packing_system = yes
-	mobilization_time_tables = yes
-	personnel_category_tables = yes
-	telegraph_coordination = yes
-	bessemer_steel = yes
-	societal_status = yes
-	academic_training = yes
-	advanced_ore_roasting_processes = yes
-	artificial_fertilizers = yes
 }

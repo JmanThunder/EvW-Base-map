@@ -434,7 +434,10 @@ commerce_raiders = {
 }
 #iron_steamers
 ironclads = {
-	limit = { iron_steamers = 1 }
+	limit = {
+		iron_steamers = 1
+		has_country_flag = existing_country
+	}
 	chance = {
 		base = 5
 		modifier = {
@@ -451,7 +454,10 @@ ironclads = {
 	}
 }
 monitors = {
-	limit = { iron_steamers = 1 }
+	limit = {
+		iron_steamers = 1
+		has_country_flag = existing_country
+	}
 	chance = {
 		base = 5
 		modifier = {
@@ -489,7 +495,10 @@ torpedo_boats = {
 }
 #steel_steamers
 protected_cruisers = {
-	limit = { steel_steamers = 1 }
+	limit = {
+		steel_steamers = 1
+		has_country_flag = existing_country
+	}
 	chance = {
 		base = 3
 		modifier = {
@@ -530,7 +539,10 @@ protected_cruisers = {
 #	}
 #}
 pre_dreadnought = {
-	limit = { steel_steamers = 1 }
+	limit = {
+		steel_steamers = 1
+		has_country_flag = existing_country
+	}
 	chance = {
 		base = 5
 		modifier = {
@@ -557,7 +569,10 @@ pre_dreadnought = {
 }
 #steam_turbine_ships
 dreadnoughts = {
-	limit = { steam_turbine_ships = 1 }
+	limit = {
+		steam_turbine_ships = 1
+		has_country_flag = existing_country
+	}
 	chance = {
 		base = 5
 		modifier = {

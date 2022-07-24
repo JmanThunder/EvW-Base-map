@@ -3,7 +3,7 @@ primary_culture = south_andean
 religion = catholic
 government = democracy
 plurality = 25.0
-nationalvalue = nv_liberty
+nationalvalue = nv_order
 literacy = 0.12
 non_state_culture_literacy = 0.02
 civilized = yes
@@ -29,6 +29,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 ruling_party = CHL_conservative
+set_country_flag = tory_election_win
 last_election = 1831.1.1
 upper_house = {
 	fascist = 0
@@ -39,6 +40,8 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+set_country_flag = existing_country
 
 # Technologies
 post_napoleonic_thought = 1
@@ -71,7 +74,8 @@ oob = "CHL_oob.txt"
 }
 1861.1.1 = {
 
-ruling_party = CHL_conservative_3
+	ruling_party = CHL_conservative_3
+	set_country_flag = occupation_of_araucania
 
 # Technologies
 	post_napoleonic_thought = 1
@@ -122,5 +126,4 @@ ruling_party = CHL_conservative_3
 	medicine = 1
 
 #Inventions
-
 }

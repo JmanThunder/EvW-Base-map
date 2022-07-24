@@ -1,109 +1,54 @@
-leader = {
-	name = "David Chassé"
-	date = 1806.1.1
-	type = land
-	personality = timid
-	background = school_of_defense
-	prestige = 0.3
+BEL = {
+	truce_until = 1839.4.1
 }
-
-leader = {
-	name = "Frans Cochius"
-	date = 1830.1.1
-	type = land
-	personality = aggressive
-	background = colonial_b
-	prestige = 0.1
+ENG = {
+	value = 125
 }
-
-#leader = {
-#	name = "Andreas Michiels"
-#	date = 1836.1.1
-#	type = land
-#	personality = soldierly
-#	background = school_of_firepower
-#	prestige = 0.0
-#}
-
-leader = {
-	name = "Hendrik de Kock"
-	date = 1807.1.1
-	type = land
-	personality = stout
-	background = colonial_b
-	prestige = 0.3
+MOR = {
+ 
+	value = 75
 }
-
-leader = {
-	name = "van den Bosch"
-	date = 1827.1.1
-	type = land
-	personality = openminded
-	background = powerful_friends
-	prestige = 0.1
+SAK = {
+	value = -100
 }
-
-leader = {
-	name = "Dominique de Eerens"
-	date = 1815.1.1
-	type = land
-	personality = soldierly
-	background = exranker
-	prestige = 0.2
+ASH = {
+	value = 75
 }
-
-leader = {
-	name = "Frederik List"
-	date = 1830.1.1
-	type = land
-	personality = arrogant
-	background = old_school
-	prestige = 0.1
+BEN = {
+	value = 40
 }
-
-leader = {
-	name = "Engelbertus Lucas"
-	date = 1830.1.1
-	type = sea
-	personality = indifferent
-	background = politician
-	prestige = 0.1
+DAH = {
+	value = 60
 }
-
-leader = {
-	name = "Charles Nepveu"
-	date = 1831.1.1
-	type = land
-	personality = bigoted
-	background = powerful_friends
-	prestige = 0.0
+OYO = {
+	value = 50
 }
-
-leader = {
-	name = "Karel Bernhard van Saksen-Weimar"
-	date = 1815.1.1
-	type = land
-	personality = smart_p
-	background = uncommonly_young
-	prestige = 0.2
+ARO = {
+	value = 40
 }
-
-leader = {
-	name = "Hendrik Duycker"
-	date = 1827.1.1
-	type = land
-	personality = mediocre
-	background = old_school
-	prestige = 0.1
+CLA = {
+	value = 60
 }
-
-leader = {
-	name = "Julius Rijk"
-	date = 1836.1.1
-	type = sea
-	personality = able
-	background = exranker
-	prestige = 0.0
+WRI = {
+	value = 50
+}
+KON = {
+	value = 40
+}
+LOA = {
+	value = 30
+}
+GBU = {
+	value = 40
+}
+TOO = {
+	value = 40
+}
+WOL = {
+	value = 40
+}
+SUL = {
+	value = 100
 }
 
 army = {

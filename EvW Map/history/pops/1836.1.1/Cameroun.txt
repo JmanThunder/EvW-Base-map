@@ -472,133 +472,133 @@
 		size = 4000
 	}
 }
-#uncolonized/under the rule of Borno 1836
-#Maroua (108000/27000 POPS) #now part of Cameroun
+#under rule of Kanem-Borno in 1836
+#Maroua (433600/108400 POPS) #now part of Cameroun
 1964 = {
 	aristocrats = {
 		culture = fulbe
 		religion = sunni
-		size = 175
+		size = 700
 	}
 
 	clergymen = {
 		culture = fulbe
 		religion = sunni
-		size = 200
+		size = 800
 	}
 
 	artisans = {
 		culture = fulbe
 		religion = sunni
-		size = 175
+		size = 700
 	}
 
 	soldiers = {
 		culture = fulbe
 		religion = sunni
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = fulbe
 		religion = sunni
-		size = 5350
+		size = 21400
 	}
 
 	aristocrats = {
-		culture = kanuri
-		religion = sunni
-		size = 50
-	}
-
-	clergymen = {
-		culture = kanuri
-		religion = sunni
-		size = 50
-	}
-
-	artisans = {
 		culture = kanuri
 		religion = sunni
 		size = 200
 	}
 
+	clergymen = {
+		culture = kanuri
+		religion = sunni
+		size = 200
+	}
+
+	artisans = {
+		culture = kanuri
+		religion = sunni
+		size = 800
+	}
+
 	soldiers = {
 		culture = kanuri
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = kanuri
 		religion = sunni
-		size = 3650
+		size = 14600
 	}
 
 	aristocrats = {
 		culture = bedouin
 		religion = sunni
-		size = 75
+		size = 300
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = sunni
-		size = 250
+		size = 1100
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 50
+		size = 200
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 4575
+		size = 18300
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = animist
-		size = 175
+		size = 700
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = animist
-		size = 100
+		size = 400
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = animist
-		size = 450
+		size = 1800
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = animist
-		size = 100
+		size = 400
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = animist
-		size = 8275
+		size = 33100
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 3000
+		size = 12000
 	}
 
 }

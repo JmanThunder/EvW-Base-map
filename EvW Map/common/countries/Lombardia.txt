@@ -1,5 +1,5 @@
-color = { 146  108  146 }
-graphical_culture = Generic
+color = { 0 156 45 }
+graphical_culture = ItalianGC
 party = {
 	name = "LOM_reactionary"
 	start_date = 1830.1.1

@@ -449,7 +449,7 @@ machine_guns = {
 	cost = 14400
 	unciv_military = yes
 	
-	combat_width = -5
+	combat_width = -4
 	#colonial_life_rating = -10 
 	ai_chance = {
 		factor = 6
@@ -496,7 +496,7 @@ bolt_action_rifles = {
 	unciv_military = yes
 	unit = 1
 	
-	combat_width = -5
+	combat_width = -4
 	
 	ai_chance = {
 		factor = 1.1
@@ -538,7 +538,6 @@ modern_divisional_structure = {
 	unciv_military = yes
 
 	unit = 2
-	combat_width = -5
 	
 		ai_chance = {
 		factor = 1.1
@@ -622,7 +621,7 @@ iron_muzzle_loaded_artillery = {
 	cost = 7200
 	unciv_military = yes
 	artillery = {
-		attack = 0.25
+		attack = 0.5
 		support = 0.5
 		supply_consumption = 0.15
 	}
@@ -666,7 +665,7 @@ iron_breech_loaded_artillery = {
 	cost = 10800
 	unciv_military = yes
 	artillery = {
-		attack = 0.25
+		attack = 1
 		support = 0.5
 		supply_consumption = 0.3
 	}
@@ -709,7 +708,7 @@ steel_breech_loaded_artillery = {
 	cost = 14400
 	unciv_military = yes
 	artillery = {
-		attack = 0.5
+		attack = 1
 		support = 0.5
 		supply_consumption = 0.3
 	}
@@ -753,9 +752,9 @@ indirect_artillery_fire = {
 	cost = 18000
 	unciv_military = yes
 	artillery = {
-		attack = 0.5
-		defence = 2
-		support = 1
+		attack = 1
+		defence = 1.5
+		support = 0.5
 		supply_consumption = 0.3
 	}
 	
@@ -797,10 +796,11 @@ heavy_armament_dunno = {
 	year = 1919
 	cost = 21600
 	unciv_military = yes
+	
 	artillery = {
-		attack = 0.5
-		defence = 2
-		support = 1
+		attack = 1.7
+		defence = 0.8
+		support = 0.5
 		supply_consumption = 0.3
 	}
 	
@@ -871,6 +871,10 @@ military_staff_system = {
 			war = yes
 		}
 		modifier = {
+			factor = 99999
+			year = 1893
+		}
+		modifier = {
 			factor = 1.02
 			tech_school = army_tech_school
 		}
@@ -919,6 +923,10 @@ military_plans = {
 			war = yes
 		}
 		modifier = {
+			factor = 99999
+			year = 1893
+		}
+		modifier = {
 			factor = 1.5
 			is_greater_power = yes
 			any_neighbor_country = {
@@ -961,6 +969,10 @@ military_statistics = {
 		modifier = {
 			factor = 1.05
 			war = yes
+		}
+		modifier = {
+			factor = 99999
+			year = 1894
 		}
 		modifier = {
 			factor = 1.5
@@ -1008,6 +1020,10 @@ military_logistics = {
 			war = yes
 		}
 		modifier = {
+			factor = 99999
+			year = 1895
+		}
+		modifier = {
 			factor = 1.5
 			is_greater_power = yes
 			any_neighbor_country = {
@@ -1036,6 +1052,10 @@ military_directionism = {
 		modifier = {
 			factor = 1.5
 			war = yes
+		}
+		modifier = {
+			factor = 99999
+			year = 1900
 		}
 		modifier = {
 			factor = 1.02

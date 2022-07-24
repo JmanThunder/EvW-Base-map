@@ -1,20 +1,21 @@
-leader = {
-	name = "Zubayr Pasha"
-	date = 1855.1.1
-	type = land
-	personality = charismatic
-	background = immoral
-	prestige = 0.1
+DAR = {
+	value = 80
 }
 
-navy = {
-	name = "Egyptian Navy"
-	location = 1751
-	ship = {
-		name= "Al Qahira"
-		type = frigate
-	}
+WAD = {
+	value = 70
+}
 
+ETH = {
+	value = 75
+}
+
+GEL = {
+	value = 60
+}
+
+MAJ = {
+	value = 60
 }
 
 army = {

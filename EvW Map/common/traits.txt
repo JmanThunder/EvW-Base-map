@@ -419,7 +419,7 @@ background = {
 	cavalry_school = {
 		attack = 2
 	}
-	engineer = {
+	engineer_trait = {
 		speed = 0.05
 	}
 	armchair_general = {
@@ -457,7 +457,7 @@ background = {
 	debutante = {
 		reliability = -0.02
 	}
-	colonial_b = {
+	colonialguh = {
 		defence = -2
 		organisation = -0.05
 		speed = 0.20

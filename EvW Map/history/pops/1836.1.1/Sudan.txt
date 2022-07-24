@@ -415,6 +415,18 @@
 #Fashoda (132000/33000 POPS)  
 1832 = {
 	aristocrats = {
+		culture = sudanese
+		religion = sunni
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = sudanese
+		religion = sunni
+		size = 25
+	}	
+	
+	aristocrats = {
 		culture = nuer
 		religion = animist
 		size = 275
@@ -1091,6 +1103,18 @@
 #Nuhud (164000/41000 POPS)
 1839 = {
 	aristocrats = {
+		culture = sudanese
+		religion = sunni
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = sudanese
+		religion = sunni
+		size = 25
+	}	
+
+	aristocrats = {
 		culture = dinka
 		religion = animist
 		size = 475
@@ -1128,6 +1152,18 @@
 }
 #Kaduqli (180000/45000 POPS)
 1840 = {
+	aristocrats = {
+		culture = sudanese
+		religion = sunni
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = sudanese
+		religion = sunni
+		size = 25
+	}
+	
 	aristocrats = {
 		culture = nuba
 		religion = animist
@@ -1196,122 +1232,122 @@
 }
 #Darfur Region (376000)
 #uncolonized/Ruled by Sultans of Darfur in 1836
-#Fasher (136000/34000 POPS)
+#Fasher (272000/68000 POPS)
 1841 = {
 	aristocrats = {
 		culture = fur
 		religion = sunni
-		size = 600
+		size = 1200
 	}
 
 	bureaucrats = {
 		culture = fur
 		religion = sunni
-		size = 50
+		size = 100
 	}
 
 	officers = {
 		culture = fur
 		religion = sunni
-		size = 100
+		size = 200
 	}
 
 	clergymen = {
 		culture = fur
 		religion = sunni
-		size = 325
+		size = 650
 	}
 
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 1300
+		size = 2600
 	}
 
 	soldiers = {
+		culture = fur
+		religion = sunni
+		size = 1250
+	}
+
+	farmers = {
+		culture = fur
+		religion = sunni
+		size = 58000
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = animist
+		size = 4000
+	}
+}
+#Junayah (200000/50000 POPS)
+1842 = {
+	aristocrats = {
+		culture = fur
+		religion = sunni
+		size = 650
+	}
+
+	clergymen = {
 		culture = fur
 		religion = sunni
 		size = 350
 	}
 
-	farmers = {
-		culture = fur
-		religion = sunni
-		size = 29275
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = animist
-		size = 2000
-	}
-}
-#Junayah (100000/25000 POPS)
-1842 = {
-	aristocrats = {
-		culture = fur
-		religion = sunni
-		size = 325
-	}
-
-	clergymen = {
-		culture = fur
-		religion = sunni
-		size = 175
-	}
-
 	artisans = {
 		culture = fur
 		religion = sunni
-		size = 750
+		size = 1500
 	}
 
 	soldiers = {
 		culture = fur
 		religion = sunni
-		size = 250
+		size = 1100
 	}
 
 	farmers = {
 		culture = fur
 		religion = sunni
-		size = 16300
+		size = 32000
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 5200
+		size = 10400
 	}
 
 	aristocrats = {
-		culture = bedouin
-		religion = sunni
-		size = 25
-	}
-
-	clergymen = {
 		culture = bedouin
 		religion = sunni
 		size = 50
 	}
 
-	artisans = {
+	clergymen = {
 		culture = bedouin
 		religion = sunni
 		size = 100
 	}
 
+	artisans = {
+		culture = bedouin
+		religion = sunni
+		size = 200
+	}
+
 	soldiers = {
 		culture = bedouin
 		religion = sunni
-		size = 25
+		size = 50
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 1800
+		size = 3600
 	}
 }
 #Waw (140000/35000 POPS)
@@ -1545,7 +1581,7 @@
 	slaves = {
 		culture = african_minor
 		religion = animist
-		size = 10000
+		size = 11000
 	}
 }
 #Yambio (140000/35000 POPS)

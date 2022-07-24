@@ -13,7 +13,6 @@
 		culture = central_american
 		religion = catholic
 		size = 50
-		militancy = 9
 	}
 
 	officers = {
@@ -34,13 +33,12 @@
 		culture = central_american
 		religion = catholic
 		size = 650
-		militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 125
+		size = 525
 		militancy = 9
 	}
 
@@ -48,7 +46,7 @@
 		culture = central_american
 		religion = catholic
 		size = 11725
-		militancy = 9
+		militancy = 5
 	}
 }
 #Liberia (20000/5000 POPS)
@@ -71,7 +69,6 @@
 		culture = central_american
 		religion = catholic
 		size = 250
-		militancy = 9
 	}
 
 	soldiers = {
@@ -85,7 +82,7 @@
 		culture = central_american
 		religion = catholic
 		size = 4500
-		militancy = 9
+		militancy = 5
 	}
 }
 #Limon (12000/3000 POPS)
@@ -108,7 +105,6 @@
 		culture = central_american
 		religion = catholic
 		size = 150
-		militancy = 9
 	}
 
 	soldiers = {
@@ -122,7 +118,7 @@
 		culture = central_american
 		religion = catholic
 		size = 2700
-		militancy = 9
+		militancy = 5
 	}
 
 }

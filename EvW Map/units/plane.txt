@@ -4,7 +4,7 @@ plane = {
 	type = land
 	sprite = Plane
 	active = no
-	unit_type = cavalry
+	unit_type = support
 	floating_flag = no
 	
 	#Core Abilities
@@ -27,18 +27,18 @@ plane = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		aeroplanes = 0.1
-		small_arms = 0.1
-		canned_food = 0.04
-		fuel = 0.2
+		aeroplanes = 0.19
+		small_arms = 0.12
+		canned_food = 0.07
+		fuel = 0.02
 	}
 	
 
 	#Land Abilties
 	reconnaissance = 4
-	attack = 1
-	defence = 10
+	attack = 2
+	defence = 2
 	discipline = 0.1
 	support = 2
-	maneuver = 2
+	maneuver = 3
 }
