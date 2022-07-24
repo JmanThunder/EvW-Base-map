@@ -1,0 +1,6 @@
+name = "EvW Map"
+path = "mod/EvW Map"
+user_dir = "EvW Map"
+replace_path = "history/provinces"
+replace_path = "events"
+replace_path = "decisions"

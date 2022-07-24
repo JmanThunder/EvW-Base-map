@@ -1,0 +1,57 @@
+political_decisions = {
+        form_east_africa_union = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = ETH
+			tag = MAJ
+			tag = ZAN
+			tag = RWN
+			tag = BUU
+			}
+			NOT = { has_global_flag = eau_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			EAU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = EAU
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = EAU
+		any_country = {
+			limit = {
+				OR = {
+					tag = ETH
+					tag = MAJ
+					tag = ZAN
+					tag = RWN
+					tag = BUU
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = eau_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

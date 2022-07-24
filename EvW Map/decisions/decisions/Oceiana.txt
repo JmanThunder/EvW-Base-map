@@ -1,0 +1,62 @@
+political_decisions = {
+        form_oceania = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = AST
+			tag = NZL
+			tag = ABO
+			tag = TUI
+			tag = MAO
+			tag = FIJ
+			tag = NAU
+			}
+			NOT = { has_global_flag = ocu_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			OCU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						empty = yes
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = OCU
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = OCU
+		any_country = {
+			limit = {
+				OR = {
+					tag = AST
+					tag = NZL
+					tag = ABO
+					tag = TUI
+					tag = NAU
+					tag = FIJ
+					tag = MAO
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = ocu_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

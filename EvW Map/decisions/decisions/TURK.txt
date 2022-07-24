@@ -1,0 +1,34 @@
+political_decisions = {
+	become_turkey = {
+		potential = {
+			tag = TUR
+			NOT = {
+				exists = TUK
+			}
+		} 
+
+		allow = {
+			TUK = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+			NOT = {
+				any_owned_province = {
+					NOT = {
+						is_core = TUK
+					}
+				}
+			}
+		}
+
+		effect = {
+			prestige = 30
+			change_tag = TUK
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}	
+

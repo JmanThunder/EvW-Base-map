@@ -1,0 +1,230 @@
+political_decisions = {
+        form_boerland = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = TRN
+			OR = { 
+				exists = ORA
+				exists = NAL
+			}
+			year = 1836
+			NOT = { exists = BOE }
+		}
+
+                allow = {
+			civilized = yes
+			AND = {
+				OR = {	
+					AND = { 
+						year = 1890
+						ORA = { ai = yes}
+					}
+					NOT = { exists = ORA }		
+					AND = {
+						tag = TRN
+						OR = { 
+							alliance_with = ORA
+							relation = { who = ORA value = 140 }
+						}
+						ORA = { ai = yes}
+						war = yes	
+					}	
+				}
+				OR = {
+					AND = { 
+						year = 1890
+						NAL = { ai = yes}
+					}
+					NOT = { exists = NAL }
+					AND = {
+						tag = TRN
+						OR = {
+							alliance_with = NAL
+							relation = { who = NAL value = 140 }
+						}
+						NAL = { ai = yes }
+						war = yes
+					}
+				}
+			}
+			NOT = {
+				exists = BOE
+			}			
+            }
+
+          effect = {
+		prestige = 2
+		change_tag = BOE
+		any_country = {
+			limit = {
+				OR = {
+					tag = NAL
+					tag = ORA
+					}
+				}
+			annex_to = THIS
+			}
+		set_global_flag = boe_formed_trans
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+        form_boerland2 = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = ORA
+			OR = { 
+				exists = TRN
+				exists = NAL
+			}
+			year = 1836
+			NOT = { exists = BOE }
+		}
+
+                allow = {
+			civilized = yes
+			AND = {
+				OR = {	
+					AND = { 
+						year = 1890
+						TRN = { ai = yes}
+					}
+					NOT = { exists = TRN }		
+					AND = {
+						tag = ORA
+						OR = { 
+							alliance_with = TRN
+							relation = { who = TRN value = 140 }
+						}
+						TRN = { ai = yes}
+						war = yes	
+					}	
+				}
+				OR = {
+					AND = { 
+						year = 1890
+						NAL = { ai = yes}
+					}
+					NOT = { exists = NAL }
+					AND = {
+						tag = ORA
+						OR = {
+							alliance_with = NAL
+							relation = { who = NAL value = 140 }
+						}
+						NAL = { ai = yes }
+						war = yes
+					}
+				}
+			}
+			NOT = {
+				exists = BOE
+			}			
+            }
+
+          effect = {
+		prestige = 2
+		change_tag = BOE
+		any_country = {
+			limit = {
+				OR = {
+					tag = NAL
+					tag = TRN
+					}
+				}
+			annex_to = THIS
+			}
+		set_global_flag = boe_formed_orange
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+        form_boerland3 = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = NAL
+			OR = { 
+				exists = ORA
+				exists = TRN
+			}
+			year = 1836
+			NOT = { exists = BOE }
+		}
+
+                allow = {
+			civilized = yes
+			AND = {
+				OR = {	
+					AND = { 
+						year = 1890
+						ORA = { ai = yes}
+					}
+					NOT = { exists = ORA }		
+					AND = {
+						tag = NAL
+						OR = { 
+							alliance_with = ORA
+							relation = { who = ORA value = 140 }
+						}
+						ORA = { ai = yes}
+						war = yes	
+					}	
+				}
+				OR = {
+					AND = { 
+						year = 1890
+						TRN = { ai = yes}
+					}
+					NOT = { exists = TRN }
+					AND = {
+						tag = NAL
+						OR = {
+							alliance_with = TRN
+							relation = { who = TRN value = 140 }
+						}
+						TRN = { ai = yes }
+						war = yes
+					}
+				}
+			}
+			NOT = {
+				exists = BOE
+			}			
+            }
+
+          effect = {
+		prestige = 2
+		change_tag = BOE
+		any_country = {
+			limit = {
+				OR = {
+					tag = TRN
+					tag = ORA
+					}
+				}
+			annex_to = THIS
+			}
+		set_global_flag = boe_formed_monds
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+}

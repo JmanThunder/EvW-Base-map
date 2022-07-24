@@ -1,0 +1,54 @@
+political_decisions = {
+        form_patagon2 = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = ARG
+			tag = CHL
+			}
+			NOT = { has_global_flag = lap_formed}
+			NOT = { has_global_flag = aap_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			AAP = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = AAP
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = AAP
+		any_country = {
+			limit = {
+				OR = {
+				tag = ARG
+				tag = CHL
+				tag = BOL
+				tag = PRG
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = aap_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

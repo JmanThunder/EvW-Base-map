@@ -1,0 +1,66 @@
+political_decisions = {
+        form_turkestan = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = KYG
+			tag = TUJ
+			tag = TUM
+			tag = UZB
+			tag = KAZ
+			tag = BUK
+			tag = KHI
+			tag = KOK
+			tag = AFG
+			tag = XBI
+			}
+			NOT = { has_global_flag = trk_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			TRK = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						empty = yes
+						province_id = 502
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = TRK
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = TRK
+		any_country = {
+			limit = {
+				OR = {
+					tag = SPA
+					tag = POR
+					tag = MIN
+					tag = GAL
+					tag = CAT
+					tag = BSQ
+					tag = AND
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = trk_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

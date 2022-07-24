@@ -1,0 +1,201 @@
+political_decisions = {
+
+	communist_purge = {
+	picture = commie_purge_pic
+		potential = {
+				government = proletarian_dictatorship
+				year = 1900
+				NOT = {
+				has_country_modifier = commie_purged
+					}
+				}
+			effect = {
+				random = {
+					chance = 40
+					badboy = 20
+					prestige = -25
+
+						}
+			any_pop = {
+				limit = {
+				strata = rich
+						}
+				reduce_pop = 0.1
+				consciousness = 8.0
+				militancy = 8.0			
+					}
+			any_pop = {
+				limit = {
+				pop_majority_ideology = communist
+						}
+				consciousness = -4.0
+				militancy = -3.0
+					}
+			any_pop = {
+				limit = {
+				pop_majority_ideology = socialist
+						}
+				consciousness = -4.0
+				militancy = -3.0
+					}
+			any_pop = {
+				limit = {
+				pop_majority_ideology = anarcho_liberal
+						}
+				consciousness = -4.0
+				militancy = -3.0
+					}
+			add_country_modifier = {
+				name = commie_purged
+				duration = 3650
+							}
+			}
+	}
+
+	genocide = {
+	picture = holocaust_pic
+		potential = {
+				government = fascist_dictatorship
+				
+			NOT = {
+				has_country_modifier = commited_genocide
+			}
+				}
+			effect = {
+				random = {
+					chance = 40
+					badboy = 20
+					prestige = -25
+
+						}
+			any_pop = {
+				limit = {
+				is_primary_culture = no
+				is_accepted_culture = no
+						}
+				reduce_pop = 0.36
+				consciousness = 8.0
+				militancy = 8.0		
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = conservative
+						}
+				consciousness = -2.0
+				militancy = -1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = reactionary
+						}
+				consciousness = -4.0
+				militancy = -3.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = fascist
+						}
+				consciousness = -5.0
+				militancy = -4.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = liberal
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = socialist
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = anarcho_liberal
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			any_pop = {
+				limit = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+				pop_majority_ideology = communist
+						}
+				consciousness = 2.0
+				militancy = 1.0	
+					}
+			plurality = -100
+			add_country_modifier = {
+				name = commited_genocide
+				duration = 3650
+							}
+			}
+	}
+
+	unethical_human_experiment = {
+	picture = uhe
+		potential = {
+				year = 1920
+				OR = {
+				government = fascist_dictatorship
+				government = proletarian_dictatorship
+					}
+				NOT = {
+				has_country_modifier = does_uhe
+				has_country_flag = UHEstopped
+					}
+				}
+
+			effect = {
+				badboy = 5
+				prestige = -10
+				add_country_modifier = {
+					name = does_uhe
+					duration = 3650
+							}
+						
+			}
+	}
+
+	build_bigben = {
+		picture = bigbenbuild
+		
+		potential = {
+			year = 1834
+			NOT = {
+		has_global_flag = bigben_has_been_built
+			}
+			owns = 300
+		}
+		allow = {
+		nationalism_n_imperialism = 1
+		cheap_steel = 1
+				}
+		effect = {
+			300 = { set_province_flag = bigben }
+		set_global_flag = bigben_has_been_built
+			prestige = 10
+			treasury = -20000
+			any_pop = {
+				militancy = -1
+				consciousness = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,71 @@
+political_decisions = {
+        deform_peruvia = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = PBC
+			NOT = { 
+			exists = PEU
+			exists = BOL
+			}
+			year = 1839
+			has_global_flag = pbc_formed_peru
+			
+		}
+
+                allow = {
+			civilized = yes
+			year = 1837
+			tag = PBC
+        }
+          effect = {
+		prestige = 12.5
+		infamy = -10
+		plurality = 2
+		change_tag = PEU
+		set_global_flag = pbc_deformed
+		all_core = { remove_core = PBC }
+		}
+		release = BOL
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+        deform_peruvia2 = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = PBC
+			NOT = { 
+			exists = PEU
+			exists = BOL
+			}
+			year = 1839
+			has_global_flag = pbc_formed_bolivia
+		}
+
+                allow = {
+			civilized = yes
+			year = 1837
+			tag = PBC
+        }
+          effect = {
+		prestige = 12.5
+		infamy = -10
+		plurality = 2
+		change_tag = BOL
+		set_global_flag = pbc_deformed
+		all_core = { remove_core = PBC }
+		release = PEU
+	}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+}

@@ -1,0 +1,69 @@
+political_decisions = {
+	
+	organize_nigeria = {
+		picture = map_africa
+		potential = {
+			civilized = yes
+			NOT = {
+				has_global_flag = nigeria_organized
+				capital_scope = { continent = africa }
+			}
+			OR = {
+				owns = 1923
+				owns = 1948
+				owns = 1928
+			}
+		}
+		
+		allow = {
+			war = no
+			owns = 1923
+			owns = 1948
+			owns = 1928
+		}
+		
+		effect = {
+			set_global_flag = nigeria_organized
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = catholic } } } NGR = { religion = catholic } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = protestant } } } NGR = { religion = protestant } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = orthodox } } } NGR = { religion = orthodox } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = coptic } } } NGR = { religion = coptic } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sunni } } } NGR = { religion = sunni } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = shiite } } } NGR = { religion = shiite } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = shinto } } } NGR = { religion = shinto } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = mahayana } } } NGR = { religion = mahayana } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = gelugpa } } } NGR = { religion = gelugpa } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = theravada } } } NGR = { religion = theravada } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = hindu } } } NGR = { religion = hindu } }
+			random_owned = { limit = { owner = { capital_scope = { pop_majority_religion = sikh } } } NGR = { religion = sikh } }
+			random_owned = { limit = { owner = { tag = ISR } } NGR = { religion = jewish } }
+			prestige = 10
+			any_owned = {
+				limit = {
+					OR = {
+						region = FRA_1923
+						region = FRA_1930
+						region = FRA_1927
+					}
+				}
+				add_core = WIF
+				add_province_modifier = {
+					name = colonial_exploitation
+					duration = 1095
+				}
+			}
+			NGR = {
+				primary_culture = THIS
+				civilized = yes
+				set_country_flag = post_colonial_country
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { year = 1905 }
+			}
+		}
+	}
+}

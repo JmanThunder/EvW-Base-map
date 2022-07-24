@@ -1,0 +1,84 @@
+political_decisions = {
+# North-Canadian Minors
+	apply_for_Canada_statehood = {
+		potential = {	
+			exists = CAN
+			OR = {
+				tag = COL
+				tag = VAN
+				tag = NEW
+				tag = NEN
+			}
+		}
+		allow = {
+			war = no
+			CAN = {
+				war = no
+			}
+		NOT = {
+				has_country_flag = canada_statehood_we_have_applied
+			}
+			relation = {
+				who = CAN
+				value = 150
+			}
+			OR = {
+				AND = {
+					CAN = {
+						slavery = yes_slavery
+					}
+					slavery = yes_slavery
+				}
+				AND = {
+					CAN = {
+						slavery = no_slavery
+					}
+					slavery = no_slavery
+				}
+			}
+		}
+		effect = {
+		set_country_flag = canada_statehood_we_have_applied
+			CAN = {
+				country_event = 16400
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+# Danish Minors
+	apply_for_rigsfaellesskabet = {
+		potential = {	
+			exists = DEN
+			OR = {
+				tag = ICL
+				tag = FAR
+				tag = GRL
+				tag = HEL
+			}
+		}
+		allow = {
+			war = no
+			CAN = {
+				war = no
+			}
+		NOT = {
+				has_country_flag = rigsfaellesskabet_we_have_applied
+			}
+			relation = {
+				who = DEN
+				value = 130
+			}
+		}
+		effect = {
+		set_country_flag = rigsfaellesskabet_we_have_applied
+			DEN = {
+				country_event = 16400
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+

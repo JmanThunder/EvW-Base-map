@@ -1,0 +1,92 @@
+political_decisions = {
+        deform_boerland = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = BOE
+			NOT = { 
+			exists = ORA
+			exists = TRN
+			}
+			has_global_flag = boe_formed_trans
+			
+		}
+
+                allow = {
+			civilized = yes
+			tag = BOE
+			war = no
+        }
+          effect = {
+		change_tag = TRN
+		set_global_flag = boe_deformed_trans
+		release = ORA
+		release = NAL
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+        deform_boerland2 = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = BOE
+			NOT = { 
+			exists = ORA
+			exists = TRN
+			}
+			has_global_flag = boe_formed_orange
+			
+		}
+
+                allow = {
+			civilized = yes
+			tag = BOE
+			war = no
+        }
+          effect = {
+		change_tag = ORA
+		set_global_flag = boe_deformed_trans
+		release = TRN
+		release = NAL
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+        deform_boerland3 = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = BOE
+			NOT = { 
+			exists = ORA
+			exists = TRN
+			}
+			has_global_flag = boe_formed_monds
+			
+		}
+
+                allow = {
+			civilized = yes
+			tag = BOE
+			war = no
+        }
+          effect = {
+		change_tag = ORA
+		set_global_flag = boe_deformed_monds
+		release = TRN
+		release = NAL
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+}

@@ -1,0 +1,237 @@
+political_decisions = {
+        form_intermarium = {
+		fire_only_once = yes
+
+        potential = {
+			OR = {
+			tag = BYE
+			tag = UKR
+			tag = FIN
+			tag = KAR
+			tag = CRI
+			tag = EST
+			tag = LIT
+			tag = LAT
+			tag = EST
+			tag = NIN
+			tag = HUN
+			tag = POL
+			tag = CZH
+			tag = SIE
+			tag = RUT
+			tag = ROM
+			tag = YUG
+			}
+			NOT = { has_global_flag = int_formed }
+			NOT = { exists = INT }
+		}
+
+        allow = {
+			war = no
+			civilized = yes
+			LAT = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			CZH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			LIT = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			YUG = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			ROM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			RUT = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			SIE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}	
+			POL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}	
+			HUN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			EST = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			FIN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}	
+			UKR = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			BYE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = INT
+			}			
+        }
+
+  
+        effect = {
+		prestige = 30
+		change_tag = INT
+		any_country = {
+			limit = {
+			AND = {
+				OR = {
+					tag = BYE
+					tag = UKR
+					tag = FIN
+					tag = KAR
+					tag = CRI
+					tag = EST
+					tag = LIT
+					tag = LAT
+					tag = EST
+					tag = NIN
+					tag = HUN
+					tag = POL
+					tag = CZH
+					tag = SIE
+					tag = RUT
+					tag = ROM
+					tag = YUG
+					tag = BOH
+					tag = BOS
+					tag = CRO
+					tag = MON
+					tag = MOL
+					tag = SLO
+				}
+				in_sphere = THIS
+				}
+			}
+		}
+		annex_to = THIS
+		AND = {
+					tag = BYE
+					tag = UKR
+					tag = FIN
+					tag = KAR
+					tag = CRI
+					tag = EST
+					tag = LIT
+					tag = LAT
+					tag = EST
+					tag = NIN
+					tag = HUN
+					tag = POL
+					tag = CZH
+					tag = SIE
+					tag = RUT
+					tag = ROM
+					tag = YUG
+					tag = BOH
+					tag = BOS
+					tag = CRO
+					tag = MON
+					tag = MOL
+					tag = SLO
+				}
+		add_core = INT
+		set_global_flag = int_formed
+		}
+		
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

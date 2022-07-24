@@ -1,0 +1,50 @@
+political_decisions = {
+        re_peruvia = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = PBC
+			exists = PEU
+			
+		}
+
+                allow = {
+			tag = PBC
+        }
+          effect = {
+		change_tag = BOL
+		set_global_flag = pbc_re
+		all_core = { remove_core = PBC }
+		}
+		release = BOL
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+       re_peruvia2 = {
+		fire_only_once = yes
+		major = yes
+
+                potential = {
+			
+			tag = PBC
+			exists = BOL
+		}
+
+                allow = {
+			tag = PBC
+        }
+          effect = {
+		change_tag = PEU
+		set_global_flag = pbc_re
+		all_core = { remove_core = PBC }
+	}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+
+}

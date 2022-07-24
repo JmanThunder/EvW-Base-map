@@ -1,0 +1,63 @@
+political_decisions = {
+        form_iberia = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = SPA
+			tag = POR
+			tag = MIN
+			tag = GAL
+			tag = CAT
+			tag = BSQ
+			tag = AND
+			}
+			NOT = { has_global_flag = ibe_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			IBE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						province_id = 502
+						province_id = 517
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = IBE
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = IBE
+		any_country = {
+			limit = {
+				OR = {
+					tag = SPA
+					tag = POR
+					tag = MIN
+					tag = GAL
+					tag = CAT
+					tag = BSQ
+					tag = AND
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = ibe_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

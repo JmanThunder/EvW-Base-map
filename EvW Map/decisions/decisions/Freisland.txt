@@ -1,0 +1,54 @@
+political_decisions = {
+        form_benelux2 = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = HEL
+			tag = OLD
+			tag = SCH
+			}
+			NOT = { has_global_flag = fri_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			FRI = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						is_our_vassal = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = FRI
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = FRI
+		any_country = {
+			limit = {
+				OR = {
+					tag = HEL
+					tag = OLD
+					tag = SCH
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = fri_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

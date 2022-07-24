@@ -1,0 +1,56 @@
+political_decisions = {
+        form_gran_c = {
+		fire_only_once = yes
+
+                potential = {
+			OR = {
+			tag = ECU
+			tag = CLM
+			tag = VNZ
+			tag = PNM
+			}
+			NOT = { has_global_flag = gco_formed }
+			NOT = { exists = GCO }
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			GCO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = GCO
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = GCO
+		any_country = {
+			limit = {
+				OR = {
+				tag = ECU
+				tag = CLM
+				tag = VNZ
+				tag = PNM
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = gco_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

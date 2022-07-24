@@ -1,0 +1,17 @@
+political_decisions = {
+	hackido = {
+		picture = bigbenbuild
+		
+		potential = {
+			ai = no
+			
+		}
+		allow = {
+			ai = no
+				}
+		effect = {
+			badboy = -1
+			}
+		}
+	}
+}

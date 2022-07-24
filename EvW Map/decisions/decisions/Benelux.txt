@@ -1,0 +1,60 @@
+political_decisions = {
+        form_benelux = {
+		fire_only_once = yes
+
+                potential = {
+			year = 1900
+			OR = {
+			tag = BEL
+			tag = NET
+			tag = FLA
+			tag = WLL
+			tag = LUX
+			}
+			NOT = { has_global_flag = blx_formed}
+		}
+
+                allow = {
+			war = no
+			civilized = yes
+			BLX = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						is_our_vassal = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			NOT = {
+				exists = BLX
+			}			
+                }
+
+          effect = {
+		prestige = 30
+		change_tag = BLX
+		any_country = {
+			limit = {
+				OR = {
+					tag = BEL
+					tag = NET
+					tag = FLA
+					tag = WLL
+					tag = LUX
+					tag = HEL
+				}
+				in_sphere = THIS
+				}
+			annex_to = THIS
+			}
+		set_global_flag = blx_formed
+
+		}
+	   ai_will_do = {
+		factor = 1
+		}
+	}
+}

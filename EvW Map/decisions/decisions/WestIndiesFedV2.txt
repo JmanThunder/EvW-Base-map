@@ -1,0 +1,121 @@
+political_decisions = {
+	west_indies_federation = {
+		potential = {
+			is_greater_power = yes
+			tag = ENG
+			owns = 2217
+			owns = 2218
+			owns = 2220
+			owns = 2225
+			owns = 2226
+			owns = 2224
+			owns = 2227
+			owns = 2229
+			owns = 2231
+			owns = 2232
+			owns = 2233
+			owns = 2237
+			owns = 2238
+			owns = 2409
+			year = 1955	
+			NOT = {
+				exists = WIF
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 20
+			badboy = -10
+			plurality = 1
+			2217 = {
+				add_core = WIF
+			}
+			2218 = {
+				add_core = WIF
+			}
+			2220 = {
+				add_core = WIF
+			}
+			2225 = {
+				add_core = WIF
+			}
+			2226 = {
+				add_core = WIF
+			}
+			2224 = {
+				add_core = WIF
+			}
+			2227 = {
+				add_core = WIF
+			}
+			2229 = {
+				add_core = WIF
+			}
+			2231 = {
+				add_core = WIF
+			}
+			2232 = {
+				add_core = WIF
+			}
+			2233 = {
+				add_core = WIF
+			}
+			2237 = {
+				add_core = WIF
+			}
+			2238 = {
+				add_core = WIF
+			}
+			2409 = {
+				add_core = WIF
+			}
+			2217 = {
+				secede_province = WIF
+			}
+			2218 = {
+				secede_province = WIF
+			}
+			2220 = {
+				secede_province = WIF
+			}
+			2224 = {
+				secede_province = WIF
+			}
+			2225 = {
+				secede_province = WIF
+			}
+			2226 = {
+				secede_province = WIF
+			}
+			2227 = {
+				secede_province = WIF
+			}
+			2229 = {
+				secede_province = WIF
+			}
+			2231 = {
+				secede_province = WIF
+			}
+			2232 = {
+				secede_province = WIF
+			}
+			2233 = {
+				secede_province = WIF
+			}
+			2237 = {
+				secede_province = WIF
+			}
+			2238 = {
+				secede_province = WIF
+			}
+			2409 = {
+				secede_province = WIF
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
