@@ -1,5 +1,9 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+colonial = 2
 trade_goods = tropical_wood
-life_rating = 15
+life_rating = 35
 1861.1.1 = {
 	owner = ENG
 	controller = ENG

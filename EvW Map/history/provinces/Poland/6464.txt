@@ -1,29 +1,7 @@
 add_core = POL
-owner = POL
-controller = POL
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+owner = AUS
+controller = AUS
+add_core = AUS
 
 
 

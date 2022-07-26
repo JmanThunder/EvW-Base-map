@@ -1,6 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = AUS
+controller = AUS
+add_core = AUS
+
 add_core = UKR
 
 

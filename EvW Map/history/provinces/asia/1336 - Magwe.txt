@@ -1,5 +1,6 @@
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = ENG
+controller = ENG
+add_core = ENG
+colonial = 2
 trade_goods = tropical_wood
 life_rating = 35

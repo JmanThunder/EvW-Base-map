@@ -1,0 +1,46 @@
+add_core = AUS
+owner = FRA
+controller = FRA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  

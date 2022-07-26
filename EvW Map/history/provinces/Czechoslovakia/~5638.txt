@@ -1,0 +1,43 @@
+add_core = CZH
+owner = CZH
+controller = CZH
+add_core = BOH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  

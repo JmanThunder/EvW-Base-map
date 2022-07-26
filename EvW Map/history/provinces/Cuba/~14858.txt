@@ -1,0 +1,42 @@
+owner = USA
+controller = USA
+add_core = USA
+add_core = CUB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  

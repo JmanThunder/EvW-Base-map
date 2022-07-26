@@ -1,0 +1,42 @@
+add_core = ROM
+owner = ROM
+controller = ROM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  

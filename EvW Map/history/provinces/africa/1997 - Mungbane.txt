@@ -1,2 +1,6 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+colonial = 2
 trade_goods = fruit
-life_rating = 15
+life_rating = 35

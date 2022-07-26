@@ -1,50 +1,6 @@
-owner = USA
-controller = USA
-add_core = USA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-trade_goods = grain life_rating = 35  
+owner = SPA
+controller = SPA
+add_core = SPA
+colonial = 2
+trade_goods = grain
+life_rating = 35  

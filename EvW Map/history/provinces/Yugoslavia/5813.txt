@@ -1,19 +1,7 @@
-add_core = SLV
-add_core = YUG
-owner = YUG
-controller = YUG
-
-
-
-
-
-
-
-
-
-
-
-
+owner = AUS
+controller = AUS
+add_core = AUS
+add_core = SLO
 
 
 

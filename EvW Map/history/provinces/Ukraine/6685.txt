@@ -1,32 +1,7 @@
 add_core = UKR
-add_core = RUS
-owner = RUS
-controller = RUS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+owner = AUS
+controller = AUS
+add_core = AUS
 
 
 

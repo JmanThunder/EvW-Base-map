@@ -1,0 +1,16 @@
+#Cayman Islands
+owner = ENG
+controller = ENG
+add_core = ENG
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  
