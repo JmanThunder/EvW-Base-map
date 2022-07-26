@@ -1,7 +1,7 @@
 add_core = BOS
-add_core = YUG
-owner = YUG
-controller = YUG
+owner = TUR
+controller = TUR
+add_core = TUR
 
 
 

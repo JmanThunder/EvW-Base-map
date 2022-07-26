@@ -1,5 +1,13 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = POR
+controller = POR
+add_core = POR
+
+
+
+
+
+
+
+
 trade_goods = fish
 life_rating = 20

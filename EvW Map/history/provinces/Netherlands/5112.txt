@@ -1,17 +1,6 @@
-owner = HOL
-controller = HOL
-add_core = HOL
-
-
-
-
-
-
-
-
-
-
-
+owner = NET
+controller = NET
+add_core = NET
 
 
 

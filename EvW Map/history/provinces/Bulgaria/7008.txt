@@ -1,6 +1,7 @@
 add_core = BUL
-owner = BUL
-controller = BUL
+owner = TUR
+controller = TUR
+add_core = TUR
 
 
 

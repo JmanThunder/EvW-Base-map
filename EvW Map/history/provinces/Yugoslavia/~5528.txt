@@ -1,0 +1,44 @@
+add_core = BOS
+add_core = YUG
+owner = YUG
+controller = YUG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  

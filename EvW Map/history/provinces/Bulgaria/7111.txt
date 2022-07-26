@@ -1,8 +1,7 @@
 owner = BUL
-controller = BUL
-add_core = BUL
-
-
+owner = TUR
+controller = TUR
+add_core = TUR
 
 
 
