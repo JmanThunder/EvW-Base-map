@@ -1,5 +1,77 @@
 add_core = UKR
-owner = AUS
-controller = AUS
-add_core = AUS
+add_core = RUS
+owner = RUS
+controller = RUS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 trade_goods = grain life_rating = 35  

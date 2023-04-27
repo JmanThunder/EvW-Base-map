@@ -1,8 +1,7 @@
 add_core = SLV
-owner = AUS
-controller = AUS
-add_core = AUS
-
+add_core = YUG
+owner = YUG
+controller = YUG
 
 
 

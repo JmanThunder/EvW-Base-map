@@ -1,6 +1,5 @@
-owner = SPA
-controller = SPA
-add_core = SPA
-colonial = 2
+owner = NET
+controller = NET
 trade_goods = tobacco
 life_rating = 35
+colonial = 2

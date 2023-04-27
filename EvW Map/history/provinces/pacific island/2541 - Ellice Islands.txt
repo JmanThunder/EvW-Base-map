@@ -1,5 +1,2 @@
-owner = HAI
-controller = HAI
-add_core = HAI
 trade_goods = fish
-life_rating = 35
+life_rating = 15

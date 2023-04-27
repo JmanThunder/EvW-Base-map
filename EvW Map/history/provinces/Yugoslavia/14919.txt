@@ -1,7 +1,9 @@
 add_core = CRO
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = YUG
+controller = YUG
+
+
+
 
 
 

@@ -1,7 +1,2 @@
-owner = NET
-controller = NET
-add_core = NET
-colonial = 2
-
 trade_goods = fish
 life_rating = 10

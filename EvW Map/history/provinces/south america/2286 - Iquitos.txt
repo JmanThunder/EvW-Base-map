@@ -1,6 +1,5 @@
-owner = SPA
-controller = SPA
-add_core = SPA
-colonial = 2
+owner = PEU
+controller = PEU
+add_core = PEU
 trade_goods = timber
 life_rating = 30

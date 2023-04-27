@@ -1,5 +1,5 @@
-owner = HAI
-controller = HAI
-add_core = HAI
+owner = BRZ
+controller = BRZ
+add_core = BRZ
 trade_goods = cattle
 life_rating = 35

@@ -1,7 +1,13 @@
-owner = SPA
-controller = SPA
-add_core = SPA
-colonial = 2
+owner = USA
+controller = USA
+add_core = USA
+
+
+
+
+
+
+
 
 
 

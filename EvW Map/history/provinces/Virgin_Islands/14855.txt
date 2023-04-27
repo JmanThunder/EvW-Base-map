@@ -1,7 +1,6 @@
-owner = DEN
-controller = DEN
-add_core = DEN
-colonial = 2
+owner = USA
+controller = USA
+add_core = USA
 
 
 

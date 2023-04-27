@@ -1,7 +1,6 @@
 add_core = CZH
-owner = AUS
-controller = AUS
-add_core = AUS
+owner = CZH
+controller = CZH
 add_core = BOH
 
 

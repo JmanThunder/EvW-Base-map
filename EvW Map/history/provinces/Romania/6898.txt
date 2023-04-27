@@ -1,7 +1,32 @@
 owner = ROM
-owner = AUS
-controller = AUS
-add_core = AUS
+controller = ROM
+add_core = ROM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

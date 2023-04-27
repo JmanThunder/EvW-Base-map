@@ -1,6 +1,16 @@
-owner = AUS
-controller = AUS
 add_core = AUS
+owner = FRA
+controller = FRA
+
+
+
+
+
+
+
+
+
+
 
 
 

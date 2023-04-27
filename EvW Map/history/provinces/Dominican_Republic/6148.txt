@@ -1,5 +1,46 @@
-owner = HAI
-controller = HAI
-add_core = HAI
-trade_goods = grain 
-life_rating = 35  
+owner = DOM
+controller = DOM
+add_core = DOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+trade_goods = grain life_rating = 35  
